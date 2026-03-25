@@ -1,0 +1,27 @@
+.power-btn:hover {
+    transform: translateY(-4px);
+}
+
+.power-btn.fifty-fifty:hover {
+    border-color: var(--tertiary);
+    color: var(--tertiary);
+}
+
+.power-btn.time-plus:hover {
+    border-color: var(--accent-yellow);
+}
+
+
+
+.answer-btn:hover {
+    transform: scale(1.05);
+    border-color: var(--secondary);
+    background: #b3d4ff;
+    box-shadow: 0 10px 20px rgba(0, 103, 173, 0.2);
+}
+
+/*SIDE BUTTON TRANSITIONS*/
+.side-btn:hover {
+    background: var(--bg-main);
+    transform: translateX(8px);
+}

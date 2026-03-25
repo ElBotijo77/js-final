@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "categoria": "Cultura General",
+    "pregunta": "¿Cuál es el lugar más frío de la Tierra?",
+    "opciones": ["Groenlandia", "La Antártida", "Siberia", "Alaska"],
+    "correcta": "La Antártida"
+  },
+  {
+    "id": 2,
+    "categoria": "Cultura General",
+    "pregunta": "¿Quién escribió 'Cien años de soledad'?",
+    "opciones": ["Mario Vargas Llosa", "Isabel Allende", "Gabriel García Márquez", "Pablo Neruda"],
+    "correcta": "Gabriel García Márquez"
+  },
+  {
+    "id": 3,
+    "categoria": "Cultura General",
+    "pregunta": "¿Cuál es el río más largo del mundo?",
+    "opciones": ["Nilo", "Misisipi", "Danubio", "Amazonas"],
+    "correcta": "Amazonas"
+  },
+  {
+    "id": 4,
+    "categoria": "Cultura General",
+    "pregunta": "¿En qué continente se encuentra el desierto del Sahara?",
+    "opciones": ["Asia", "América", "África", "Oceanía"],
+    "correcta": "África"
+  },
+  {
+    "id": 5,
+    "categoria": "Cultura General",
+    "pregunta": "¿Cuál es el símbolo químico del oro?",
+    "opciones": ["Ag", "Fe", "Au", "Or"],
+    "correcta": "Au"
+  },
+  {
+    "id": 6,
+    "categoria": "Cultura General",
+    "pregunta": "¿Cuál es el planeta más grande del sistema solar?",
+    "opciones": ["Saturno", "Neptuno", "Júpiter", "Tierra"],
+    "correcta": "Júpiter"
+  },
+  {
+    "id": 7,
+    "categoria": "Cultura General",
+    "pregunta": "¿En qué año llegó el hombre a la Luna por primera vez?",
+    "opciones": ["1965", "1969", "1972", "1959"],
+    "correcta": "1969"
+  },
+  {
+    "id": 8,
+    "categoria": "Cultura General",
+    "pregunta": "¿Cuál es el océano más grande del mundo?",
+    "opciones": ["Atlántico", "Índico", "Ártico", "Pacífico"],
+    "correcta": "Pacífico"
+  },
+  {
+    "id": 9,
+    "categoria": "Cultura General",
+    "pregunta": "¿Quién pintó 'La última cena'?",
+    "opciones": ["Miguel Ángel", "Leonardo da Vinci", "Pablo Picasso", "Vincent van Gogh"],
+    "correcta": "Leonardo da Vinci"
+  },
+  {
+    "id": 10,
+    "categoria": "Cultura General",
+    "pregunta": "¿Cuál es el país más poblado del mundo actualmente?",
+    "opciones": ["China", "Estados Unidos", "India", "Rusia"],
+    "correcta": "India"
+  },
+  {
+    "id": 11,
+    "categoria": "Cultura General",
+    "pregunta": "¿Qué órgano del cuerpo humano consume más energía?",
+    "opciones": ["Corazón", "Hígado", "Cerebro", "Pulmones"],
+    "correcta": "Cerebro"
+  },
+  {
+    "id": 12,
+    "categoria": "Cultura General",
+    "pregunta": "¿Cuál es la capital de Japón?",
+    "opciones": ["Kioto", "Osaka", "Hiroshima", "Tokio"],
+    "correcta": "Tokio"
+  },
+  {
+    "id": 13,
+    "categoria": "Cultura General",
+    "pregunta": "¿Cuántos huesos tiene el cuerpo humano adulto?",
+    "opciones": ["186", "206", "216", "256"],
+    "correcta": "206"
+  },
+  {
+    "id": 14,
+    "categoria": "Cultura General",
+    "pregunta": "¿Cuál es el metal más caro del mundo?",
+    "opciones": ["Oro", "Platino", "Rodio", "Paladio"],
+    "correcta": "Rodio"
+  },
+  {
+    "id": 15,
+    "categoria": "Cultura General",
+    "pregunta": "¿En qué país se encuentra la Torre Eiffel?",
+    "opciones": ["Italia", "Alemania", "España", "Francia"],
+    "correcta": "Francia"
+  },
+  {
+    "id": 16,
+    "categoria": "Cultura General",
+    "pregunta": "¿Cuál es el animal terrestre más veloz?",
+    "opciones": ["León", "Guepardo", "Antílope", "Tigre"],
+    "correcta": "Guepardo"
+  },
+  {
+    "id": 17,
+    "categoria": "Cultura General",
+    "pregunta": "¿A qué temperatura hierve el agua a nivel del mar?",
+    "opciones": ["90°C", "100°C", "110°C", "120°C"],
+    "correcta": "100°C"
+  },
+  {
+    "id": 18,
+    "categoria": "Cultura General",
+    "pregunta": "¿Quién es el autor de 'Don Quijote de la Mancha'?",
+    "opciones": ["Lope de Vega", "Francisco de Quevedo", "Miguel de Cervantes", "Federico García Lorca"],
+    "correcta": "Miguel de Cervantes"
+  },
+  {
+    "id": 19,
+    "categoria": "Cultura General",
+    "pregunta": "¿Cuál es el idioma más hablado en el mundo por número de nativos?",
+    "opciones": ["Inglés", "Español", "Hindi", "Chino mandarín"],
+    "correcta": "Chino mandarín"
+  },
+  {
+    "id": 20,
+    "categoria": "Cultura General",
+    "pregunta": "¿Cuántos corazones tiene un pulpo?",
+    "opciones": ["Uno", "Dos", "Tres", "Cuatro"],
+    "correcta": "Tres"
+  }
+]
