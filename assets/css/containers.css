@@ -17,6 +17,9 @@
 }
 
 .side-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #e7e6c8;
     width: 15%;
     height: 100%;
