@@ -1,142 +1,142 @@
 [
   {
     "id": 1,
-    "categoria": "Cultura General",
-    "pregunta": "¿Cuál es el lugar más frío de la Tierra?",
-    "opciones": ["Groenlandia", "La Antártida", "Siberia", "Alaska"],
-    "correcta": "La Antártida"
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el elemento más abundante en el universo?",
+    "opciones": ["Oxígeno", "Helio", "Hidrógeno", "Carbono"],
+    "correcta": "Hidrógeno"
   },
   {
     "id": 2,
-    "categoria": "Cultura General",
-    "pregunta": "¿Quién escribió 'Cien años de soledad'?",
-    "opciones": ["Mario Vargas Llosa", "Isabel Allende", "Gabriel García Márquez", "Pablo Neruda"],
-    "correcta": "Gabriel García Márquez"
+    "categoria": "Historia",
+    "pregunta": "¿En qué año comenzó la Segunda Guerra Mundial?",
+    "opciones": ["1914", "1929", "1939", "1945"],
+    "correcta": "1939"
   },
   {
     "id": 3,
-    "categoria": "Cultura General",
-    "pregunta": "¿Cuál es el río más largo del mundo?",
-    "opciones": ["Nilo", "Misisipi", "Danubio", "Amazonas"],
-    "correcta": "Amazonas"
+    "categoria": "Geografía",
+    "pregunta": "¿Cuál es el país más grande del mundo por extensión territorial?",
+    "opciones": ["Canadá", "China", "Estados Unidos", "Rusia"],
+    "correcta": "Rusia"
   },
   {
     "id": 4,
-    "categoria": "Cultura General",
-    "pregunta": "¿En qué continente se encuentra el desierto del Sahara?",
-    "opciones": ["Asia", "América", "África", "Oceanía"],
-    "correcta": "África"
-  },
-  {
-    "id": 5,
-    "categoria": "Cultura General",
-    "pregunta": "¿Cuál es el símbolo químico del oro?",
-    "opciones": ["Ag", "Fe", "Au", "Or"],
-    "correcta": "Au"
-  },
-  {
-    "id": 6,
-    "categoria": "Cultura General",
-    "pregunta": "¿Cuál es el planeta más grande del sistema solar?",
-    "opciones": ["Saturno", "Neptuno", "Júpiter", "Tierra"],
-    "correcta": "Júpiter"
-  },
-  {
-    "id": 7,
-    "categoria": "Cultura General",
-    "pregunta": "¿En qué año llegó el hombre a la Luna por primera vez?",
-    "opciones": ["1965", "1969", "1972", "1959"],
-    "correcta": "1969"
-  },
-  {
-    "id": 8,
-    "categoria": "Cultura General",
-    "pregunta": "¿Cuál es el océano más grande del mundo?",
-    "opciones": ["Atlántico", "Índico", "Ártico", "Pacífico"],
-    "correcta": "Pacífico"
-  },
-  {
-    "id": 9,
-    "categoria": "Cultura General",
-    "pregunta": "¿Quién pintó 'La última cena'?",
-    "opciones": ["Miguel Ángel", "Leonardo da Vinci", "Pablo Picasso", "Vincent van Gogh"],
+    "categoria": "Arte",
+    "pregunta": "¿Quién pintó la 'Joconda' (Monna Lisa)?",
+    "opciones": ["Sandro Botticelli", "Leonardo da Vinci", "Rafael Sanzio", "Donatello"],
     "correcta": "Leonardo da Vinci"
   },
   {
+    "id": 5,
+    "categoria": "Deportes",
+    "pregunta": "¿Qué selección nacional ha ganado más Copas del Mundo de la FIFA?",
+    "opciones": ["Alemania", "Argentina", "Italia", "Brasil"],
+    "correcta": "Brasil"
+  },
+  {
+    "id": 6,
+    "categoria": "Tecnología",
+    "pregunta": "¿Qué significan las siglas 'WWW' en una dirección de internet?",
+    "opciones": ["World Wide Web", "World Wide West", "Web World Wide", "Wide World Web"],
+    "correcta": "World Wide Web"
+  },
+  {
+    "id": 7,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es la velocidad de la luz aproximadamente?",
+    "opciones": ["150,000 km/s", "300,000 km/s", "450,000 km/s", "600,000 km/s"],
+    "correcta": "300,000 km/s"
+  },
+  {
+    "id": 8,
+    "categoria": "Entretenimiento",
+    "pregunta": "¿Cómo se llama el protagonista de la saga de videojuegos 'The Legend of Zelda'?",
+    "opciones": ["Zelda", "Ganon", "Link", "Epona"],
+    "correcta": "Link"
+  },
+  {
+    "id": 9,
+    "categoria": "Geografía",
+    "pregunta": "¿Cuál es la capital de Australia?",
+    "opciones": ["Sídney", "Melbourne", "Canberra", "Perth"],
+    "correcta": "Canberra"
+  },
+  {
     "id": 10,
-    "categoria": "Cultura General",
-    "pregunta": "¿Cuál es el país más poblado del mundo actualmente?",
-    "opciones": ["China", "Estados Unidos", "India", "Rusia"],
-    "correcta": "India"
+    "categoria": "Literatura",
+    "pregunta": "¿Cuál es el libro más vendido de la historia después de la Biblia?",
+    "opciones": ["Don Quijote de la Mancha", "Harry Potter", "El Señor de los Anillos", "El Principito"],
+    "correcta": "Don Quijote de la Mancha"
   },
   {
     "id": 11,
-    "categoria": "Cultura General",
-    "pregunta": "¿Qué órgano del cuerpo humano consume más energía?",
-    "opciones": ["Corazón", "Hígado", "Cerebro", "Pulmones"],
-    "correcta": "Cerebro"
+    "categoria": "Historia",
+    "pregunta": "¿Qué civilización construyó las pirámides de Giza?",
+    "opciones": ["Maya", "Griega", "Egipcia", "Romana"],
+    "correcta": "Egipcia"
   },
   {
     "id": 12,
-    "categoria": "Cultura General",
-    "pregunta": "¿Cuál es la capital de Japón?",
-    "opciones": ["Kioto", "Osaka", "Hiroshima", "Tokio"],
-    "correcta": "Tokio"
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el proceso por el cual las plantas fabrican su propio alimento?",
+    "opciones": ["Respiración", "Fotosíntesis", "Combustión", "Fermentación"],
+    "correcta": "Fotosíntesis"
   },
   {
     "id": 13,
-    "categoria": "Cultura General",
-    "pregunta": "¿Cuántos huesos tiene el cuerpo humano adulto?",
-    "opciones": ["186", "206", "216", "256"],
-    "correcta": "206"
+    "categoria": "Cine",
+    "pregunta": "¿Quién dirigió la película 'Interstellar'?",
+    "opciones": ["Steven Spielberg", "Quentin Tarantino", "Christopher Nolan", "Martin Scorsese"],
+    "correcta": "Christopher Nolan"
   },
   {
     "id": 14,
-    "categoria": "Cultura General",
-    "pregunta": "¿Cuál es el metal más caro del mundo?",
-    "opciones": ["Oro", "Platino", "Rodio", "Paladio"],
-    "correcta": "Rodio"
+    "categoria": "Geografía",
+    "pregunta": "¿Cuál es el pico más alto del mundo?",
+    "opciones": ["K2", "Everest", "Aconcagua", "Kilimanjaro"],
+    "correcta": "Everest"
   },
   {
     "id": 15,
-    "categoria": "Cultura General",
-    "pregunta": "¿En qué país se encuentra la Torre Eiffel?",
-    "opciones": ["Italia", "Alemania", "España", "Francia"],
-    "correcta": "Francia"
+    "categoria": "Anatomía",
+    "pregunta": "¿Cuántos litros de sangre tiene aproximadamente un adulto promedio?",
+    "opciones": ["2-3 litros", "4-6 litros", "8-10 litros", "12-14 litros"],
+    "correcta": "4-6 litros"
   },
   {
     "id": 16,
-    "categoria": "Cultura General",
-    "pregunta": "¿Cuál es el animal terrestre más veloz?",
-    "opciones": ["León", "Guepardo", "Antílope", "Tigre"],
-    "correcta": "Guepardo"
+    "categoria": "Música",
+    "pregunta": "¿A qué banda pertenecía Freddie Mercury?",
+    "opciones": ["The Beatles", "Pink Floyd", "Queen", "Led Zeppelin"],
+    "correcta": "Queen"
   },
   {
     "id": 17,
-    "categoria": "Cultura General",
-    "pregunta": "¿A qué temperatura hierve el agua a nivel del mar?",
-    "opciones": ["90°C", "100°C", "110°C", "120°C"],
-    "correcta": "100°C"
+    "categoria": "Astronomía",
+    "pregunta": "¿Cuál es el planeta conocido como el 'Planeta Rojo'?",
+    "opciones": ["Venus", "Marte", "Mercurio", "Saturno"],
+    "correcta": "Marte"
   },
   {
     "id": 18,
-    "categoria": "Cultura General",
-    "pregunta": "¿Quién es el autor de 'Don Quijote de la Mancha'?",
-    "opciones": ["Lope de Vega", "Francisco de Quevedo", "Miguel de Cervantes", "Federico García Lorca"],
-    "correcta": "Miguel de Cervantes"
+    "categoria": "Química",
+    "pregunta": "¿Cuál es el número atómico del hidrógeno?",
+    "opciones": ["0", "1", "2", "10"],
+    "correcta": "1"
   },
   {
     "id": 19,
-    "categoria": "Cultura General",
-    "pregunta": "¿Cuál es el idioma más hablado en el mundo por número de nativos?",
-    "opciones": ["Inglés", "Español", "Hindi", "Chino mandarín"],
-    "correcta": "Chino mandarín"
+    "categoria": "Historia",
+    "pregunta": "¿Quién descubrió la penicilina?",
+    "opciones": ["Marie Curie", "Alexander Fleming", "Louis Pasteur", "Isaac Newton"],
+    "correcta": "Alexander Fleming"
   },
   {
     "id": 20,
-    "categoria": "Cultura General",
-    "pregunta": "¿Cuántos corazones tiene un pulpo?",
-    "opciones": ["Uno", "Dos", "Tres", "Cuatro"],
-    "correcta": "Tres"
+    "categoria": "Geografía",
+    "pregunta": "¿En qué país se encuentra la ciudad de Petra?",
+    "opciones": ["Egipto", "Jordania", "Turquía", "Irán"],
+    "correcta": "Jordania"
   }
 ]
