@@ -3,3 +3,9 @@
     margin: 0;
     --font-family: 'Roboto', sans-serif;
 }
+
+body{
+    font-family: var(--font-family);
+    min-width: 1400px; /* El contenido no se encogerá más allá de 600px */
+    overflow-x: auto;  /* Aparecerá una barra de desplazamiento horizontal si la ventana es más pequeña */
+}

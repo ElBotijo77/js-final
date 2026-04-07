@@ -1,10 +1,10 @@
 .header{
-    background-color: #345f67;
+    background-color: #eceaa2;
     color: #e51818;
     width: 100%;
-    height: 15vh;
-    border: #e51818 2px solid;
-}
+    height: 15vh;    
+    border-bottom: #c4c44e 5px solid;
+    border-radius: 3px;}
 
 
 .main-content{
@@ -17,25 +17,25 @@
 }
 
 .side-bar{
-    background-color: #333;
-    color: #e51818;
-    width: 20%;
+    background-color: #e7e6c8;
+    width: 15%;
     height: 100%;
-    border: #e51818 2px solid;
 }
 
 .content{
-    background-color: #b93131;
+    background-color: #f6f5dc;
     color: #e51818;
-    width: 80%;
+    width: 85%;
     height: 100%;
-    border: #e51818 2px solid;
+    border-left: #c4c44e 5px solid;
+    border-radius: 3px;
 }
 
 .classic-footer{
-    background-color: #673434;
+    background-color: #e4e2b3;
     color: #e51818;
     width: 100%;
     height: 10vh;
-    border: #e51818 2px solid;
+    border-top: #c4c44e 5px solid;
+    border-radius: 3px;
 }
