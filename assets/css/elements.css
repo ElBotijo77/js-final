@@ -1,0 +1,19 @@
+button{
+    background-color: #e7e6c8;
+    width: 200px;
+    height: 70px;
+    color: #474a41;
+    border: #c4c44e 2px solid;
+    border-radius: 40px;
+    padding: 10px 20px;
+    cursor: pointer;
+
+    margin-top: 20px;
+    font-family: var(--lexend);
+    font-size: medium;
+}
+
+button:hover{
+    background-color: #d4d2a8;
+    border-color: #b0ad7e;  
+}
