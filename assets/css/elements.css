@@ -1,19 +1,41 @@
-button{
-    background-color: #e7e6c8;
-    width: 200px;
-    height: 70px;
-    color: #474a41;
-    border: #c4c44e 2px solid;
-    border-radius: 40px;
-    padding: 10px 20px;
-    cursor: pointer;
 
-    margin-top: 20px;
-    font-family: var(--lexend);
-    font-size: medium;
+
+
+/*
+*Boton de la pagina 
+*https://uiverse.io/barisdogansutcu/fuzzy-bullfrog-72
+*/
+
+/* From Uiverse.io by barisdogansutcu */ 
+button {
+    margin-top: 15px;
+    width: 90%;
+    height: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background: #ffe9c4;
+    background: linear-gradient(90deg, rgba(255, 233, 196, 1) 0%, rgba(255, 240, 128, 1) 20%, rgba(229, 237, 154, 1) 48%, rgba(250, 245, 107, 1) 100%, rgba(237, 221, 83, 1) 89%);
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 700;
+    transition: all 0.5s ease;
 }
 
-button:hover{
-    background-color: #d4d2a8;
-    border-color: #b0ad7e;  
+button:hover {
+    letter-spacing: 1px;
+    background-color: hsl(43, 80%, 48%);
+    color: hsl(0, 1%, 16%);
+    box-shadow: rgb(104, 116, 68) 0px 7px 29px 0px;
+}
+
+button:active {
+    letter-spacing: 3px;
+    background-color: hsl(43, 80%, 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(234, 255, 171) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
 }
