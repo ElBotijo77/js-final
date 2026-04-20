@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Lexend:wght@100..900&display=swap');
+
+:root{
+    padding: 0;
+    margin: 0;
+    --font-family: 'Roboto', sans-serif;
+    --lexend: 'Lexend', sans-serif;
+}
+
+body{
+    font-family: var(--lexend);
+    min-width: 1400px;
+    overflow-x: auto;
+}
+
+.lexend-uniquifier {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+}
