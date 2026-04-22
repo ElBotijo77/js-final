@@ -1,0 +1,103 @@
+/*
+*Boton de la pagina 
+*https://uiverse.io/barisdogansutcu/fuzzy-bullfrog-72
+*/
+
+/* From Uiverse.io by barisdogansutcu */ 
+button {
+    margin-top: 15px;
+    width: 90%;
+    height: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background: #ffe9c4;
+    background: linear-gradient(90deg, rgba(255, 233, 196, 1) 0%, rgba(255, 240, 128, 1) 20%, rgba(229, 237, 154, 1) 48%, rgba(250, 245, 107, 1) 100%, rgba(237, 221, 83, 1) 89%);
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 700;
+    transition: all 0.5s ease;
+}
+
+button:hover {
+    letter-spacing: 1px;
+    background-color: hsl(43, 80%, 48%);
+    color: hsl(0, 1%, 16%);
+    box-shadow: rgb(104, 116, 68) 0px 7px 29px 0px;
+}
+
+button:active {
+    letter-spacing: 3px;
+    background-color: hsl(43, 80%, 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(234, 255, 171) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+/* Botones del menu lateral.
+   Mantienen intacto el estilo base de button para otras paginas. */
+.boton-titulo-menu {
+    width: 100%;
+    margin-top: 0;
+    height: 50px;
+    border: 2px solid transparent;
+    border-radius: 14px;
+    background: #ebe9cd;
+    color: #2f3125;
+    text-transform: none;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    font-weight: 800;
+    text-align: left;
+    padding: 0 20px;
+    transition: transform 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.boton-menu {
+    width: 100%;
+    margin-top: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border: 2px solid transparent;
+    border-radius: 14px;
+    background: #f6f5dc;
+    color: #38392a;
+    text-transform: none;
+    font-size: 15px;
+    letter-spacing: 0;
+    font-weight: 700;
+    text-align: left;
+    padding: 0 20px;
+    transition: transform 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.boton-menu:hover,
+.boton-titulo-menu:hover {
+    background: #ffffd3;
+    border-color: #0067ad;
+    color: #38392a;
+    transform: translateX(6px);
+    box-shadow: none;
+    letter-spacing: 0;
+}
+
+.boton-menu:active,
+.boton-titulo-menu:active {
+    transform: translateX(4px);
+    letter-spacing: 0;
+}
+
+.boton-menu-activo {
+    background: #fdd400;
+    border-color: #776300;
+}
+
+.icono-menu {
+    font-size: 22px;
+    color: #38392a;
+}
