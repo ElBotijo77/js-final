@@ -27,7 +27,16 @@
     height: 100%;
 }
 
+/*--------------------------------------------------------*/
+/* Contenedor pirncipal de la pagina*/
+/*--------------------------------------------------------*/
+
 .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+
     background-color: #f6f5dc;
     color: #e51818;
     width: 85%;
@@ -35,6 +44,119 @@
     border-left: #c4c44e 5px solid;
     border-radius: 3px;
 }
+
+/*--------------------------------------------------------*/
+/* Contenedor central del juego TRIVIAL*/
+/*--------------------------------------------------------*/
+
+.contenedor-trivial{
+    width: min(760px, 88%);
+    min-height: 550px;
+    background: #ffffff;
+    border: 6px solid #0067ad;
+    border-radius: 2rem;
+    box-shadow: 20px 20px 0 rgba(0, 103, 173, 0.1);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 48px 40px;
+    color: #38392a;
+}
+
+/*--------------------------------------------------------*/
+/*Dividimos el contenedor principal en 5 filas*/
+
+.fila-trivial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Pequeño header del contenido principal del trivial*/
+.fila-1{
+    flex: 10;
+}
+
+/*Fila para mostrar el contenido de la pregunta*/
+.fila-2{
+    flex: 8;
+}
+
+/*Aqui se mostraran las respuestas, conformado por un grid 2x2 de cuatro celdas*/
+.fila-3{
+    flex: 75;
+}
+
+/*Pequeños datos como la puntuacion actual y el tiempo restante*/
+.fila-4{
+    flex: 7;
+}
+
+.fila-2 h2{
+    font-size: 2rem;
+    line-height: 1.2;
+    color: #38392a;
+}
+
+.contenedor-trivial p{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #555747;
+}
+
+/*Logica necesaria para manejar las respuestas*/
+
+/*MODIFICAR PARA ARREGLAR EL CENTRADO DEL GRID*/
+.grid-respuestas{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 16px;
+}
+
+.celda-respuesta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.boton-respuesta{
+    width: 90%;
+    max-width: 280px;
+    height: 56px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid transparent;
+    border-radius: 14px;
+    background: #f6f5dc;
+    color: #38392a;
+    text-transform: none;
+    font-size: 15px;
+    letter-spacing: 0;
+    font-weight: 700;
+    padding: 0 20px;
+    transition: none;
+    box-shadow: none;
+}
+
+.boton-respuesta:hover,
+.boton-respuesta:active{
+    transform: none;
+    letter-spacing: 0;
+    box-shadow: none;
+    background: #f6f5dc;
+    color: #38392a;
+}
+
+
+/*--------------------------------------------------------*/
+/* Contenedor del footer de la pagina*/
+/*--------------------------------------------------------*/
 
 .classic-footer{
     background-color: #e4e2b3;
