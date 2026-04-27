@@ -6,3 +6,9 @@
     letter-spacing: -1px;
     transform: rotate(-2deg);
 }
+
+.icon-category {
+    width: 60px;
+    height: 60px;
+    padding-right: 20px;
+}
