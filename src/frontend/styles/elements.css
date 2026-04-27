@@ -3,7 +3,6 @@
 *https://uiverse.io/barisdogansutcu/fuzzy-bullfrog-72
 */
 
-/* From Uiverse.io by barisdogansutcu */ 
 button {
     margin-top: 15px;
     width: 90%;
@@ -37,8 +36,11 @@ button:active {
     transition: 100ms;
 }
 
-/* Botones del menu lateral.
-   Mantienen intacto el estilo base de button para otras paginas. */
+
+/*--------------------------------------------------------*/
+/* Botones y configuracion del menu del sidebar*/
+/*--------------------------------------------------------*/
+
 .boton-titulo-menu {
     width: 100%;
     margin-top: 0;
@@ -101,3 +103,7 @@ button:active {
     font-size: 22px;
     color: #38392a;
 }
+
+
+/*--------------------------------------------------------*/*/
+/*--------------------------------------------------------*/
