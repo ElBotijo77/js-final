@@ -35,10 +35,11 @@
         <article class="content">
             <div class="contenedor-trivial">
                 <div class="fila-trivial fila-1">
-                    <p>Categoria: Ciencia</p>
+                    <img id="icono-categoria" class="icon-category" alt="icono categoria">
+                    <p id="texto-categoria"></p>
                 </div>
                 <div class="fila-trivial fila-2">
-                    <h2>Pregunta de ejemplo</h2>
+                    <h2>¿Cuál es el proceso por el cual las plantas fabrican su propio alimento?</h2>
                 </div>
                 <div class="fila-trivial fila-3">
                     <div class="grid-respuestas">
@@ -49,8 +50,14 @@
                     </div>
                 </div>
                 <div class="fila-trivial fila-4">
-                    <p>Puntuacion actual: 0</p>
-                    <p>Tiempo restante: 30s</p>
+                    <div>
+                        <img src="assets/icons/leader-board.png" alt="Puntuacion">
+                        <p>Puntuacion actual: 0</p>
+                    </div>
+                    <div>
+                        <img src="assets/icons/sand-clock.png" alt="Tiempo">
+                        <p>Tiempo restante: 30s</p>
+                    </div>
                 </div>
             </div>
         </article>
@@ -58,7 +65,7 @@
 
     <footer class="classic-footer"></footer> 
        
-
-    <script src="src/frontend/scripts/index.js"></script>
+    <!--Importamos tipo modulo, si no no funciona-->
+    <script type="module" src="src/frontend/scripts/main.js"></script>
 </body>
 </html>
