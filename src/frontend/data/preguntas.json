@@ -1,0 +1,285 @@
+[
+  {
+    "id": 1,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el órgano que bombea la sangre?",
+    "opciones": ["Pulmón", "Hígado", "Corazón", "Riñón"],
+    "correcta": "Corazón"
+  },
+  {
+    "id": 2,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué gas respiramos principalmente?",
+    "opciones": ["Oxígeno", "Hidrógeno", "CO2", "Helio"],
+    "correcta": "Oxígeno"
+  },
+  {
+    "id": 3,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el estado sólido del agua?",
+    "opciones": ["Vapor", "Hielo", "Niebla", "Lluvia"],
+    "correcta": "Hielo"
+  },
+  {
+    "id": 4,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué parte de la planta realiza la fotosíntesis?",
+    "opciones": ["Raíz", "Tallo", "Hoja", "Flor"],
+    "correcta": "Hoja"
+  },
+  {
+    "id": 5,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el planeta más cercano al Sol?",
+    "opciones": ["Venus", "Tierra", "Mercurio", "Marte"],
+    "correcta": "Mercurio"
+  },
+  {
+    "id": 6,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué instrumento mide la temperatura?",
+    "opciones": ["Barómetro", "Termómetro", "Higrómetro", "Regla"],
+    "correcta": "Termómetro"
+  },
+  {
+    "id": 7,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué tipo de animal es una rana?",
+    "opciones": ["Mamífero", "Ave", "Anfibio", "Reptil"],
+    "correcta": "Anfibio"
+  },
+  {
+    "id": 8,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué fuerza nos mantiene en el suelo?",
+    "opciones": ["Magnetismo", "Gravedad", "Energía", "Luz"],
+    "correcta": "Gravedad"
+  },
+
+  {
+    "id": 9,
+    "categoria": "Astronomía",
+    "pregunta": "¿Qué estrella está en el centro del sistema solar?",
+    "opciones": ["Sirio", "Sol", "Vega", "Polaris"],
+    "correcta": "Sol"
+  },
+  {
+    "id": 10,
+    "categoria": "Astronomía",
+    "pregunta": "¿Cuál es el satélite natural de la Tierra?",
+    "opciones": ["Marte", "Luna", "Venus", "Europa"],
+    "correcta": "Luna"
+  },
+  {
+    "id": 11,
+    "categoria": "Astronomía",
+    "pregunta": "¿Qué planeta es el más grande?",
+    "opciones": ["Saturno", "Júpiter", "Neptuno", "Urano"],
+    "correcta": "Júpiter"
+  },
+  {
+    "id": 12,
+    "categoria": "Astronomía",
+    "pregunta": "¿Qué planeta tiene anillos visibles?",
+    "opciones": ["Marte", "Venus", "Saturno", "Mercurio"],
+    "correcta": "Saturno"
+  },
+  {
+    "id": 13,
+    "categoria": "Astronomía",
+    "pregunta": "¿Cómo se llama nuestra galaxia?",
+    "opciones": ["Andrómeda", "Vía Láctea", "Orión", "Pegaso"],
+    "correcta": "Vía Láctea"
+  },
+  {
+    "id": 14,
+    "categoria": "Astronomía",
+    "pregunta": "¿Qué planeta es conocido por su color rojo?",
+    "opciones": ["Venus", "Marte", "Júpiter", "Urano"],
+    "correcta": "Marte"
+  },
+  {
+    "id": 15,
+    "categoria": "Astronomía",
+    "pregunta": "¿Qué cuerpo celeste ilumina la noche?",
+    "opciones": ["Sol", "Luna", "Marte", "Saturno"],
+    "correcta": "Luna"
+  },
+  {
+    "id": 16,
+    "categoria": "Astronomía",
+    "pregunta": "¿Qué planeta está más lejos del Sol?",
+    "opciones": ["Neptuno", "Saturno", "Tierra", "Marte"],
+    "correcta": "Neptuno"
+  },
+
+  {
+    "id": 17,
+    "categoria": "Gastronomia",
+    "pregunta": "¿De qué está hecha la pasta?",
+    "opciones": ["Arroz", "Trigo", "Maíz", "Avena"],
+    "correcta": "Trigo"
+  },
+  {
+    "id": 18,
+    "categoria": "Gastronomia",
+    "pregunta": "¿Qué ingrediente lleva la tortilla española?",
+    "opciones": ["Arroz", "Patata", "Pasta", "Pan"],
+    "correcta": "Patata"
+  },
+  {
+    "id": 19,
+    "categoria": "Gastronomia",
+    "pregunta": "¿Qué fruta es amarilla y curva?",
+    "opciones": ["Manzana", "Plátano", "Pera", "Melón"],
+    "correcta": "Plátano"
+  },
+  {
+    "id": 20,
+    "categoria": "Gastronomia",
+    "pregunta": "¿Qué bebida se hace con uvas?",
+    "opciones": ["Cerveza", "Vino", "Leche", "Agua"],
+    "correcta": "Vino"
+  },
+  {
+    "id": 21,
+    "categoria": "Gastronomia",
+    "pregunta": "¿Qué alimento es típico de Italia?",
+    "opciones": ["Sushi", "Pizza", "Tacos", "Curry"],
+    "correcta": "Pizza"
+  },
+  {
+    "id": 22,
+    "categoria": "Gastronomia",
+    "pregunta": "¿Qué lácteo se obtiene de la leche?",
+    "opciones": ["Pan", "Queso", "Arroz", "Carne"],
+    "correcta": "Queso"
+  },
+  {
+    "id": 23,
+    "categoria": "Gastronomia",
+    "pregunta": "¿Qué carne viene del cerdo?",
+    "opciones": ["Ternera", "Pollo", "Cerdo", "Cordero"],
+    "correcta": "Cerdo"
+  },
+  {
+    "id": 24,
+    "categoria": "Gastronomia",
+    "pregunta": "¿Qué dulce se hace con cacao?",
+    "opciones": ["Pan", "Chocolate", "Queso", "Arroz"],
+    "correcta": "Chocolate"
+  },
+
+  {
+    "id": 25,
+    "categoria": "Java",
+    "pregunta": "¿Qué palabra crea una clase?",
+    "opciones": ["func", "class", "define", "new"],
+    "correcta": "class"
+  },
+  {
+    "id": 26,
+    "categoria": "Java",
+    "pregunta": "¿Qué método inicia un programa?",
+    "opciones": ["start", "main", "run", "init"],
+    "correcta": "main"
+  },
+  {
+    "id": 27,
+    "categoria": "Java",
+    "pregunta": "¿Qué palabra crea un objeto?",
+    "opciones": ["make", "new", "class", "this"],
+    "correcta": "new"
+  },
+  {
+    "id": 28,
+    "categoria": "Java",
+    "pregunta": "¿Qué tipo guarda enteros?",
+    "opciones": ["float", "int", "char", "boolean"],
+    "correcta": "int"
+  },
+  {
+    "id": 29,
+    "categoria": "Java",
+    "pregunta": "¿Qué tipo guarda texto?",
+    "opciones": ["int", "String", "char", "bool"],
+    "correcta": "String"
+  },
+  {
+    "id": 30,
+    "categoria": "Java",
+    "pregunta": "¿Qué imprime en consola?",
+    "opciones": ["print()", "echo()", "System.out.println", "log()"],
+    "correcta": "System.out.println"
+  },
+  {
+    "id": 31,
+    "categoria": "Java",
+    "pregunta": "¿Qué estructura es un bucle?",
+    "opciones": ["if", "for", "try", "class"],
+    "correcta": "for"
+  },
+  {
+    "id": 32,
+    "categoria": "Java",
+    "pregunta": "¿Qué condición es correcta?",
+    "opciones": ["if", "loop", "print", "class"],
+    "correcta": "if"
+  },
+  {
+    "id": 33,
+    "categoria": "Java",
+    "pregunta": "¿Qué valor es verdadero?",
+    "opciones": ["true", "yes", "1", "ok"],
+    "correcta": "true"
+  },
+  {
+    "id": 34,
+    "categoria": "Java",
+    "pregunta": "¿Qué símbolo termina una instrucción?",
+    "opciones": [".", ",", ";", ":"],
+    "correcta": ";"
+  },
+  {
+    "id": 35,
+    "categoria": "Java",
+    "pregunta": "¿Qué tipo guarda decimales?",
+    "opciones": ["int", "float", "char", "boolean"],
+    "correcta": "float"
+  },
+  {
+    "id": 36,
+    "categoria": "Java",
+    "pregunta": "¿Qué palabra define constante?",
+    "opciones": ["const", "final", "let", "var"],
+    "correcta": "final"
+  },
+  {
+    "id": 37,
+    "categoria": "Java",
+    "pregunta": "¿Qué palabra hereda clase?",
+    "opciones": ["extends", "implements", "import", "package"],
+    "correcta": "extends"
+  },
+  {
+    "id": 38,
+    "categoria": "Java",
+    "pregunta": "¿Qué palabra importa clases?",
+    "opciones": ["using", "include", "import", "require"],
+    "correcta": "import"
+  },
+  {
+    "id": 39,
+    "categoria": "Java",
+    "pregunta": "¿Qué tipo es verdadero/falso?",
+    "opciones": ["int", "boolean", "char", "String"],
+    "correcta": "boolean"
+  },
+  {
+    "id": 40,
+    "categoria": "Java",
+    "pregunta": "¿Qué palabra es referencia actual?",
+    "opciones": ["this", "self", "me", "current"],
+    "correcta": "this"
+  }
+]

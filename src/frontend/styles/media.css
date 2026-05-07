@@ -1,0 +1,14 @@
+.logo {
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--primary);
+    font-style: italic;
+    letter-spacing: -1px;
+    transform: rotate(-2deg);
+}
+
+.icon-category {
+    width: 60px;
+    height: 60px;
+    padding-right: 20px;
+}

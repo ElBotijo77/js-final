@@ -1,0 +1,10 @@
+users:
+  - username: "player_one"
+    email: "player1@example.com"
+    password: "123456"
+  - username: "player_two"
+    email: "player2@example.com"
+    password: "123456"
+  - username: "player_three"
+    email: "player3@example.com"
+    password: "123456"
