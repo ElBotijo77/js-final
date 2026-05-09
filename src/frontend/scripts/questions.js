@@ -1,10 +1,5 @@
-// Aqui ira toda la logica relacionada con las preguntas, tanto como el generado en aleatorio
-// evitando que salgan preguntas repetidas como la comprobación de si son correctas
-
-
-// Declaramos un array donde se guardaran los indices de las preguntas que ya han salido y
-// la funcion que devuelve un numero aleatorio sin repetir
-
+// Generacion de un array con indices aleatorios mediante un algoritmo, para asi evitar
+// un random cada vez que se llama a un indice de la pregunta
 
 let indices = [];
 
@@ -37,27 +32,4 @@ function obtenerIndiceAleatorio() {
     return indices.pop();
 }
 
-
-
-
-//===========================================================
-//===========================================================
-
-// EN CONSTRUCCION. Ya que ahora tenemos el JSON parseado en preguntasObtenidas, llamando al metodo
-// de arriba de generaIndiceAleatorio podemos sacar una pregunta lista para usar y plasmarla en el HTML
-// Más abajo haremos la comprobación de si la respuesta obtenida es la correcta, haciendo que cargue
-// otra pregunta aleatoria tras pulsar una respuesta. En el main recogerá los metodos necesarios para
-// ejecutar esta logica. 
-
-// Comprobacion de respuesta correcta
-
-import { obtenerPreguntas } from "./parseJSON.js";
-
-// Array de objetos
-let preguntasObtenidas = await obtenerPreguntas();
-
-
-
-function comprobarRespuesta(pregunta, respuesta) {
-    return pregunta.correct_answer === respuesta;
-}
+export default obtenerIndiceAleatorio;
