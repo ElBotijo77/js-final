@@ -1,67 +1,94 @@
-.header{
-    background-color: #eceaa2;
-    color: #e51818;
+.header {
+    background: #efedc4;
+    color: #3b3d30;
     width: 100%;
-    height: 15vh;
-    border-bottom: #c4c44e 5px solid;
-    border-radius: 3px;
+    height: 10vh;
+    min-height: 72px;
+    border-bottom: #c8c48a 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 26px;
+    box-sizing: border-box;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .main-content{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-between;
     width: 100%;
-    height: 75vh;
+    flex: 1;
+    min-height: 0;
+    background-color: #f6f5dc;
 }
 
 .side-bar{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 12px;
-    padding: 16px 12px;
-    background-color: #e7e6c8;
-    width: 15%;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 18px 14px;
+    background: linear-gradient(180deg, #e9e8ce 0%, #e1e0be 100%);
+    width: 18%;
+    min-width: 230px;
+    max-width: 280px;
     height: 100%;
+    border-right: 2px solid #d4d294;
+    box-sizing: border-box;
 }
 
 /*--------------------------------------------------------*/
 /* Contenedor pirncipal de la pagina dentro de article*/
 /*--------------------------------------------------------*/
 
-.content{
+.content {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 24px;
-
     background-color: #f6f5dc;
     color: #e51818;
-    width: 85%;
+    width: 82%;
     height: 100%;
     border-left: #c4c44e 5px solid;
-    border-radius: 3px;
+    box-sizing: border-box; 
+    overflow: hidden; 
 }
 
 /*--------------------------------------------------------*/
 /* Contenedor central del juego TRIVIAL*/
 /*--------------------------------------------------------*/
 
-.contenedor-trivial{
-    width: min(760px, 88%);
-    min-height: 550px;
+.contenedor-trivial {
+    width: 100%;
+    max-width: 620px;
+    height: min(520px, 100%);
+    max-height: 100%;
     background: #ffffff;
     border: 6px solid #0067ad;
     border-radius: 2rem;
-    box-shadow: 20px 20px 0 rgba(0, 103, 173, 0.1);
+    box-shadow: 15px 15px 0 rgba(0, 103, 173, 0.1);
     display: flex;
     flex-direction: column;
-    text-align: center;
-    padding: 48px 40px;
-    color: #38392a;
+    padding: 22px;
+    box-sizing: border-box;
+    overflow: hidden;
 }
+
 
 /*--------------------------------------------------------*/
 /*Dividimos el contenedor principal en 5 filas*/
@@ -71,6 +98,7 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    min-height: 0;
 }
 
 /*Pequeño header del contenido principal del trivial*/
@@ -80,9 +108,9 @@
 }
 
 .fila-1{
-    height: 100px;
+    flex: 0 0 72px;
     justify-content: flex-start;
-    padding-left: 30px;
+    padding-left: 16px;
 
     div{
         display: flex;
@@ -93,18 +121,21 @@
 
 /*Fila para mostrar el contenido de la pregunta*/
 .fila-2{
-    flex: 8;
-    padding: 0 30px 0 30px;
+    flex: 0 0 auto;
+    padding: 0 16px;
+    width: 100%;
+    min-width: 0;
 }
 
 /*Aqui se mostraran las respuestas, conformado por un grid 2x2 de cuatro celdas*/
 .fila-3{
-    flex: 75;
+    flex: 1;
+    min-height: 0;
 }
 
 /*Pequeños datos como la puntuacion actual y el tiempo restante*/
 .fila-4{
-    flex: 7;
+    flex: 0 0 58px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -116,12 +147,15 @@
     }
 }
 
-.fila-2 h2{
-    line-height: 1.2;
-    color: #38392a;
+.fila-2 h2 {
+    width: 100%;
+    margin: 18px 0 12px;
+    line-height: 1.25;
+    font-size: clamp(1rem, 2.2vw, 1.55rem);
+    word-wrap: break-word;
 }
 
-.contenedor-trivial p{
+.contenedor-trivial p {
     font-size: 1.1rem;
     font-weight: 600;
     color: #555747;
@@ -130,41 +164,30 @@
 /*Logica necesaria para manejar las respuestas*/
 
 /*MODIFICAR PARA ARREGLAR EL CENTRADO DEL GRID*/
-.grid-respuestas{
+.grid-respuestas {
     width: 100%;
-    height: 100%;
+    height: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    row-gap: 50px;
-}
-
-.celda-respuesta{
-    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    column-gap: 18px;
+    row-gap: 8px;
+    justify-items: center; /* Centra los botones dentro de su celda */
     align-items: center;
-    justify-content: center;
     align-content: center;
+    padding: 0;
 }
 
-.boton-respuesta{
-    width: 90%;
-    max-width: 280px;
-    height: 60px;
-    margin-top: 0;
+.celda-respuesta {
+    width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
-    border: 2px solid transparent;
-    border-radius: 14px;
-    background: #f6f5dc;
-    color: #38392a;
-    text-transform: none;
-    font-size: 1rem;
-    letter-spacing: 0;
-    font-weight: 700;
-    padding: 0 20px;
-    transition: none;
-    box-shadow: none;
+}
+
+.boton-respuesta {
+    width: 100%;
+    max-width: 280px;
+    min-height: 52px;
 }
 
 .boton-respuesta:hover,
@@ -176,16 +199,65 @@
     color: #38392a;
 }
 
+.boton-respuesta.respuesta-correcta {
+    background: #8bd17c;
+    color: #17360f;
+    border: 2px solid #2d7f1e;
+}
+
+.boton-respuesta.respuesta-incorrecta {
+    background: #ffb3b3;
+    color: #5a1111;
+    border: 2px solid #c43131;
+}
+
+.tiempo-alerta {
+    color: #c43131 !important;
+    font-weight: 800;
+}
+
 
 /*--------------------------------------------------------*/
 /* Contenedor del footer de la pagina*/
 /*--------------------------------------------------------*/
 
 .classic-footer{
-    background-color: #e4e2b3;
-    color: #e51818;
+    background: #32362d;
+    color: #d7d4c1;
     width: 100%;
-    height: 10vh;
-    border-top: #c4c44e 5px solid;
-    border-radius: 3px;
+    min-height: 82px;
+    border-top: 2px solid #b49a48;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 30px;
+    box-sizing: border-box;
+    gap: 20px;
+}
+
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-left p{
+    color: #d2cfbe;
+    font-weight: 700;
+    margin: 0;
+    font-size: 0.76rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.footer-right{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
