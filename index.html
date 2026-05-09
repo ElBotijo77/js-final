@@ -9,11 +9,31 @@
 </head>
 <body>
     
-    <header class="header"></header>
+    <header class="header">
+        <div class="header-left">
+            <a href="#" class="header-brand">
+                <span class="brand-main">TRIVIAL CHALLENGE</span>
+            </a>
+            <nav class="header-nav">
+                <a href="#" class="header-link activo">Inicio</a>
+                <a href="#" class="header-link">Partidas</a>
+                <a href="#" class="header-link">Tienda</a>
+                <a href="#" class="header-link">Perfil</a>
+            </nav>
+        </div>
+        <div class="header-right">
+            <div class="header-search">
+                <span class="material-symbols-outlined">search</span>
+                <input type="text" placeholder="Buscar jugadores...">
+            </div>
+            <span class="material-symbols-outlined header-icon">emoji_events</span>
+            <span class="material-symbols-outlined header-icon">settings</span>
+        </div>
+    </header>
 
     <main class="main-content">
         <aside class="side-bar">
-            <button class="boton-titulo-menu boton-menu-activo"">Menú</button>
+            <button class="boton-titulo-menu boton-menu-activo">Menú</button>
             <button class="boton-menu">
                 <span class="material-symbols-outlined icono-menu">bolt</span>
                 <span>Reto diario</span>
@@ -30,6 +50,7 @@
                 <span class="material-symbols-outlined icono-menu">history</span>
                 <span>Historial</span>
             </button>
+            <button class="boton-play-now">JUGAR AHORA</button>
         </aside>
 
         <article class="content">
@@ -63,7 +84,16 @@
         </article>
     </main>
 
-    <footer class="classic-footer"></footer> 
+    <footer class="classic-footer">
+        <div class="footer-left">
+            <p>&copy; 2026 Trivial Challenge</p>
+        </div>
+        <div class="footer-right">
+            <a href="#">Soporte</a>
+            <a href="#">Términos</a>
+            <a href="#">Privacidad</a>
+        </div>
+    </footer> 
        
     <!--Importamos tipo modulo, si no no funciona-->
     <script type="module" src="src/frontend/scripts/main.js"></script>
