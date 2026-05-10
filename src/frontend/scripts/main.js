@@ -1,15 +1,4 @@
-/*Organizacion propuesta para los archivos js
-
-/js
-├── main.js              // punto de entrada
-├── preguntas.js         // JSON de preguntas
-├── juego.js             // lógica del juego
-├── ui.js                // renderizado DOM
-└── iconos.js            // lógica de iconos
-
-*/
-
-// Importamos las funciones especificas de cada archivo
+// Importamos las funciones especificas de cada archivo para unificarlo en el main
 import {
     insertarIcono,
     renderizarPregunta,
@@ -17,6 +6,10 @@ import {
     actualizarPuntuacion,
     actualizarTiempoRestante
 } from "./ui.js";
+
+import parsearPreguntasJSON from "./parseJSON.js";
+import obtenerIndiceAleatorio from "./questions.js";
+
 
 // Permite seleccionar el botón activo del menú superior
 const enlacesHeader = document.querySelectorAll(".header-link");
@@ -29,10 +22,14 @@ enlacesHeader.forEach((enlace) => {
         enlace.classList.add("activo");
     });
 });
+
+
+// En indice pregunta, modificar por el array obtenido por el metodo Fisher-Yates, asi mostrara
+// siempre preguntas aleatorias.
+
 async function obtenerPreguntas() {
     try {
-        const respuesta = await fetch("src/frontend/data/preguntas.json");
-        const preguntas = await respuesta.json();
+        const preguntas = await parsearPreguntasJSON();
 
         if (!Array.isArray(preguntas) || preguntas.length === 0) return;
 
@@ -68,7 +65,9 @@ async function obtenerPreguntas() {
         }
 
         function pintarPreguntaActual() {
-            const preguntaActual = preguntas[indicePregunta];
+            const indice = obtenerIndiceAleatorio();
+            const preguntaActual = preguntas[indice];
+
             insertarIcono(preguntaActual.categoria);
             renderizarPregunta(preguntaActual);
             preguntaRespondida = false;
@@ -76,13 +75,6 @@ async function obtenerPreguntas() {
         }
 
         function avanzarPregunta() {
-            indicePregunta = (indicePregunta + 1) % preguntas.length;
-
-            if (indicePregunta === 0) {
-                puntuacion = 0;
-                actualizarPuntuacion(puntuacion);
-            }
-
             pintarPreguntaActual();
         }
 

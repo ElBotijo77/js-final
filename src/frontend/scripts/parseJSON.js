@@ -41,34 +41,4 @@ async function obtenerPreguntas() {
   return await cargarPreguntas();
 }
 
-
-
-
-
-
-
-//-------------------BORRAR EN EL FUTURO-----------------
-//-------------------BORRAR EN EL FUTURO-----------------
-//-------------------BORRAR EN EL FUTURO-----------------
-//-------------------BORRAR EN EL FUTURO-----------------
-
-/**
- * Ejemplo de cómo convertir el array en un objeto indexado por ID
- * Útil si se necesita buscar una pregunta específica rápidamente por su ID.
- */
-function convertirAObjeto(arrayPreguntas) {
-  return arrayPreguntas.reduce((acc, pregunta) => {
-    acc[pregunta.id] = pregunta;
-    return acc;
-  }, {});
-}
-
-/* Ejemplo de uso:
-obtenerPreguntas().then(preguntas => {
-    console.log("Preguntas cargadas como Array:", preguntas);
-    
-    // Si prefieres manejarlo como objeto:
-    const preguntasMap = convertirAObjeto(preguntas);
-    console.log("Pregunta con ID 1:", preguntasMap[1]);
-});
-*/
+export default obtenerPreguntas;
