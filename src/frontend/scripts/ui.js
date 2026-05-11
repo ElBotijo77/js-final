@@ -6,11 +6,12 @@ export function insertarIcono(categoria) {
 
     if (!img) return;
 
-    const basePath = "/assets/icons/";
+    const basePath = "assets/icons/";
 
     const iconos = {
         "Ciencia": "ciencia.png",
         "Astronomia": "astronomia.png",
+        "Astronomía": "astronomia.png",
         "Gastronomia": "comida.png",
         "Java": "java.png"
     };
