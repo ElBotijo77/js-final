@@ -65,8 +65,8 @@ async function obtenerPreguntas() {
         }
 
         function pintarPreguntaActual() {
-            const indice = obtenerIndiceAleatorio();
-            const preguntaActual = preguntas[indice];
+            indicePregunta = obtenerIndiceAleatorio();
+            const preguntaActual = preguntas[indicePregunta];
 
             insertarIcono(preguntaActual.categoria);
             renderizarPregunta(preguntaActual);

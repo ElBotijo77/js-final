@@ -4,7 +4,7 @@ async function cargarPreguntas() {
   try {
 
     // La ruta del archivo sera la relativa desde donde carge el HTML
-    const respuesta = await fetch('../data/preguntas.json');
+    const respuesta = await fetch('./src/frontend/data/preguntas.json');
 
     //Lanzará una Excepcion si la peticion no ha sido buena
     if (!respuesta.ok) {
