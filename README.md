@@ -1,3 +1,13 @@
+---
+
+## 🌐 Deployment
+
+The application is deployed and Pearl-hosted on **Cloudflare Workers**. You can access the production environment through the following link:
+
+**Link:** https://js-final.nikolaibellics.workers.dev/
+
+---
+
 # Juego Trivial Web - Estructura Base Escalable
 
 Este repositorio arranca como proyecto sencillo para estudiantes (paginas estaticas + JS vanilla), pero queda preparado para evolucionar a una arquitectura mas profesional con backend, APIs externas y base de datos.
