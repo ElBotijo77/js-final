@@ -1,12 +1,9 @@
----
-
 ## 🌐 Deployment
 
-The application is deployed and Pearl-hosted on **Cloudflare Workers**. You can access the production environment through the following link:
+The application is deployed and hosted on **Cloudflare Workers**. You can access the production environment through the following link:
 
-**Link:** https://js-final.nikolaibellics.workers.dev/
+**Link:** [https://js-final.nikolaibellics.workers.dev/](https://js-final.nikolaibellics.workers.dev/)
 
----
 
 # Juego Trivial Web - Estructura Base Escalable
 
