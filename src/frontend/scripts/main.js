@@ -11,19 +11,6 @@ import parsearPreguntasJSON from "./parseJSON.js";
 import obtenerIndiceAleatorio from "./questions.js";
 import AudioManager from "./AudioManager.js";
 
-const audioManager = new AudioManager();
-
-// Permite seleccionar el botón activo del menú superior
-const enlacesHeader = document.querySelectorAll(".header-link");
-
-enlacesHeader.forEach((enlace) => {
-    enlace.addEventListener("click", (evento) => {
-        evento.preventDefault();
-
-        enlacesHeader.forEach((item) => item.classList.remove("activo"));
-        enlace.classList.add("activo");
-    });
-});
 
 async function obtenerPreguntas() {
     try {
@@ -85,12 +72,13 @@ async function obtenerPreguntas() {
                 const acierto = respuestaSeleccionada === preguntaActual.correcta;
                 detenerTemporizador();
 
+                // Ejecutara el sonido correspondiente segun acierte o no el usuario
                 if (acierto) {
                     puntuacion += 1;
                     actualizarPuntuacion(puntuacion);
                     audioManager.playEffect(audioManager.correct);
                 } else {
-                    audioManager.playEffect(audioManager.hover);
+                    audioManager.playEffect(audioManager.wrong);
                 }
 
                 mostrarResultadoRespuesta(
@@ -140,3 +128,21 @@ async function obtenerPreguntas() {
 }
 
 obtenerPreguntas();
+
+
+// Logica de negocio para manejar el audio de la web
+
+const audioManager = new AudioManager();
+audioManager.addHoverToClass("boton-respuesta");
+
+// Permite seleccionar el botón activo del menú superior
+const enlacesHeader = document.querySelectorAll(".header-link");
+
+enlacesHeader.forEach((enlace) => {
+    enlace.addEventListener("click", (evento) => {
+        evento.preventDefault();
+
+        enlacesHeader.forEach((item) => item.classList.remove("activo"));
+        enlace.classList.add("activo");
+    });
+});
