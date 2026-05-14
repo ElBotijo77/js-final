@@ -1,4 +1,4 @@
-// Importamos las funciones especificas de cada archivo para unificarlo en el main
+﻿// Importamos las funciones especificas de cada archivo para unificarlo en el main
 import {
     insertarIcono,
     renderizarPregunta,
@@ -9,7 +9,9 @@ import {
 
 import parsearPreguntasJSON from "./parseJSON.js";
 import obtenerIndiceAleatorio from "./questions.js";
+import AudioManager from "./AudioManager.js";
 
+const audioManager = new AudioManager();
 
 // Permite seleccionar el botón activo del menú superior
 const enlacesHeader = document.querySelectorAll(".header-link");
@@ -22,10 +24,6 @@ enlacesHeader.forEach((enlace) => {
         enlace.classList.add("activo");
     });
 });
-
-
-// En indice pregunta, modificar por el array obtenido por el metodo Fisher-Yates, asi mostrara
-// siempre preguntas aleatorias.
 
 async function obtenerPreguntas() {
     try {
@@ -90,6 +88,9 @@ async function obtenerPreguntas() {
                 if (acierto) {
                     puntuacion += 1;
                     actualizarPuntuacion(puntuacion);
+                    audioManager.playEffect(audioManager.correct);
+                } else {
+                    audioManager.playEffect(audioManager.hover);
                 }
 
                 mostrarResultadoRespuesta(
@@ -111,6 +112,24 @@ async function obtenerPreguntas() {
                 detenerTemporizador();
                 avanzarPregunta();
             });
+        }
+
+        const botonMusica = document.getElementById("toggle-music");
+        if (botonMusica) {
+            const toggleMusic = () => {
+                audioManager.toggleMusic();
+                audioManager.updateButton(botonMusica);
+            };
+
+            botonMusica.addEventListener("click", toggleMusic);
+            botonMusica.addEventListener("keydown", (event) => {
+                if (event.key === "Enter" || event.key === " ") {
+                    event.preventDefault();
+                    toggleMusic();
+                }
+            });
+
+            audioManager.updateButton(botonMusica);
         }
 
         actualizarPuntuacion(puntuacion);
