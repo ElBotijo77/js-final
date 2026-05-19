@@ -4,19 +4,27 @@ export function insertarIcono(categoria) {
     const img = document.getElementById("icono-categoria");
     const texto = document.getElementById("texto-categoria");
 
-    if (!img) return;
+    if (!img || !categoria) return;
 
-    const basePath = "assets/icons/";
+    const basePath = "./assets/icons/";
+
+    const categoriaFormateada = categoria.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 
     const iconos = {
         "Ciencia": "ciencia.png",
-        "Astronomia": "astronomia.png",
         "Astronomía": "astronomia.png",
-        "Gastronomia": "comida.png",
-        "Java": "java.png"
+        "Gastronomía": "gastronomia.png",
+        "Tecnología": "tecnologia.png",
+        "Videojuegos": "videojuegos.png",
+        "Automovilismo": "automovilismo.png",
+        "Geografía": "geografia.png",
+        "Historia": "historia.png",
+        "Meteorología": "meteorologia.png",
+        "Cine": "cine.png",
+        "Música": "musica.png"
     };
 
-    const archivo = iconos[categoria] || "default.png";
+    const archivo = iconos[categoriaFormateada] || `${categoriaFormateada}.png`;
 
     img.src = basePath + archivo;
     img.alt = categoria;
