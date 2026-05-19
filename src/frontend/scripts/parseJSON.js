@@ -14,10 +14,10 @@ async function cargarPreguntas() {
     // Conversion de texto plano a datos manejables
     const preguntas = await respuesta.json();
 
-    // Guardamos en localStorage para que no tenga que volver a cargar el 
+    // Guardamos en sessionStorage para que no tenga que volver a cargar el 
     // JSON cada vez que se haga refresh de la pagina
-    localStorage.setItem('preguntas_quiz', JSON.stringify(preguntas));
-
+    sessionStorage.setItem('preguntas_quiz', JSON.stringify(preguntas));
+  
     return preguntas;
 
   } catch (error) {
@@ -30,15 +30,17 @@ async function cargarPreguntas() {
 
 //Obtener las preguntas del localStorage o las carga si no existe llamando a la funcion cargarPreguntas() 
 
+
 async function obtenerPreguntas() {
-  const guardado = localStorage.getItem('preguntas_quiz');
+  const guardado = sessionStorage.getItem('preguntas_quiz');
 
   if (guardado) {
     return JSON.parse(guardado);
   }
 
-  //Si no existe en el localStorage, se carga nuevamente desde el JSON
+  //Si no existe en el sessionStorage, se carga nuevamente desde el JSON
   return await cargarPreguntas();
 }
+
 
 export default obtenerPreguntas;
