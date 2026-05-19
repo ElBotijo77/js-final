@@ -8,9 +8,10 @@ import {
 } from "./ui.js";
 
 import parsearPreguntasJSON from "./parseJSON.js";
-import obtenerIndiceAleatorio from "./questions.js";
+import arrayAleatorio from "./questions.js";
 import AudioManager from "./AudioManager.js";
 
+let indicesArray = arrayAleatorio(380);
 
 async function obtenerPreguntas() {
     try {
@@ -22,6 +23,7 @@ async function obtenerPreguntas() {
         let puntuacion = 0;
         let preguntaRespondida = false;
         let temporizadorId = null;
+        let respuestaCorrectaActual = "";
         const botonesRespuesta = document.querySelectorAll(".boton-respuesta");
 
         function detenerTemporizador() {
@@ -50,11 +52,15 @@ async function obtenerPreguntas() {
         }
 
         function pintarPreguntaActual() {
-            indicePregunta = obtenerIndiceAleatorio();
+
+            // Si el array llega a 0, se vuelve a generar uno nuevo
+            if(indicesArray.length === 0) indecesArray = arrayAleatorio(380)
+
+            indicePregunta = indicesArray.pop();
             const preguntaActual = preguntas[indicePregunta];
 
             insertarIcono(preguntaActual.categoria);
-            renderizarPregunta(preguntaActual);
+            respuestaCorrectaActual =renderizarPregunta(preguntaActual);
             preguntaRespondida = false;
             iniciarTemporizadorPregunta();
         }

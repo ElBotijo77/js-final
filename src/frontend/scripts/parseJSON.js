@@ -28,7 +28,7 @@ async function cargarPreguntas() {
 
 
 
-//Obtener las preguntas del localStorage o las carga si no existe llamando a la funcion cargarPreguntas() 
+//Obtener las preguntas del sessionStorage o las carga si no existe llamando a la funcion cargarPreguntas() 
 
 
 async function obtenerPreguntas() {
