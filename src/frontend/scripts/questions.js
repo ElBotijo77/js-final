@@ -13,23 +13,14 @@ function shuffleArray(array) {
 }
 
 
-// Genera un array con valores de 0,1,2...
-function generaArray() {
+// Genera un array con valores de 0,1,2... y los baraja
+function arrayAleatorio(tamano) {
     indices = [];
-    for (let i = 0; i < 400; i++) {
+    for (let i = 0; i < tamano; i++) {
         indices.push(i);
     }
     shuffleArray(indices);
+    return indices;
 }
 
-
-// Devuelve el indice 
-function obtenerIndiceAleatorio() {
-    // Cuando se hayan generado 40 indices, se reinicia el contador y el array
-    if (indices.length === 0) {
-        generaArray();
-    }
-    return indices.pop();
-}
-
-export default obtenerIndiceAleatorio;
+export default arrayAleatorio;
