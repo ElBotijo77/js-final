@@ -16,7 +16,7 @@ function shuffleArray(array) {
 // Genera un array con valores de 0,1,2...
 function generaArray() {
     indices = [];
-    for (let i = 0; i < 380; i++) {
+    for (let i = 0; i < 400; i++) {
         indices.push(i);
     }
     shuffleArray(indices);

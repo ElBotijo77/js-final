@@ -279,282 +279,282 @@
     "opciones": ["Romana", "Iceberg", "Troceada", "Rúcula"],
     "correcta": "Romana"
   },
-{
+  {
     "id": 41,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Qué significan las siglas WWW?",
     "opciones": ["World Wide Web", "Word Wide Wifi", "Web World Wide", "World Web Wifi"],
     "correcta": "World Wide Web"
   },
   {
     "id": 42,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Qué memoria se borra al apagar?",
     "opciones": ["RAM", "Disco Duro", "ROM", "Tarjeta SD"],
     "correcta": "RAM"
   },
   {
     "id": 43,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Qué tecla recarga una web?",
     "opciones": ["F5", "F1", "F11", "Esc"],
     "correcta": "F5"
   },
   {
     "id": 44,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Qué virus pide rescate de datos?",
     "opciones": ["Ransomware", "Spyware", "Troyano", "Phishing"],
     "correcta": "Ransomware"
   },
   {
     "id": 45,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Qué define al wifi de 5 GHz?",
     "opciones": ["Más velocidad", "Más alcance", "Menos canales", "Saturación"],
     "correcta": "Más velocidad"
   },
   {
     "id": 46,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Qué función tienen las cookies?",
     "opciones": ["Guardar sesión", "Borrar virus", "Bajar vídeos", "Medir wifi"],
     "correcta": "Guardar sesión"
   },
   {
     "id": 47,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Qué comando cierra un programa?",
     "opciones": ["Alt + F4", "Ctrl + C", "Win + L", "Ctrl + V"],
     "correcta": "Alt + F4"
   },
   {
     "id": 48,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Qué tipo de archivo es un PDF?",
     "opciones": ["Documento", "Imagen", "Audio", "Vídeo"],
     "correcta": "Documento"
   },
   {
     "id": 49,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Qué pestaña no guarda historial?",
     "opciones": ["Incógnito", "Segura", "Oculta", "Cifrada"],
     "correcta": "Incógnito"
   },
   {
     "id": 50,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Qué protocolo lleva el candado?",
     "opciones": ["HTTPS", "HTTP", "FTP", "IP"],
     "correcta": "HTTPS"
   },
   {
     "id": 51,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Qué cable conecta al router?",
     "opciones": ["Ethernet", "HDMI", "Jack", "VGA"],
     "correcta": "Ethernet"
   },
   {
     "id": 52,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Qué es un código QR?",
     "opciones": ["Barra de datos", "Sensor móvil", "Pantalla", "Antena"],
     "correcta": "Barra de datos"
   },
   {
     "id": 53,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Qué hace el sistema DNS?",
     "opciones": ["Traduce webs", "Mide el ping", "Sube archivos", "Cifra claves"],
     "correcta": "Traduce webs"
   },
   {
     "id": 54,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿A cuántos MB equivale 1 GB?",
     "opciones": ["1000 MB", "100 MB", "500 MB", "10000 MB"],
     "correcta": "1000 MB"
   },
   {
     "id": 55,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Qué mide el ping en un juego?",
     "opciones": ["La latencia", "La descarga", "Los gráficos", "El espacio"],
     "correcta": "La latencia"
   },
   {
     "id": 56,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Qué estafa imita a un banco?",
     "opciones": ["Phishing", "Spam", "Adware", "Spyware"],
     "correcta": "Phishing"
   },
   {
     "id": 57,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Cuál de estos no es un navegador?",
     "opciones": ["Windows", "Chrome", "Firefox", "Safari"],
     "correcta": "Windows"
   },
   {
     "id": 58,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Qué chip procesa los gráficos?",
     "opciones": ["GPU", "CPU", "RAM", "BIOS"],
     "correcta": "GPU"
   },
   {
     "id": 59,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Qué define al código abierto?",
     "opciones": ["Es modificable", "Es de pago", "No se instala", "Es de Apple"],
     "correcta": "Es modificable"
   },
   {
     "id": 60,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Qué conecta periféricos sin cables?",
     "opciones": ["Bluetooth", "NFC", "GPS", "Infrarrojos"],
     "correcta": "Bluetooth"
   },
   {
     "id": 61,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Qué es la pantalla azul BSOD?",
     "opciones": ["Error crítico", "Un protector", "Menú de carga", "Actualización"],
     "correcta": "Error crítico"
   },
   {
     "id": 62,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Qué software filtra la red?",
     "opciones": ["Cortafuegos", "Antivirus", "Proxy", "Plugin"],
     "correcta": "Cortafuegos"
   },
   {
     "id": 63,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Quién desarrolla Android?",
     "opciones": ["Google", "Apple", "Microsoft", "Linux"],
     "correcta": "Google"
   },
   {
     "id": 64,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Qué ventaja tiene un disco SSD?",
     "opciones": ["Velocidad", "Capacidad", "Precio bajo", "Sin virus"],
     "correcta": "Velocidad"
   },
   {
     "id": 65,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Qué símbolo separa el correo?",
     "opciones": ["Arroba", "Almohadilla", "Punto", "Guion"],
     "correcta": "Arroba"
   },
   {
     "id": 66,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Qué software clona una consola?",
     "opciones": ["Emulador", "Compilador", "Navegador", "Driver"],
     "correcta": "Emulador"
   },
   {
     "id": 67,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Qué es guardar en la nube?",
     "opciones": ["Servidor web", "Memoria RAM", "Disco local", "Caché móvil"],
     "correcta": "Servidor web"
   },
   {
     "id": 68,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Para qué sirve el campo CCO?",
     "opciones": ["Copia oculta", "Copia urgente", "Adjuntar", "Reenviar"],
     "correcta": "Copia oculta"
   },
   {
     "id": 69,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Qué lenguaje consulta bases datos?",
     "opciones": ["SQL", "HTML", "CSS", "Python"],
     "correcta": "SQL"
   },
   {
     "id": 70,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Qué es ver vídeo en streaming?",
     "opciones": ["Tiempo real", "Descarga fija", "Cifrar la red", "Videollamada"],
     "correcta": "Tiempo real"
   },
   {
     "id": 71,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Dónde se cierran programas colgados?",
     "opciones": ["Administrador", "Panel Control", "Registro", "Consola"],
     "correcta": "Administrador"
   },
   {
     "id": 72,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Qué hace el comando Ctrl + C?",
     "opciones": ["Copiar", "Cortar", "Pegar", "Guardar"],
     "correcta": "Copiar"
   },
   {
     "id": 73,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿A qué se refiere el hardware?",
     "opciones": ["Parte física", "Programas", "Contraseñas", "Sistemas"],
     "correcta": "Parte física"
   },
   {
     "id": 74,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Qué tipo periférico es la táctil?",
     "opciones": ["Mixto", "Entrada", "Salida", "Ninguno"],
     "correcta": "Mixto"
   },
   {
     "id": 75,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Qué IA simula una charla?",
     "opciones": ["Chatbot", "Spambot", "Malware", "Buscador"],
     "correcta": "Chatbot"
   },
   {
     "id": 76,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Cómo se llama al software dañino?",
     "opciones": ["Malware", "Firmware", "Shareware", "Bloatware"],
     "correcta": "Malware"
   },
   {
     "id": 77,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Qué significa el error 404?",
     "opciones": ["No encontrado", "Virus activo", "Clave mala", "Sin luz"],
     "correcta": "No encontrado"
   },
   {
     "id": 78,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Qué identifica una dirección IP?",
     "opciones": ["Un dispositivo", "Un usuario", "Un router de caja", "Una clave"],
     "correcta": "Un dispositivo"
   },
   {
     "id": 79,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Qué lenguaje estructura una web?",
     "opciones": ["HTML", "Python", "Java", "C++"],
     "correcta": "HTML"
   },
   {
     "id": 80,
-    "categoria": "Tecnología e Internet",
+    "categoria": "Tecnología",
     "pregunta": "¿Qué satélite guía los mapas?",
     "opciones": ["GPS", "NFC", "Bluetooth", "Wifi"],
     "correcta": "GPS"
