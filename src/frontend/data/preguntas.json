@@ -1,285 +1,2662 @@
 [
   {
     "id": 1,
-    "categoria": "Ciencia",
-    "pregunta": "¿Cuál es el órgano que bombea la sangre?",
-    "opciones": ["Pulmón", "Hígado", "Corazón", "Riñón"],
-    "correcta": "Corazón"
+    "categoria": "Gastronomía",
+    "pregunta": "¿Qué hongo caro crece bajo tierra?",
+    "opciones": ["Trufa", "Níscalo", "Boleto", "Setal"],
+    "correcta": "Trufa"
   },
   {
     "id": 2,
-    "categoria": "Ciencia",
-    "pregunta": "¿Qué gas respiramos principalmente?",
-    "opciones": ["Oxígeno", "Hidrógeno", "CO2", "Helio"],
-    "correcta": "Oxígeno"
-  },
-  {
-    "id": 3,
-    "categoria": "Ciencia",
-    "pregunta": "¿Cuál es el estado sólido del agua?",
-    "opciones": ["Vapor", "Hielo", "Niebla", "Lluvia"],
-    "correcta": "Hielo"
-  },
-  {
-    "id": 4,
-    "categoria": "Ciencia",
-    "pregunta": "¿Qué parte de la planta realiza la fotosíntesis?",
-    "opciones": ["Raíz", "Tallo", "Hoja", "Flor"],
-    "correcta": "Hoja"
-  },
-  {
-    "id": 5,
-    "categoria": "Ciencia",
-    "pregunta": "¿Cuál es el planeta más cercano al Sol?",
-    "opciones": ["Venus", "Tierra", "Mercurio", "Marte"],
-    "correcta": "Mercurio"
-  },
-  {
-    "id": 6,
-    "categoria": "Ciencia",
-    "pregunta": "¿Qué instrumento mide la temperatura?",
-    "opciones": ["Barómetro", "Termómetro", "Higrómetro", "Regla"],
-    "correcta": "Termómetro"
-  },
-  {
-    "id": 7,
-    "categoria": "Ciencia",
-    "pregunta": "¿Qué tipo de animal es una rana?",
-    "opciones": ["Mamífero", "Ave", "Anfibio", "Reptil"],
-    "correcta": "Anfibio"
-  },
-  {
-    "id": 8,
-    "categoria": "Ciencia",
-    "pregunta": "¿Qué fuerza nos mantiene en el suelo?",
-    "opciones": ["Magnetismo", "Gravedad", "Energía", "Luz"],
-    "correcta": "Gravedad"
-  },
-
-  {
-    "id": 9,
-    "categoria": "Astronomía",
-    "pregunta": "¿Qué estrella está en el centro del sistema solar?",
-    "opciones": ["Sirio", "Sol", "Vega", "Polaris"],
-    "correcta": "Sol"
-  },
-  {
-    "id": 10,
-    "categoria": "Astronomía",
-    "pregunta": "¿Cuál es el satélite natural de la Tierra?",
-    "opciones": ["Marte", "Luna", "Venus", "Europa"],
-    "correcta": "Luna"
-  },
-  {
-    "id": 11,
-    "categoria": "Astronomía",
-    "pregunta": "¿Qué planeta es el más grande?",
-    "opciones": ["Saturno", "Júpiter", "Neptuno", "Urano"],
-    "correcta": "Júpiter"
-  },
-  {
-    "id": 12,
-    "categoria": "Astronomía",
-    "pregunta": "¿Qué planeta tiene anillos visibles?",
-    "opciones": ["Marte", "Venus", "Saturno", "Mercurio"],
-    "correcta": "Saturno"
-  },
-  {
-    "id": 13,
-    "categoria": "Astronomía",
-    "pregunta": "¿Cómo se llama nuestra galaxia?",
-    "opciones": ["Andrómeda", "Vía Láctea", "Orión", "Pegaso"],
-    "correcta": "Vía Láctea"
-  },
-  {
-    "id": 14,
-    "categoria": "Astronomía",
-    "pregunta": "¿Qué planeta es conocido por su color rojo?",
-    "opciones": ["Venus", "Marte", "Júpiter", "Urano"],
-    "correcta": "Marte"
-  },
-  {
-    "id": 15,
-    "categoria": "Astronomía",
-    "pregunta": "¿Qué cuerpo celeste ilumina la noche?",
-    "opciones": ["Sol", "Luna", "Marte", "Saturno"],
-    "correcta": "Luna"
-  },
-  {
-    "id": 16,
-    "categoria": "Astronomía",
-    "pregunta": "¿Qué planeta está más lejos del Sol?",
-    "opciones": ["Neptuno", "Saturno", "Tierra", "Marte"],
-    "correcta": "Neptuno"
-  },
-
-  {
-    "id": 17,
-    "categoria": "Gastronomia",
-    "pregunta": "¿De qué está hecha la pasta?",
-    "opciones": ["Arroz", "Trigo", "Maíz", "Avena"],
-    "correcta": "Trigo"
-  },
-  {
-    "id": 18,
-    "categoria": "Gastronomia",
-    "pregunta": "¿Qué ingrediente lleva la tortilla española?",
-    "opciones": ["Arroz", "Patata", "Pasta", "Pan"],
+    "categoria": "Gastronomía",
+    "pregunta": "¿Qué lleva la tortilla española?",
+    "opciones": ["Patata", "Queso", "Jamón", "Arroz"],
     "correcta": "Patata"
   },
   {
+    "id": 3,
+    "categoria": "Gastronomía",
+    "pregunta": "¿Qué cereal se usa en el risotto?",
+    "opciones": ["Arroz", "Trigo", "Avena", "Maíz"],
+    "correcta": "Arroz"
+  },
+  {
+    "id": 4,
+    "categoria": "Gastronomía",
+    "pregunta": "¿Qué es combinar plato y vino?",
+    "opciones": ["Maridar", "Aliñar", "Adobar", "Catar"],
+    "correcta": "Maridar"
+  },
+  {
+    "id": 5,
+    "categoria": "Gastronomía",
+    "pregunta": "¿Qué queso lleva el tiramisú?",
+    "opciones": ["Gouda", "Feta", "Brie", "Mascarpone"],
+    "correcta": "Mascarpone"
+  },
+  {
+    "id": 6,
+    "categoria": "Gastronomía",
+    "pregunta": "¿Qué es hervir segundos y enfriar?",
+    "opciones": ["Escaldar", "Confitar", "Guisar", "Flambear"],
+    "correcta": "Escaldar"
+  },
+  {
+    "id": 7,
+    "categoria": "Gastronomía",
+    "pregunta": "¿De dónde es el gazpacho?",
+    "opciones": ["España", "México", "Italia", "Grecia"],
+    "correcta": "España"
+  },
+  {
+    "id": 8,
+    "categoria": "Gastronomía",
+    "pregunta": "¿Qué da color amarillo a la paella?",
+    "opciones": ["Azafrán", "Curry", "Cúrcuma", "Comino"],
+    "correcta": "Azafrán"
+  },
+  {
+    "id": 9,
+    "categoria": "Gastronomía",
+    "pregunta": "¿Cómo es la carne al punto?",
+    "opciones": ["Rosada", "Cruda", "Seca", "Quemada"],
+    "correcta": "Rosada"
+  },
+  {
+    "id": 10,
+    "categoria": "Gastronomía",
+    "pregunta": "¿Qué fruta lleva el guacamole?",
+    "opciones": ["Aguacate", "Tomate", "Mango", "Lima"],
+    "correcta": "Aguacate"
+  },
+  {
+    "id": 11,
+    "categoria": "Gastronomía",
+    "pregunta": "¿Qué forma tiene el espagueti?",
+    "opciones": ["Cuerda", "Tubo", "Lazo", "Espiral"],
+    "correcta": "Cuerda"
+  },
+  {
+    "id": 12,
+    "categoria": "Gastronomía",
+    "pregunta": "¿De qué se hace el chocolate?",
+    "opciones": ["Cacao", "Café", "Vainilla", "Azúcar"],
+    "correcta": "Cacao"
+  },
+  {
+    "id": 13,
+    "categoria": "Gastronomía",
+    "pregunta": "¿Qué hace fermentar el pan?",
+    "opciones": ["Levadura", "Sal", "Harina", "Agua"],
+    "correcta": "Levadura"
+  },
+  {
+    "id": 14,
+    "categoria": "Gastronomía",
+    "pregunta": "¿De qué fruta sale el aceite oliva?",
+    "opciones": ["Aceituna", "Girasol", "Coco", "Palma"],
+    "correcta": "Aceituna"
+  },
+  {
+    "id": 15,
+    "categoria": "Gastronomía",
+    "pregunta": "¿Qué salsa lleva leche y roux?",
+    "opciones": ["Bechamel", "Pesto", "Bravas", "Alioli"],
+    "correcta": "Bechamel"
+  },
+  {
+    "id": 16,
+    "categoria": "Gastronomía",
+    "pregunta": "¿De qué se hace el merengue?",
+    "opciones": ["Clara y azúcar", "Yema y leche", "Solo nata", "Harina"],
+    "correcta": "Clara y azúcar"
+  },
+  {
+    "id": 17,
+    "categoria": "Gastronomía",
+    "pregunta": "¿Qué plato es pescado con limón?",
+    "opciones": ["Ceviche", "Sushi", "Tartar", "Guiso"],
+    "correcta": "Ceviche"
+  },
+  {
+    "id": 18,
+    "categoria": "Gastronomía",
+    "pregunta": "¿De qué planta sale el té?",
+    "opciones": ["Camellia", "Mentha", "Aloe", "Rosa"],
+    "correcta": "Camellia"
+  },
+  {
     "id": 19,
-    "categoria": "Gastronomia",
-    "pregunta": "¿Qué fruta es amarilla y curva?",
-    "opciones": ["Manzana", "Plátano", "Pera", "Melón"],
-    "correcta": "Plátano"
+    "categoria": "Gastronomía",
+    "pregunta": "¿Qué significa pasta al dente?",
+    "opciones": ["Firme", "Blanda", "Cruda", "Pastosa"],
+    "correcta": "Firme"
   },
   {
     "id": 20,
-    "categoria": "Gastronomia",
-    "pregunta": "¿Qué bebida se hace con uvas?",
-    "opciones": ["Cerveza", "Vino", "Leche", "Agua"],
-    "correcta": "Vino"
+    "categoria": "Gastronomía",
+    "pregunta": "¿De dónde sale la gelatina?",
+    "opciones": ["Tejido animal", "Algas", "Frutas", "Plantas"],
+    "correcta": "Tejido animal"
   },
   {
     "id": 21,
-    "categoria": "Gastronomia",
-    "pregunta": "¿Qué alimento es típico de Italia?",
-    "opciones": ["Sushi", "Pizza", "Tacos", "Curry"],
-    "correcta": "Pizza"
+    "categoria": "Gastronomía",
+    "pregunta": "¿Qué queso griego es salado?",
+    "opciones": ["Feta", "Cheddar", "Brie", "Maasdam"],
+    "correcta": "Feta"
   },
   {
     "id": 22,
-    "categoria": "Gastronomia",
-    "pregunta": "¿Qué lácteo se obtiene de la leche?",
-    "opciones": ["Pan", "Queso", "Arroz", "Carne"],
-    "correcta": "Queso"
+    "categoria": "Gastronomía",
+    "pregunta": "¿De dónde es la salsa pesto?",
+    "opciones": ["Italia", "Francia", "España", "Grecia"],
+    "correcta": "Italia"
   },
   {
     "id": 23,
-    "categoria": "Gastronomia",
-    "pregunta": "¿Qué carne viene del cerdo?",
-    "opciones": ["Ternera", "Pollo", "Cerdo", "Cordero"],
-    "correcta": "Cerdo"
+    "categoria": "Gastronomía",
+    "pregunta": "¿Qué condimento verde pica?",
+    "opciones": ["Wasabi", "Soja", "Jengibre", "Curry"],
+    "correcta": "Wasabi"
   },
   {
     "id": 24,
-    "categoria": "Gastronomia",
-    "pregunta": "¿Qué dulce se hace con cacao?",
-    "opciones": ["Pan", "Chocolate", "Queso", "Arroz"],
-    "correcta": "Chocolate"
+    "categoria": "Gastronomía",
+    "pregunta": "Embutido español rojo y curado:",
+    "opciones": ["Chorizo", "Lomo", "Butifarra", "Salami"],
+    "correcta": "Chorizo"
   },
-
   {
     "id": 25,
-    "categoria": "Java",
-    "pregunta": "¿Qué palabra crea una clase?",
-    "opciones": ["func", "class", "define", "new"],
-    "correcta": "class"
+    "categoria": "Gastronomía",
+    "pregunta": "¿Qué jefe hace las salsas?",
+    "opciones": ["Saucier", "Chef", "Stagier", "Barman"],
+    "correcta": "Saucier"
   },
   {
     "id": 26,
-    "categoria": "Java",
-    "pregunta": "¿Qué método inicia un programa?",
-    "opciones": ["start", "main", "run", "init"],
-    "correcta": "main"
+    "categoria": "Gastronomía",
+    "pregunta": "¿De qué semilla se hace el tofu?",
+    "opciones": ["Soja", "Sésamo", "Trigo", "Lino"],
+    "correcta": "Soja"
   },
   {
     "id": 27,
-    "categoria": "Java",
-    "pregunta": "¿Qué palabra crea un objeto?",
-    "opciones": ["make", "new", "class", "this"],
-    "correcta": "new"
+    "categoria": "Gastronomía",
+    "pregunta": "¿Qué fruta lleva la tarta Tatin?",
+    "opciones": ["Manzana", "Pera", "Fresa", "Plátano"],
+    "correcta": "Manzana"
   },
   {
     "id": 28,
-    "categoria": "Java",
-    "pregunta": "¿Qué tipo guarda enteros?",
-    "opciones": ["float", "int", "char", "boolean"],
-    "correcta": "int"
+    "terminal": "Gastronomía",
+    "pregunta": "Cuchillo ancho y curvo de chef:",
+    "opciones": ["Cebollero", "Puntilla", "Sierra", "Hacha"],
+    "correcta": "Cebollero"
   },
   {
     "id": 29,
-    "categoria": "Java",
-    "pregunta": "¿Qué tipo guarda texto?",
-    "opciones": ["int", "String", "char", "bool"],
-    "correcta": "String"
+    "categoria": "Gastronomía",
+    "pregunta": "¿Qué alcohol sale de la manzana?",
+    "opciones": ["Sidra", "Vino", "Cerveza", "Ron"],
+    "correcta": "Sidra"
   },
   {
     "id": 30,
-    "categoria": "Java",
-    "pregunta": "¿Qué imprime en consola?",
-    "opciones": ["print()", "echo()", "System.out.println", "log()"],
-    "correcta": "System.out.println"
+    "categoria": "Gastronomía",
+    "pregunta": "¿Qué es cocinar en grasa baja?",
+    "opciones": ["Confitar", "Freír", "Asar", "Saltear"],
+    "correcta": "Confitar"
   },
   {
     "id": 31,
-    "categoria": "Java",
-    "pregunta": "¿Qué estructura es un bucle?",
-    "opciones": ["if", "for", "try", "class"],
-    "correcta": "for"
+    "categoria": "Gastronomía",
+    "pregunta": "¿De qué se hace el alioli?",
+    "opciones": ["Ajo y aceite", "Huevo y sal", "Nata y ajo", "Yogur"],
+    "correcta": "Ajo y aceite"
   },
   {
     "id": 32,
-    "categoria": "Java",
-    "pregunta": "¿Qué condición es correcta?",
-    "opciones": ["if", "loop", "print", "class"],
-    "correcta": "if"
+    "categoria": "Gastronomía",
+    "pregunta": "Pan plano y hueco árabe:",
+    "opciones": ["Pita", "Molde", "Baguette", "Naan"],
+    "correcta": "Pita"
   },
   {
     "id": 33,
-    "categoria": "Java",
-    "pregunta": "¿Qué valor es verdadero?",
-    "opciones": ["true", "yes", "1", "ok"],
-    "correcta": "true"
+    "categoria": "Gastronomía",
+    "pregunta": "¿De qué es el Schnitzel vienés?",
+    "opciones": ["Ternera", "Pollo", "Pescado", "Pavo"],
+    "correcta": "Ternera"
   },
   {
     "id": 34,
-    "categoria": "Java",
-    "pregunta": "¿Qué símbolo termina una instrucción?",
-    "opciones": [".", ",", ";", ":"],
-    "correcta": ";"
+    "categoria": "Gastronomía",
+    "pregunta": "¿Qué legumbre lleva el hummus?",
+    "opciones": ["Garbanzo", "Lenteja", "Alubia", "Guisante"],
+    "correcta": "Garbanzo"
   },
   {
     "id": 35,
-    "categoria": "Java",
-    "pregunta": "¿Qué tipo guarda decimales?",
-    "opciones": ["int", "float", "char", "boolean"],
-    "correcta": "float"
+    "categoria": "Gastronomía",
+    "pregunta": "Cítrico del té Earl Grey:",
+    "opciones": ["Bergamota", "Lima", "Pomelo", "Limón"],
+    "correcta": "Bergamota"
   },
   {
     "id": 36,
-    "categoria": "Java",
-    "pregunta": "¿Qué palabra define constante?",
-    "opciones": ["const", "final", "let", "var"],
-    "correcta": "final"
+    "categoria": "Gastronomía",
+    "pregunta": "¿Qué guía da estrellas a locales?",
+    "opciones": ["Michelin", "Repsol", "Yelp", "Trip"],
+    "correcta": "Michelin"
   },
   {
     "id": 37,
-    "categoria": "Java",
-    "pregunta": "¿Qué palabra hereda clase?",
-    "opciones": ["extends", "implements", "import", "package"],
-    "correcta": "extends"
+    "categoria": "Gastronomía",
+    "pregunta": "¿Qué arroz español absorbe más?",
+    "opciones": ["Bomba", "Basmati", "Jazmín", "Largo"],
+    "correcta": "Bomba"
   },
   {
     "id": 38,
-    "categoria": "Java",
-    "pregunta": "¿Qué palabra importa clases?",
-    "opciones": ["using", "include", "import", "require"],
-    "correcta": "import"
+    "categoria": "Gastronomía",
+    "pregunta": "¿De qué se hace el caramelo?",
+    "opciones": ["Azúcar", "Miel", "Nata", "Leche"],
+    "correcta": "Azúcar"
   },
   {
     "id": 39,
-    "categoria": "Java",
-    "pregunta": "¿Qué tipo es verdadero/falso?",
-    "opciones": ["int", "boolean", "char", "String"],
-    "correcta": "boolean"
+    "categoria": "Gastronomía",
+    "pregunta": "Embutido italiano de la pizza:",
+    "opciones": ["Salami", "Panceta", "Lardo", "Coppa"],
+    "correcta": "Salami"
   },
   {
     "id": 40,
-    "categoria": "Java",
-    "pregunta": "¿Qué palabra es referencia actual?",
-    "opciones": ["this", "self", "me", "current"],
-    "correcta": "this"
+    "categoria": "Gastronomía",
+    "pregunta": "¿Qué lechuga lleva la César?",
+    "opciones": ["Romana", "Iceberg", "Troceada", "Rúcula"],
+    "correcta": "Romana"
+  },
+{
+    "id": 41,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Qué significan las siglas WWW?",
+    "opciones": ["World Wide Web", "Word Wide Wifi", "Web World Wide", "World Web Wifi"],
+    "correcta": "World Wide Web"
+  },
+  {
+    "id": 42,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Qué memoria se borra al apagar?",
+    "opciones": ["RAM", "Disco Duro", "ROM", "Tarjeta SD"],
+    "correcta": "RAM"
+  },
+  {
+    "id": 43,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Qué tecla recarga una web?",
+    "opciones": ["F5", "F1", "F11", "Esc"],
+    "correcta": "F5"
+  },
+  {
+    "id": 44,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Qué virus pide rescate de datos?",
+    "opciones": ["Ransomware", "Spyware", "Troyano", "Phishing"],
+    "correcta": "Ransomware"
+  },
+  {
+    "id": 45,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Qué define al wifi de 5 GHz?",
+    "opciones": ["Más velocidad", "Más alcance", "Menos canales", "Saturación"],
+    "correcta": "Más velocidad"
+  },
+  {
+    "id": 46,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Qué función tienen las cookies?",
+    "opciones": ["Guardar sesión", "Borrar virus", "Bajar vídeos", "Medir wifi"],
+    "correcta": "Guardar sesión"
+  },
+  {
+    "id": 47,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Qué comando cierra un programa?",
+    "opciones": ["Alt + F4", "Ctrl + C", "Win + L", "Ctrl + V"],
+    "correcta": "Alt + F4"
+  },
+  {
+    "id": 48,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Qué tipo de archivo es un PDF?",
+    "opciones": ["Documento", "Imagen", "Audio", "Vídeo"],
+    "correcta": "Documento"
+  },
+  {
+    "id": 49,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Qué pestaña no guarda historial?",
+    "opciones": ["Incógnito", "Segura", "Oculta", "Cifrada"],
+    "correcta": "Incógnito"
+  },
+  {
+    "id": 50,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Qué protocolo lleva el candado?",
+    "opciones": ["HTTPS", "HTTP", "FTP", "IP"],
+    "correcta": "HTTPS"
+  },
+  {
+    "id": 51,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Qué cable conecta al router?",
+    "opciones": ["Ethernet", "HDMI", "Jack", "VGA"],
+    "correcta": "Ethernet"
+  },
+  {
+    "id": 52,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Qué es un código QR?",
+    "opciones": ["Barra de datos", "Sensor móvil", "Pantalla", "Antena"],
+    "correcta": "Barra de datos"
+  },
+  {
+    "id": 53,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Qué hace el sistema DNS?",
+    "opciones": ["Traduce webs", "Mide el ping", "Sube archivos", "Cifra claves"],
+    "correcta": "Traduce webs"
+  },
+  {
+    "id": 54,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿A cuántos MB equivale 1 GB?",
+    "opciones": ["1000 MB", "100 MB", "500 MB", "10000 MB"],
+    "correcta": "1000 MB"
+  },
+  {
+    "id": 55,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Qué mide el ping en un juego?",
+    "opciones": ["La latencia", "La descarga", "Los gráficos", "El espacio"],
+    "correcta": "La latencia"
+  },
+  {
+    "id": 56,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Qué estafa imita a un banco?",
+    "opciones": ["Phishing", "Spam", "Adware", "Spyware"],
+    "correcta": "Phishing"
+  },
+  {
+    "id": 57,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Cuál de estos no es un navegador?",
+    "opciones": ["Windows", "Chrome", "Firefox", "Safari"],
+    "correcta": "Windows"
+  },
+  {
+    "id": 58,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Qué chip procesa los gráficos?",
+    "opciones": ["GPU", "CPU", "RAM", "BIOS"],
+    "correcta": "GPU"
+  },
+  {
+    "id": 59,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Qué define al código abierto?",
+    "opciones": ["Es modificable", "Es de pago", "No se instala", "Es de Apple"],
+    "correcta": "Es modificable"
+  },
+  {
+    "id": 60,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Qué conecta periféricos sin cables?",
+    "opciones": ["Bluetooth", "NFC", "GPS", "Infrarrojos"],
+    "correcta": "Bluetooth"
+  },
+  {
+    "id": 61,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Qué es la pantalla azul BSOD?",
+    "opciones": ["Error crítico", "Un protector", "Menú de carga", "Actualización"],
+    "correcta": "Error crítico"
+  },
+  {
+    "id": 62,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Qué software filtra la red?",
+    "opciones": ["Cortafuegos", "Antivirus", "Proxy", "Plugin"],
+    "correcta": "Cortafuegos"
+  },
+  {
+    "id": 63,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Quién desarrolla Android?",
+    "opciones": ["Google", "Apple", "Microsoft", "Linux"],
+    "correcta": "Google"
+  },
+  {
+    "id": 64,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Qué ventaja tiene un disco SSD?",
+    "opciones": ["Velocidad", "Capacidad", "Precio bajo", "Sin virus"],
+    "correcta": "Velocidad"
+  },
+  {
+    "id": 65,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Qué símbolo separa el correo?",
+    "opciones": ["Arroba", "Almohadilla", "Punto", "Guion"],
+    "correcta": "Arroba"
+  },
+  {
+    "id": 66,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Qué software clona una consola?",
+    "opciones": ["Emulador", "Compilador", "Navegador", "Driver"],
+    "correcta": "Emulador"
+  },
+  {
+    "id": 67,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Qué es guardar en la nube?",
+    "opciones": ["Servidor web", "Memoria RAM", "Disco local", "Caché móvil"],
+    "correcta": "Servidor web"
+  },
+  {
+    "id": 68,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Para qué sirve el campo CCO?",
+    "opciones": ["Copia oculta", "Copia urgente", "Adjuntar", "Reenviar"],
+    "correcta": "Copia oculta"
+  },
+  {
+    "id": 69,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Qué lenguaje consulta bases datos?",
+    "opciones": ["SQL", "HTML", "CSS", "Python"],
+    "correcta": "SQL"
+  },
+  {
+    "id": 70,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Qué es ver vídeo en streaming?",
+    "opciones": ["Tiempo real", "Descarga fija", "Cifrar la red", "Videollamada"],
+    "correcta": "Tiempo real"
+  },
+  {
+    "id": 71,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Dónde se cierran programas colgados?",
+    "opciones": ["Administrador", "Panel Control", "Registro", "Consola"],
+    "correcta": "Administrador"
+  },
+  {
+    "id": 72,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Qué hace el comando Ctrl + C?",
+    "opciones": ["Copiar", "Cortar", "Pegar", "Guardar"],
+    "correcta": "Copiar"
+  },
+  {
+    "id": 73,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿A qué se refiere el hardware?",
+    "opciones": ["Parte física", "Programas", "Contraseñas", "Sistemas"],
+    "correcta": "Parte física"
+  },
+  {
+    "id": 74,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Qué tipo periférico es la táctil?",
+    "opciones": ["Mixto", "Entrada", "Salida", "Ninguno"],
+    "correcta": "Mixto"
+  },
+  {
+    "id": 75,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Qué IA simula una charla?",
+    "opciones": ["Chatbot", "Spambot", "Malware", "Buscador"],
+    "correcta": "Chatbot"
+  },
+  {
+    "id": 76,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Cómo se llama al software dañino?",
+    "opciones": ["Malware", "Firmware", "Shareware", "Bloatware"],
+    "correcta": "Malware"
+  },
+  {
+    "id": 77,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Qué significa el error 404?",
+    "opciones": ["No encontrado", "Virus activo", "Clave mala", "Sin luz"],
+    "correcta": "No encontrado"
+  },
+  {
+    "id": 78,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Qué identifica una dirección IP?",
+    "opciones": ["Un dispositivo", "Un usuario", "Un router de caja", "Una clave"],
+    "correcta": "Un dispositivo"
+  },
+  {
+    "id": 79,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Qué lenguaje estructura una web?",
+    "opciones": ["HTML", "Python", "Java", "C++"],
+    "correcta": "HTML"
+  },
+  {
+    "id": 80,
+    "categoria": "Tecnología e Internet",
+    "pregunta": "¿Qué satélite guía los mapas?",
+    "opciones": ["GPS", "NFC", "Bluetooth", "Wifi"],
+    "correcta": "GPS"
+  },
+  {
+    "id": 81,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué fuerza nos atrae al suelo?",
+    "opciones": ["Gravedad", "Fricción", "Magnetismo", "Inercia"],
+    "correcta": "Gravedad"
+  },
+  {
+    "id": 82,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el gas más abundante?",
+    "opciones": ["Nitrógeno", "Oxígeno", "CO2", "Hidrógeno"],
+    "correcta": "Nitrógeno"
+  },
+  {
+    "id": 83,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué órgano bombea la sangre?",
+    "opciones": ["Corazón", "Hígado", "Pulmón", "Riñón"],
+    "correcta": "Corazón"
+  },
+  {
+    "id": 84,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué partícula tiene carga negativa?",
+    "opciones": ["Electrón", "Protón", "Neutrón", "Fotón"],
+    "correcta": "Electrón"
+  },
+  {
+    "id": 85,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué metal es líquido a temperatura ambiente?",
+    "opciones": ["Mercurio", "Plomo", "Plata", "Cobre"],
+    "correcta": "Mercurio"
+  },
+  {
+    "id": 86,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cómo se llama el cambio de sólido a líquido?",
+    "opciones": ["Fusión", "Ebullición", "Sublimación", "Evaporación"],
+    "correcta": "Fusión"
+  },
+  {
+    "id": 87,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué estrella está más cerca de la Tierra?",
+    "opciones": ["El Sol", "Sirio", "Próxima", "Polar"],
+    "correcta": "El Sol"
+  },
+  {
+    "id": 88,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué planeta destaca por sus grandes anillos?",
+    "opciones": ["Saturno", "Júpiter", "Neptuno", "Marte"],
+    "correcta": "Saturno"
+  },
+  {
+    "id": 89,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué tipo de energía tiene un cuerpo en movimiento?",
+    "opciones": ["Cinética", "Potencial", "Térmica", "Química"],
+    "correcta": "Cinética"
+  },
+  {
+    "id": 90,
+    "categoria": "Ciencia",
+    "pregunta": "¿Dónde se guarda la información genética?",
+    "opciones": ["ADN", "ARN", "Proteína", "Lípido"],
+    "correcta": "ADN"
+  },
+  {
+    "id": 91,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué instrumento mide la presión atmosférica?",
+    "opciones": ["Barómetro", "Termómetro", "Anemómetro", "Brújula"],
+    "correcta": "Barómetro"
+  },
+  {
+    "id": 92,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué gas absorben las plantas al hacer fotosíntesis?",
+    "opciones": ["CO2", "Oxígeno", "Nitrógeno", "Metano"],
+    "correcta": "CO2"
+  },
+  {
+    "id": 93,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué hueso es el más largo del cuerpo?",
+    "opciones": ["Fémur", "Cráneo", "Costilla", "Radio"],
+    "correcta": "Fémur"
+  },
+  {
+    "id": 94,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué unidad mide la resistencia eléctrica?",
+    "opciones": ["Ohmio", "Voltio", "Amperio", "Vatio"],
+    "correcta": "Ohmio"
+  },
+  {
+    "id": 95,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué material es el mejor conductor eléctrico?",
+    "opciones": ["Plata", "Cobre", "Hierro", "Aluminio"],
+    "correcta": "Plata"
+  },
+  {
+    "id": 96,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cómo se llama la capa de aire de la Tierra?",
+    "opciones": ["Atmósfera", "Hidrosfera", "Geosfera", "Biosfera"],
+    "correcta": "Atmósfera"
+  },
+  {
+    "id": 97,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué velocidad alcanza la luz en el vacío?",
+    "opciones": ["300.000 km/s", "300.000 km/h", "150.000 km/s", "1.000 km/s"],
+    "correcta": "300.000 km/s"
+  },
+  {
+    "id": 98,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué elemento tiene el símbolo químico H?",
+    "opciones": ["Hidrógeno", "Helio", "Hierro", "Mercurio"],
+    "correcta": "Hidrógeno"
+  },
+  {
+    "id": 99,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué órgano produce la insulina?",
+    "opciones": ["Páncreas", "Hígado", "Riñón", "Estómago"],
+    "correcta": "Páncreas"
+  },
+  {
+    "id": 100,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué mide la escala de Richter?",
+    "opciones": ["Terremotos", "Viento", "Lluvia", "Calor"],
+    "correcta": "Terremotos"
+  },
+  {
+    "id": 101,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué mezcla de metales forma el bronce?",
+    "opciones": ["Cobre y estaño", "Cobre y zinc", "Hierro y carbón", "Oro y plata"],
+    "correcta": "Cobre y estaño"
+  },
+  {
+    "id": 102,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué ciencia estudia los fósiles?",
+    "opciones": ["Paleontología", "Geología", "Arqueología", "Biología"],
+    "correcta": "Paleontología"
+  },
+  {
+    "id": 103,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué tipo de puente sostiene su calzada con cables?",
+    "opciones": ["Atirantado", "De arco", "De vigas", "Móvil"],
+    "correcta": "Atirantado"
+  },
+  {
+    "id": 104,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué satélite natural tiene la Tierra?",
+    "opciones": ["La Luna", "Titán", "Europa", "Ganimedes"],
+    "correcta": "La Luna"
+  },
+  {
+    "id": 105,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué pigmento da color verde a las plantas?",
+    "opciones": ["Clorofila", "Caroteno", "Melanina", "Enzima"],
+    "correcta": "Clorofila"
+  },
+  {
+    "id": 106,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué estudia la botánica?",
+    "opciones": ["Las plantas", "Los animales", "Las rocas", "Los astros"],
+    "correcta": "Las plantas"
+  },
+  {
+    "id": 107,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué pH se considera neutro?",
+    "opciones": ["7", "0", "14", "5"],
+    "correcta": "7"
+  },
+  {
+    "id": 108,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué triángulo tiene tres lados iguales?",
+    "opciones": ["Equilátero", "Isósceles", "Escaleno", "Rectángulo"],
+    "correcta": "Equilátero"
+  },
+  {
+    "id": 109,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué propiedad evita que un barco se hunda?",
+    "opciones": ["Flotabilidad", "Densidad", "Gravedad", "Dureza"],
+    "correcta": "Flotabilidad"
+  },
+  {
+    "id": 110,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué gas ligero hace flotar los globos?",
+    "opciones": ["Helio", "Oxígeno", "Nitrógeno", "Argón"],
+    "correcta": "Helio"
+  },
+  {
+    "id": 111,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué material natural es el más duro?",
+    "opciones": ["Diamante", "Grafito", "Cuarzo", "Rubí"],
+    "correcta": "Diamante"
+  },
+  {
+    "id": 112,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué dispositivo almacena energía química y da electricidad?",
+    "opciones": ["Batería", "Motor", "Alternador", "Fusible"],
+    "correcta": "Batería"
+  },
+  {
+    "id": 113,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué metal compone principalmente el acero?",
+    "opciones": ["Hierro", "Cobre", "Aluminio", "Plomo"],
+    "correcta": "Hierro"
+  },
+  {
+    "id": 114,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué línea imaginaria divide la Tierra en dos hemisferios?",
+    "opciones": ["Ecuador", "Greenwich", "Trópico", "Eje"],
+    "correcta": "Ecuador"
+  },
+  {
+    "id": 115,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué tipo de roca nace de la lava enfriada?",
+    "opciones": ["Ígnea", "Sedimentaria", "Metamórfica", "Caliza"],
+    "correcta": "Ígnea"
+  },
+  {
+    "id": 116,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué lente se usa para ver objetos muy lejanos?",
+    "opciones": ["Telescopio", "Microscopio", "Lupa", "Gafas"],
+    "correcta": "Telescopio"
+  },
+  {
+    "id": 117,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuál es el principal gas causante del efecto invernadero?",
+    "opciones": ["Dióxido de carbono", "Oxígeno", "Helio", "Nitrógeno"],
+    "correcta": "Dióxido de carbono"
+  },
+  {
+    "id": 118,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué propiedad permite a los metales hacerse hilos?",
+    "opciones": ["Ductilidad", "Maleabilidad", "Dureza", "Elasticidad"],
+    "correcta": "Ductilidad"
+  },
+  {
+    "id": 119,
+    "categoria": "Ciencia",
+    "pregunta": "¿Cuántos lados tiene un hexágono?",
+    "opciones": ["Seis", "Cinco", "Siete", "Ocho"],
+    "correcta": "Seis"
+  },
+  {
+    "id": 120,
+    "categoria": "Ciencia",
+    "pregunta": "¿Qué rama de la ingeniería diseña circuitos eléctricos?",
+    "opciones": ["Electrónica", "Mecánica", "Civil", "Química"],
+    "correcta": "Electrónica"
+  },
+  {
+    "id": 121,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Quién es el hermano de Mario?",
+    "opciones": ["Luigi", "Wario", "Bowser", "Toad"],
+    "correcta": "Luigi"
+  },
+  {
+    "id": 122,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué erizo corre a gran velocidad?",
+    "opciones": ["Sonic", "Knuckles", "Shadow", "Tails"],
+    "correcta": "Sonic"
+  },
+  {
+    "id": 123,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego consiste en colocar bloques?",
+    "opciones": ["Minecraft", "Tetris", "Roblox", "Terraria"],
+    "correcta": "Minecraft"
+  },
+  {
+    "id": 124,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cómo se llama el villano de Mario?",
+    "opciones": ["Bowser", "Luigi", "Yoshi", "Walui"],
+    "correcta": "Bowser"
+  },
+  {
+    "id": 125,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué consola introdujo el mando Wii?",
+    "opciones": ["Wii", "Switch", "GameCube", "N64"],
+    "correcta": "Wii"
+  },
+  {
+    "id": 126,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué saga incluye las pokéballs?",
+    "opciones": ["Pokémon", "Zelda", "Digimon", "Kirby"],
+    "correcta": "Pokémon"
+  },
+  {
+    "id": 127,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cuál es el personaje de Zelda?",
+    "opciones": ["Link", "Zelda", "Ganon", "Mario"],
+    "correcta": "Link"
+  },
+  {
+    "id": 128,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego popularizó el Battle Royale?",
+    "opciones": ["Fortnite", "PUBG", "Apex", "CoD"],
+    "correcta": "Fortnite"
+  },
+  {
+    "id": 129,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué empresa creó la PlayStation?",
+    "opciones": ["Sony", "Nintendo", "Microsoft", "Sega"],
+    "correcta": "Sony"
+  },
+  {
+    "id": 130,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego de bloques cae del techo?",
+    "opciones": ["Tetris", "Pac-Man", "Zelda", "Pong"],
+    "correcta": "Tetris"
+  },
+  {
+    "id": 131,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego simula la vida real?",
+    "opciones": ["Los Sims", "GTA", "Animal Crossing", "Doom"],
+    "correcta": "Los Sims"
+  },
+  {
+    "id": 132,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Quién es el héroe de Halo?",
+    "opciones": ["Jefe Maestro", "Doomguy", "Kratos", "Cole"],
+    "correcta": "Jefe Maestro"
+  },
+  {
+    "id": 133,
+    "categoria": "Videojuegos",
+    "pregunta": "¿De qué color es Pac-Man?",
+    "opciones": ["Amarillo", "Rojo", "Azul", "Verde"],
+    "correcta": "Amarillo"
+  },
+  {
+    "id": 134,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego tiene coches y fútbol?",
+    "opciones": ["Rocket League", "FIFA", "Gran Turismo", "PES"],
+    "correcta": "Rocket League"
+  },
+  {
+    "id": 135,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué saga se ambienta en Los Santos?",
+    "opciones": ["GTA", "Mafia", "Saints Row", "Driver"],
+    "correcta": "GTA"
+  },
+  {
+    "id": 136,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Quién es el padre de Kratos?",
+    "opciones": ["Zeus", "Ares", "Odin", "Hades"],
+    "correcta": "Zeus"
+  },
+  {
+    "id": 137,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué criatura explota en Minecraft?",
+    "opciones": ["Creeper", "Zombie", "Enderman", "Skeleton"],
+    "correcta": "Creeper"
+  },
+  {
+    "id": 138,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué consola es híbrida?",
+    "opciones": ["Switch", "Wii U", "PS5", "Xbox One"],
+    "correcta": "Switch"
+  },
+  {
+    "id": 139,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego se basa en el Nexo?",
+    "opciones": ["LoL", "Dota 2", "Valorant", "CS:GO"],
+    "correcta": "LoL"
+  },
+  {
+    "id": 140,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué animal monta Mario?",
+    "opciones": ["Yoshi", "Donkey Kong", "Bowser", "Toad"],
+    "correcta": "Yoshi"
+  },
+  {
+    "id": 141,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué saga incluye a Lara Croft?",
+    "opciones": ["Tomb Raider", "Uncharted", "Halo", "Zelda"],
+    "correcta": "Tomb Raider"
+  },
+  {
+    "id": 142,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego usa canciones reales?",
+    "opciones": ["Guitar Hero", "Just Dance", "Rock Band", "SingStar"],
+    "correcta": "Guitar Hero"
+  },
+  {
+    "id": 143,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué simulación lidera en física?",
+    "opciones": ["Assetto Corsa", "Need for Speed", "Burnout", "Arcade"],
+    "correcta": "Assetto Corsa"
+  },
+  {
+    "id": 144,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué compañía creó a Pac-Man?",
+    "opciones": ["Bandai Namco", "Nintendo", "Sega", "Capcom"],
+    "correcta": "Bandai Namco"
+  },
+  {
+    "id": 145,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué gorila lanza barriles?",
+    "opciones": ["Donkey Kong", "King Kong", "Bowser", "Wario"],
+    "correcta": "Donkey Kong"
+  },
+  {
+    "id": 146,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego usa la frase Fatality?",
+    "opciones": ["Mortal Kombat", "Street Fighter", "Tekken", "Smash"],
+    "correcta": "Mortal Kombat"
+  },
+  {
+    "id": 147,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Quién acompaña a Ryu?",
+    "opciones": ["Ken", "Chun-Li", "Akuma", "M. Bison"],
+    "correcta": "Ken"
+  },
+  {
+    "id": 148,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué consola lanzó Microsoft primero?",
+    "opciones": ["Xbox", "Xbox 360", "Xbox One", "Series X"],
+    "correcta": "Xbox"
+  },
+  {
+    "id": 149,
+    "categoria": "Videojuegos",
+    "pregunta": "¿De qué color es la gorra Mario?",
+    "opciones": ["Roja", "Verde", "Azul", "Amarilla"],
+    "correcta": "Roja"
+  },
+  {
+    "id": 150,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego simula el oeste?",
+    "opciones": ["Red Dead", "GTA", "Fallout", "Skyrim"],
+    "correcta": "Red Dead"
+  },
+  {
+    "id": 151,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué bola rosa traga enemigos?",
+    "opciones": ["Kirby", "Jigglypuff", "Pac-Man", "Sonic"],
+    "correcta": "Kirby"
+  },
+  {
+    "id": 152,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Cómo se llama el rival de Mario?",
+    "opciones": ["Wario", "Luigi", "Toad", "Sonic"],
+    "correcta": "Wario"
+  },
+  {
+    "id": 153,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego usa terror en el espacio?",
+    "opciones": ["Dead Space", "Doom", "Halo", "Mass Effect"],
+    "correcta": "Dead Space"
+  },
+  {
+    "id": 154,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué saga transcurre en la Antigua Grecia?",
+    "opciones": ["God of War", "Assassin's", "Zelda", "Witcher"],
+    "correcta": "God of War"
+  },
+  {
+    "id": 155,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué consola portátil lanzó Sony?",
+    "opciones": ["PSP", "Game Boy", "DS", "Game Gear"],
+    "correcta": "PSP"
+  },
+  {
+    "id": 156,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego introdujo los fatalities?",
+    "opciones": ["Mortal Kombat", "Street Fighter", "Tekken", "Smash"],
+    "correcta": "Mortal Kombat"
+  },
+  {
+    "id": 157,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué saga se enfoca en asesinos?",
+    "opciones": ["Assassin's Creed", "Hitman", "GTA", "Splinter Cell"],
+    "correcta": "Assassin's Creed"
+  },
+  {
+    "id": 158,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Quién es el villano de Final Fantasy VII?",
+    "opciones": ["Sefirot", "Cloud", "Tifa", "Zack"],
+    "correcta": "Sefirot"
+  },
+  {
+    "id": 159,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué juego trata de atrapar fantasmas?",
+    "opciones": ["Luigi's Mansion", "Mario Kart", "Pac-Man", "Spelunky"],
+    "correcta": "Luigi's Mansion"
+  },
+  {
+    "id": 160,
+    "categoria": "Videojuegos",
+    "pregunta": "¿Qué saga tiene el virus T?",
+    "opciones": ["Resident Evil", "Silent Hill", "Dead Island", "Left 4 Dead"],
+    "correcta": "Resident Evil"
+  },
+  {
+    "id": 161,
+    "categoria": "Automovilismo",
+    "pregunta": "¿Qué competición es la máxima categoría del automovilismo?",
+    "opciones": ["Fórmula 1", "MotoGP", "NASCAR", "IndyCar"],
+    "correcta": "Fórmula 1"
+  },
+  {
+    "id": 162,
+    "categoria": "Automovilismo",
+    "pregunta": "¿Qué mítica carrera dura un día entero sin interrupción?",
+    "opciones": ["24 Horas de Le Mans", "GP de Mónaco", "Dakar", "500 Millas de Indianápolis"],
+    "correcta": "24 Horas de Le Mans"
+  },
+  {
+    "id": 163,
+    "categoria": "Automovilismo",
+    "pregunta": "¿Qué bandera indica el final de una carrera?",
+    "opciones": ["A cuadros", "Amarilla", "Roja", "Verde"],
+    "correcta": "A cuadros"
+  },
+  {
+    "id": 164,
+    "categoria": "Automovilismo",
+    "pregunta": "¿Cómo se llama la posición de salida del primero?",
+    "opciones": ["Pole position", "Podio", "Safety car", "Paddock"],
+    "correcta": "Pole position"
+  },
+  {
+    "id": 165,
+    "categoria": "Automovilismo",
+    "pregunta": "¿Qué coche neutraliza la carrera tras un accidente?",
+    "opciones": ["Safety Car", "Medical Car", "Coche escoba", "Fórmula E"],
+    "correcta": "Safety Car"
+  },
+  {
+    "id": 166,
+    "categoria": "Automovilismo",
+    "pregunta": "¿De qué país es la famosa escudería Ferrari?",
+    "opciones": ["Italia", "España", "Francia", "Alemania"],
+    "correcta": "Italia"
+  },
+  {
+    "id": 167,
+    "categoria": "Automovilismo",
+    "pregunta": "¿Qué competición destaca por tramos de tierra y nieve?",
+    "opciones": ["Rally (WRC)", "Fórmula 1", "NASCAR", "DTM"],
+    "correcta": "Rally (WRC)"
+  },
+  {
+    "id": 168,
+    "categoria": "Automovilismo",
+    "pregunta": "¿Cuál es el color tradicional de los coches Ferrari?",
+    "opciones": ["Rojo", "Azul", "Plata", "Amarillo"],
+    "correcta": "Rojo"
+  },
+  {
+    "id": 169,
+    "categoria": "Automovilismo",
+    "pregunta": "¿Qué famoso rally cruzaba originalmente África?",
+    "opciones": ["Rally Dakar", "Rally de Suecia", "Rally de Monza", "Rally de Montecarlo"],
+    "correcta": "Rally Dakar"
+  },
+  {
+    "id": 170,
+    "categoria": "Automovilismo",
+    "pregunta": "¿Dónde paran los pilotos a cambiar neumáticos?",
+    "opciones": ["Boxes (Pit lane)", "Paddock", "Grilla", "Chicana"],
+    "correcta": "Boxes (Pit lane)"
+  },
+  {
+    "id": 171,
+    "categoria": "Automovilismo",
+    "pregunta": "¿Qué bandera obliga a reducir la velocidad por peligro?",
+    "opciones": ["Amarilla", "Verde", "Azul", "Blanca"],
+    "correcta": "Amarilla"
+  },
+  {
+    "id": 172,
+    "categoria": "Automovilismo",
+    "pregunta": "¿En qué país se corren las 500 Millas de Indianápolis?",
+    "opciones": ["Estados Unidos", "Reino Unido", "Japón", "Canadá"],
+    "correcta": "Estados Unidos"
+  },
+  {
+    "id": 173,
+    "categoria": "Automovilismo",
+    "pregunta": "¿Qué tipo de circuito se monta en calles públicas?",
+    "opciones": ["Urbano", "Ovalo", "Permanente", "Karting"],
+    "correcta": "Urbano"
+  },
+  {
+    "id": 174,
+    "categoria": "Automovilismo",
+    "pregunta": "¿Qué piloto asturiano ha ganado dos mundiales de F1?",
+    "opciones": ["Fernando Alonso", "Carlos Sainz", "Pedro de la Rosa", "Marc Gené"],
+    "correcta": "Fernando Alonso"
+  },
+  {
+    "id": 175,
+    "categoria": "Automovilismo",
+    "pregunta": "¿Qué elemento aerodinámico trasero empuja el coche al suelo?",
+    "opciones": ["Alerón", "Difusor", "Radiador", "Chasis"],
+    "correcta": "Alerón"
+  },
+  {
+    "id": 176,
+    "categoria": "Automovilismo",
+    "pregunta": "¿Qué competición usa exclusivamente circuitos ovalados americanos?",
+    "opciones": ["NASCAR", "Fórmula E", "WTCR", "WEC"],
+    "correcta": "NASCAR"
+  },
+  {
+    "id": 177,
+    "categoria": "Automovilismo",
+    "pregunta": "¿Qué bandera avisa a un piloto de que va a ser doblado?",
+    "opciones": ["Azul", "Negra", "Roja", "Amarilla"],
+    "correcta": "Azul"
+  },
+  {
+    "id": 178,
+    "categoria": "Automovilismo",
+    "pregunta": "¿Qué elemento de seguridad protege la cabeza en F1?",
+    "opciones": ["Halo", "Alerón", "Pontón", "Monocasco"],
+    "correcta": "Halo"
+  },
+  {
+    "id": 179,
+    "categoria": "Automovilismo",
+    "pregunta": "¿Qué tipo de neumáticos se usan si llueve mucho?",
+    "opciones": ["De lluvia (Slick mojado)", "Blandos", "Duros", "Lisos"],
+    "correcta": "De lluvia (Slick mojado)"
+  },
+  {
+    "id": 180,
+    "categoria": "Automovilismo",
+    "pregunta": "¿Cómo se llama la curva cerrada con forma de S?",
+    "opciones": ["Chicana", "Horquilla", "Recta", "Peralte"],
+    "correcta": "Chicana"
+  },
+  {
+    "id": 181,
+    "categoria": "Música",
+    "pregunta": "¿Cuántas notas musicales existen en la escala diatónica básica?",
+    "opciones": ["Siete", "Cinco", "Doce", "Diez"],
+    "correcta": "Siete"
+  },
+  {
+    "id": 182,
+    "categoria": "Música",
+    "pregunta": "¿Qué instrumento de cuerda tiene habitualmente 88 teclas?",
+    "opciones": ["Piano", "Arpa", "Guitarra", "Violín"],
+    "correcta": "Piano"
+  },
+  {
+    "id": 183,
+    "categoria": "Música",
+    "pregunta": "¿Quién es conocido mundialmente como el Rey del Pop?",
+    "opciones": ["Michael Jackson", "Elvis Presley", "Madonna", "Prince"],
+    "correcta": "Michael Jackson"
+  },
+  {
+    "id": 184,
+    "categoria": "Música",
+    "pregunta": "¿Qué cualidad del sonido nos permite distinguir un piano de una guitarra?",
+    "opciones": ["Timbre", "Intensidad", "Tono", "Duración"],
+    "correcta": "Timbre"
+  },
+  {
+    "id": 185,
+    "categoria": "Música",
+    "pregunta": "¿Qué protocolo estándar permite conectar instrumentos y ordenadores?",
+    "opciones": ["MIDI", "MP3", "WAV", "SysEx"],
+    "correcta": "MIDI"
+  },
+  {
+    "id": 186,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es la nota más grave en la escala musical estándar?",
+    "opciones": ["Do", "Sol", "La", "Si"],
+    "correcta": "Do"
+  },
+  {
+    "id": 187,
+    "categoria": "Música",
+    "pregunta": "¿De cuántas líneas se compone un pentagrama musical?",
+    "opciones": ["Cinco", "Cuatro", "Seis", "Siete"],
+    "correcta": "Cinco"
+  },
+  {
+    "id": 188,
+    "categoria": "Música",
+    "pregunta": "¿Qué banda británica lideraba Freddie Mercury?",
+    "opciones": ["Queen", "The Beatles", "Pink Floyd", "Led Zeppelin"],
+    "correcta": "Queen"
+  },
+  {
+    "id": 189,
+    "categoria": "Música",
+    "pregunta": "¿Qué velocidad o ritmo lleva una pieza musical?",
+    "opciones": ["Tempo", "Compás", "Armonía", "Melodía"],
+    "correcta": "Tempo"
+  },
+  {
+    "id": 190,
+    "categoria": "Música",
+    "pregunta": "¿Qué instrumento de percusión consiste en dos platillos de pie?",
+    "opciones": ["Charles (Hi-hat)", "Caja", "Bombo", "Tom"],
+    "correcta": "Charles (Hi-hat)"
+  },
+  {
+    "id": 191,
+    "categoria": "Música",
+    "pregunta": "¿Qué signo musical altera la nota subiendo un semitono?",
+    "opciones": ["Sostenido", "Bemol", "Becuadro", "Clave"],
+    "correcta": "Sostenido"
+  },
+  {
+    "id": 192,
+    "categoria": "Música",
+    "pregunta": "¿Qué género musical nació en Nueva Orleans a principios del siglo XX?",
+    "opciones": ["Jazz", "Rock", "Pop", "Salsa"],
+    "correcta": "Jazz"
+  },
+  {
+    "id": 193,
+    "categoria": "Música",
+    "pregunta": "¿Qué famosa clave se usa para escribir notas agudas?",
+    "opciones": ["Clave de Sol", "Clave de Fa", "Clave de Do", "Clave de Neutra"],
+    "correcta": "Clave de Sol"
+  },
+  {
+    "id": 194,
+    "categoria": "Música",
+    "pregunta": "¿Cuántas cuerdas tiene una guitarra eléctrica estándar?",
+    "opciones": ["Seis", "Cuatro", "Cinco", "Doce"],
+    "correcta": "Seis"
+  },
+  {
+    "id": 195,
+    "categoria": "Música",
+    "pregunta": "¿Qué conjunto de tres o más notas suena a la vez?",
+    "opciones": ["Acorde", "Intervalo", "Escala", "Arpegio"],
+    "correcta": "Acorde"
+  },
+  {
+    "id": 196,
+    "categoria": "Música",
+    "pregunta": "¿Qué famoso compositor clásico se quedó completamente sordo?",
+    "opciones": ["Beethoven", "Mozart", "Bach", "Chopin"],
+    "correcta": "Beethoven"
+  },
+  {
+    "id": 197,
+    "categoria": "Música",
+    "pregunta": "¿Qué figura musical equivale a la mitad de una redonda?",
+    "opciones": ["Blanca", "Negra", "Corchea", "Semicorchea"],
+    "correcta": "Blanca"
+  },
+  {
+    "id": 198,
+    "categoria": "Música",
+    "pregunta": "¿Qué aparato mecánico o digital marca el compás exacto?",
+    "opciones": ["Metrónomo", "Sintonizador", "Amplificador", "Mezclador"],
+    "correcta": "Metrónomo"
+  },
+  {
+    "id": 199,
+    "categoria": "Música",
+    "pregunta": "¿Qué voz humana es la más aguda en el canto clásico?",
+    "opciones": ["Soprano", "Tenor", "Contralto", "Bajo"],
+    "correcta": "Soprano"
+  },
+  {
+    "id": 200,
+    "categoria": "Música",
+    "pregunta": "¿Qué mítico festival de rock se celebró en 1969?",
+    "opciones": ["Woodstock", "Coachella", "Glastonbury", "Rock in Rio"],
+    "correcta": "Woodstock"
+  },
+  {
+    "id": 201,
+    "categoria": "Música",
+    "pregunta": "¿Qué instrumento utiliza un arco de crines de caballo?",
+    "opciones": ["Violín", "Guitarra", "Arpa", "Laúd"],
+    "correcta": "Violín"
+  },
+  {
+    "id": 202,
+    "categoria": "Música",
+    "pregunta": "¿Qué banda de Liverpool compuso 'Yellow Submarine'?",
+    "opciones": ["The Beatles", "The Rolling Stones", "The Who", "Led Zeppelin"],
+    "correcta": "The Beatles"
+  },
+  {
+    "id": 203,
+    "categoria": "Música",
+    "pregunta": "¿Qué estilo musical caribeño popularizó Bob Marley?",
+    "opciones": ["Reggae", "Salsa", "Ska", "Calipso"],
+    "correcta": "Reggae"
+  },
+  {
+    "id": 204,
+    "categoria": "Música",
+    "pregunta": "¿Qué figura musical dura un tiempo en un compás de 4/4?",
+    "opciones": ["Negra", "Blanca", "Corchea", "Redonda"],
+    "correcta": "Negra"
+  },
+  {
+    "id": 205,
+    "categoria": "Música",
+    "pregunta": "¿Qué instrumento electrónico genera sonido desde cero?",
+    "opciones": ["Sintetizador", "Muestreador (Sampler)", "Secuenciador", "Amplificador"],
+    "correcta": "Sintetizador"
+  },
+  {
+    "id": 206,
+    "categoria": "Música",
+    "pregunta": "¿A qué banda de rock pertenecía Kurt Cobain?",
+    "opciones": ["Nirvana", "Pearl Jam", "Soundgarden", "Metallica"],
+    "correcta": "Nirvana"
+  },
+  {
+    "id": 207,
+    "categoria": "Música",
+    "pregunta": "¿Qué cantante es conocida como la Reina del Pop?",
+    "opciones": ["Madonna", "Britney Spears", "Lady Gaga", "Whitney Houston"],
+    "correcta": "Madonna"
+  },
+  {
+    "id": 208,
+    "categoria": "Música",
+    "pregunta": "¿Qué signo musical baja la nota un semitono?",
+    "opciones": ["Bemol", "Sostenido", "Becuadro", "Calderón"],
+    "correcta": "Bemol"
+  },
+  {
+    "id": 209,
+    "categoria": "Música",
+    "pregunta": "¿Cuántas cuerdas tiene un violín estándar?",
+    "opciones": ["Cuatro", "Cinco", "Seis", "Tres"],
+    "correcta": "Cuatro"
+  },
+  {
+    "id": 210,
+    "categoria": "Música",
+    "pregunta": "¿Qué banda australiana es famosa por el tema 'Back in Black'?",
+    "opciones": ["AC/DC", "INXS", "Midnight Oil", "Silverchair"],
+    "correcta": "AC/DC"
+  },
+  {
+    "id": 211,
+    "categoria": "Música",
+    "pregunta": "¿Cuál es la voz masculina más grave?",
+    "opciones": ["Bajo", "Tenor", "Barítono", "Contratenor"],
+    "correcta": "Bajo"
+  },
+  {
+    "id": 212,
+    "categoria": "Música",
+    "pregunta": "¿Qué compositor austriaco escribió la flauta mágica?",
+    "opciones": ["Mozart", "Bach", "Beethoven", "Vivaldi"],
+    "correcta": "Mozart"
+  },
+  {
+    "id": 213,
+    "categoria": "Música",
+    "pregunta": "¿Qué efecto duplica el sonido simulando una sala vacía?",
+    "opciones": ["Reverberación (Reverb)", "Distorsión", "Flanger", "Trémolo"],
+    "correcta": "Reverberación (Reverb)"
+  },
+  {
+    "id": 214,
+    "categoria": "Música",
+    "pregunta": "¿Qué instrumento de viento es de metal pero usa caña de madera?",
+    "opciones": ["Saxofón", "Trompeta", "Flauta dulce", "Trombón"],
+    "correcta": "Saxofón"
+  },
+  {
+    "id": 215,
+    "categoria": "Música",
+    "pregunta": "¿Qué técnica consiste en tocar las notas de un acorde una a una?",
+    "opciones": ["Arpegio", "Rasgueo", "Ligado", "Staccato"],
+    "correcta": "Arpegio"
+  },
+  {
+    "id": 216,
+    "categoria": "Música",
+    "pregunta": "¿Qué grupo español lideraba el cantante Pau Donés?",
+    "opciones": ["Jarabe de Palo", "El Canto del Loco", "Estopa", "La Oreja de Van Gogh"],
+    "correcta": "Jarabe de Palo"
+  },
+  {
+    "id": 217,
+    "categoria": "Música",
+    "pregunta": "¿Qué siglas designan a un programa de producción musical de ordenador?",
+    "opciones": ["DAW", "MIDI", "VST", "BPM"],
+    "correcta": "DAW"
+  },
+  {
+    "id": 218,
+    "categoria": "Música",
+    "pregunta": "¿Qué intervalo separa dos notas con el mismo nombre?",
+    "opciones": ["Octava", "Quinta", "Tercera", "Unísono"],
+    "correcta": "Octava"
+  },
+  {
+    "id": 219,
+    "categoria": "Música",
+    "pregunta": "¿Qué género musical andaluz destaca por el uso del cajón y la guitarra?",
+    "opciones": ["Flamenco", "Fado", "Jota", "Salsa"],
+    "correcta": "Flamenco"
+  },
+  {
+    "id": 220,
+    "categoria": "Música",
+    "pregunta": "¿Qué miden las siglas BPM en música electrónica?",
+    "opciones": ["La velocidad del ritmo", "El volumen del audio", "La afinación", "La compresión"],
+    "correcta": "La velocidad del ritmo"
+  },
+  {
+    "id": 221,
+    "categoria": "Meteorología",
+    "pregunta": "¿Qué instrumento se utiliza para medir la temperatura del aire?",
+    "opciones": ["Termómetro", "Barómetro", "Anemómetro", "Higrómetro"],
+    "correcta": "Termómetro"
+  },
+  {
+    "id": 222,
+    "categoria": "Meteorología",
+    "pregunta": "¿Qué gas de la atmósfera nos protege de los rayos ultravioleta?",
+    "opciones": ["Ozono", "Oxígeno", "Nitrógeno", "Argón"],
+    "correcta": "Ozono"
+  },
+  {
+    "id": 223,
+    "categoria": "Meteorología",
+    "pregunta": "¿Cómo se llama el agua que cae de las nubes en forma líquida?",
+    "opciones": ["Lluvia", "Nieve", "Granizo", "Rocío"],
+    "correcta": "Lluvia"
+  },
+  {
+    "id": 224,
+    "categoria": "Meteorología",
+    "pregunta": "¿Qué instrumento mide la velocidad del viento?",
+    "opciones": ["Anemómetro", "Veleta", "Pluviómetro", "Barómetro"],
+    "correcta": "Anemómetro"
+  },
+  {
+    "id": 225,
+    "categoria": "Meteorología",
+    "pregunta": "¿Qué escala mide la intensidad y daños de un tornado?",
+    "opciones": ["Fujita-Pearson", "Richter", "Saffir-Simpson", "Beaufort"],
+    "correcta": "Fujita-Pearson"
+  },
+  {
+    "id": 226,
+    "categoria": "Meteorología",
+    "pregunta": "¿Qué nube alta y fina tiene aspecto de filamento de algodón?",
+    "opciones": ["Cirro", "Cúmulo", "Estrato", "Nimbo"],
+    "correcta": "Cirro"
+  },
+  {
+    "id": 227,
+    "categoria": "Meteorología",
+    "pregunta": "¿A qué temperatura empieza a congelarse el agua pura?",
+    "opciones": ["0°C", "10°C", "-5°C", "32°C"],
+    "correcta": "0°C"
+  },
+  {
+    "id": 228,
+    "categoria": "Meteorología",
+    "pregunta": "¿Qué tipo de tormenta tropical gira en el océano Atlántico?",
+    "opciones": ["Huracán", "Tifón", "Ciclón", "Monzón"],
+    "correcta": "Huracán"
+  },
+  {
+    "id": 229,
+    "categoria": "Meteorología",
+    "pregunta": "¿Qué instrumento mide la cantidad de agua de lluvia caída?",
+    "opciones": ["Pluviómetro", "Barómetro", "Higrómetro", "Anemómetro"],
+    "correcta": "Pluviómetro"
+  },
+  {
+    "id": 230,
+    "categoria": "Meteorología",
+    "pregunta": "¿Cómo se llama el viento suave que sopla en la costa?",
+    "opciones": ["Brisa", "Vendaval", "Tornado", "Monzón"],
+    "correcta": "Brisa"
+  },
+  {
+    "id": 231,
+    "categoria": "Meteorología",
+    "pregunta": "¿Qué tipo de nubes producen las tormentas eléctricas?",
+    "opciones": ["Cumulonimbos", "Cirroestratos", "Altocúmulos", "Nimboflas"],
+    "correcta": "Cumulonimbos"
+  },
+  {
+    "id": 232,
+    "categoria": "Meteorología",
+    "pregunta": "¿Qué instrumento sirve para medir la presión atmosférica?",
+    "opciones": ["Barómetro", "Termómetro", "Higrómetro", "Veleta"],
+    "correcta": "Barómetro"
+  },
+  {
+    "id": 233,
+    "categoria": "Meteorología",
+    "pregunta": "¿Qué destello luminoso visible ocurre durante una tormenta?",
+    "opciones": ["Relámpago", "Trueno", "Eco", "Chubasco"],
+    "correcta": "Relámpago"
+  },
+  {
+    "id": 234,
+    "categoria": "Meteorología",
+    "pregunta": "¿Qué nombre recibe el sonido generado por un rayo?",
+    "opciones": ["Trueno", "Relámpago", "Centella", "Zumbido"],
+    "correcta": "Trueno"
+  },
+  {
+    "id": 235,
+    "categoria": "Meteorología",
+    "pregunta": "¿Qué instrumento mide la humedad relativa del aire?",
+    "opciones": ["Higrómetro", "Anemómetro", "Barómetro", "Pluviómetro"],
+    "correcta": "Higrómetro"
+  },
+  {
+    "id": 236,
+    "categoria": "Meteorología",
+    "pregunta": "¿Cómo se llama la capa atmosférica donde ocurre el clima?",
+    "opciones": ["Troposfera", "Estratosfera", "Mesosfera", "Termosfera"],
+    "correcta": "Troposfera"
+  },
+  {
+    "id": 237,
+    "categoria": "Meteorología",
+    "pregunta": "¿Qué fenómeno óptico cruza el cielo tras la lluvia?",
+    "opciones": ["Arcoíris", "Aurora", "Espejismo", "Neblina"],
+    "correcta": "Arcoíris"
+  },
+  {
+    "id": 238,
+    "categoria": "Meteorología",
+    "pregunta": "¿Qué nombre recibe la lluvia helada en grano grande?",
+    "opciones": ["Granizo", "Nieve", "Escarcha", "Rocío"],
+    "correcta": "Granizo"
+  },
+  {
+    "id": 239,
+    "categoria": "Meteorología",
+    "pregunta": "¿Qué instrumento indica la dirección exacta del viento?",
+    "opciones": ["Veleta", "Anemómetro", "Barómetro", "Termómetro"],
+    "correcta": "Veleta"
+  },
+  {
+    "id": 240,
+    "categoria": "Meteorología",
+    "pregunta": "¿Cómo se conoce al promedio del tiempo durante muchos años?",
+    "opciones": ["Clima", "Meteorología", "Pronóstico", "Estación"],
+    "correcta": "Clima"
+  },
+  {
+    "id": 241,
+    "categoria": "Meteorología",
+    "pregunta": "¿Qué línea une puntos con igual presión en un mapa?",
+    "opciones": ["Isobara", "Isotermas", "Isoyetas", "Isoclinas"],
+    "correcta": "Isobara"
+  },
+  {
+    "id": 242,
+    "categoria": "Meteorología",
+    "pregunta": "¿Cómo llamamos a una nube que toca el suelo?",
+    "opciones": ["Niebla", "Estrato", "Bruma", "Rocío"],
+    "correcta": "Niebla"
+  },
+  {
+    "id": 243,
+    "categoria": "Meteorología",
+    "pregunta": "¿Qué escala mide la fuerza del viento en el mar?",
+    "opciones": ["Beaufort", "Richter", "Fujita", "Saffir"],
+    "correcta": "Beaufort"
+  },
+  {
+    "id": 244,
+    "categoria": "Meteorología",
+    "pregunta": "¿Qué fenómeno calienta la Tierra al retener gases?",
+    "opciones": ["Efecto invernadero", "Lluvia ácida", "Gota fría", "Monzón"],
+    "correcta": "Efecto invernadero"
+  },
+  {
+    "id": 245,
+    "categoria": "Meteorología",
+    "pregunta": "¿Qué masa de aire trae cielos despejados y estables?",
+    "opciones": ["Anticiclón", "Borrasca", "Ciclón", "Tornado"],
+    "correcta": "Anticiclón"
+  },
+  {
+    "id": 246,
+    "categoria": "Meteorología",
+    "pregunta": "¿Qué masa de aire provoca mal tiempo y lluvias?",
+    "opciones": ["Borrasca", "Anticiclón", "Estabilidad", "Calima"],
+    "correcta": "Borrasca"
+  },
+  {
+    "id": 247,
+    "categoria": "Meteorología",
+    "pregunta": "¿Qué se forma al condensarse el agua sobre las plantas por la noche?",
+    "opciones": ["Rocío", "Escarcha", "Granizo", "Neblina"],
+    "correcta": "Rocío"
+  },
+  {
+    "id": 248,
+    "categoria": "Meteorología",
+    "pregunta": "¿Qué es el rocío congelado por temperaturas bajo cero?",
+    "opciones": ["Escarcha", "Rocío", "Granizo", "Nieve"],
+    "correcta": "Escarcha"
+  },
+  {
+    "id": 249,
+    "categoria": "Meteorología",
+    "pregunta": "¿Qué nombre tiene el polvo sahariano en suspensión?",
+    "opciones": ["Calima", "Niebla", "Bruma", "Smog"],
+    "correcta": "Calima"
+  },
+  {
+    "id": 250,
+    "categoria": "Meteorología",
+    "pregunta": "¿Qué línea del mapa une puntos de igual temperatura?",
+    "opciones": ["Isoterma", "Isobara", "Isoyeta", "Isohipsa"],
+    "correcta": "Isoterma"
+  },
+  {
+    "id": 251,
+    "categoria": "Meteorología",
+    "pregunta": "¿Qué fenómeno oceánico periódico enfría las aguas del Pacífico?",
+    "opciones": ["La Niña", "El Niño", "Monzón", "Golf Stream"],
+    "correcta": "La Niña"
+  },
+  {
+    "id": 252,
+    "categoria": "Meteorología",
+    "pregunta": "¿Qué corriente de aire rápida circula a gran altura?",
+    "opciones": ["Chorro (Jet Stream)", "Alisios", "Monzón", "Siroco"],
+    "correcta": "Chorro (Jet Stream)"
+  },
+  {
+    "id": 253,
+    "categoria": "Meteorología",
+    "pregunta": "¿Qué vientos regulares soplan hacia el ecuador?",
+    "opciones": ["Alisios", "Monzones", "Oestes", "Polares"],
+    "correcta": "Alisios"
+  },
+  {
+    "id": 254,
+    "categoria": "Meteorología",
+    "pregunta": "¿Qué nube baja y gris cubre el cielo uniformemente?",
+    "opciones": ["Estrato", "Cirro", "Cúmulo", "Altotopo"],
+    "correcta": "Estrato"
+  },
+  {
+    "id": 255,
+    "categoria": "Meteorología",
+    "pregunta": "¿Qué escala mide la intensidad de los huracanes?",
+    "opciones": ["Saffir-Simpson", "Fujita", "Beaufort", "Richter"],
+    "correcta": "Saffir-Simpson"
+  },
+  {
+    "id": 256,
+    "categoria": "Meteorología",
+    "pregunta": "¿Qué tipo de frente ocurre cuando el aire frío avanza?",
+    "opciones": ["Frente frío", "Frente cálido", "Frente ocluido", "Frente seco"],
+    "correcta": "Frente frío"
+  },
+  {
+    "id": 257,
+    "categoria": "Meteorología",
+    "pregunta": "¿Qué gas atrapa más calor tras el CO2?",
+    "opciones": ["Metano", "Oxígeno", "Argón", "Nitrógeno"],
+    "correcta": "Metano"
+  },
+  {
+    "id": 258,
+    "categoria": "Meteorología",
+    "pregunta": "¿Cómo se llama el centro de un huracán?",
+    "opciones": ["Ojo", "Núcleo", "Foco", "Vórtice"],
+    "correcta": "Ojo"
+  },
+  {
+    "id": 259,
+    "categoria": "Meteorología",
+    "pregunta": "¿Qué lluvia contiene contaminantes industriales?",
+    "opciones": ["Lluvia ácida", "Gota fría", "Lluvia roja", "Monzón"],
+    "correcta": "Lluvia ácida"
+  },
+  {
+    "id": 260,
+    "categoria": "Meteorología",
+    "pregunta": "¿Qué satélites orbitan fijos sobre un punto terrestre?",
+    "opciones": ["Geoestacionarios", "Polares", "Heliosíncronos", "Climáticos"],
+    "correcta": "Geoestacionarios"
+  },
+  {
+    "id": 261,
+    "categoria": "Historia",
+    "pregunta": "¿Qué civilización antigua construyó las tres grandes pirámides de Guiza?",
+    "opciones": ["Egipcia", "Romana", "Griega", "Maya"],
+    "correcta": "Egipcia"
+  },
+  {
+    "id": 262,
+    "categoria": "Historia",
+    "pregunta": "¿En qué año llegó Cristóbal Colón al continente americano?",
+    "opciones": ["1492", "1588", "1392", "1502"],
+    "correcta": "1492"
+  },
+  {
+    "id": 263,
+    "categoria": "Historia",
+    "pregunta": "¿Quién fue el primer emperador de Roma?",
+    "opciones": ["César Augusto", "Julio César", "Nerón", "Calígula"],
+    "correcta": "César Augusto"
+  },
+  {
+    "id": 264,
+    "categoria": "Historia",
+    "pregunta": "¿Qué conflicto bélico mundial comenzó en el año 1914?",
+    "opciones": ["Primera Guerra Mundial", "Segunda Guerra Mundial", "Guerra Fría", "Guerra de los Treinta Años"],
+    "correcta": "Primera Guerra Mundial"
+  },
+  {
+    "id": 265,
+    "categoria": "Historia",
+    "pregunta": "¿Qué histórico muro fue derribado en Alemania en el año 1989?",
+    "opciones": ["Muro de Berlín", "Muro de Adriano", "Muro de Frankfurt", "Muro de Múnich"],
+    "correcta": "Muro de Berlín"
+  },
+  {
+    "id": 266,
+    "categoria": "Historia",
+    "pregunta": "¿Qué revolución dio inicio a la Edad Contemporánea en 1789?",
+    "opciones": ["Revolución Francesa", "Revolución Industrial", "Revolución Rusa", "Revolución Americana"],
+    "correcta": "Revolución Francesa"
+  },
+  {
+    "id": 267,
+    "categoria": "Historia",
+    "pregunta": "¿Qué invento de Johannes Gutenberg revolucionó la cultura en el siglo XV?",
+    "opciones": ["Imprenta", "Brújula", "Telescopio", "Pólvora"],
+    "correcta": "Imprenta"
+  },
+  {
+    "id": 268,
+    "categoria": "Historia",
+    "pregunta": "¿Qué código de leyes antiguo es famoso por la frase 'ojo por ojo'?",
+    "opciones": ["Código de Hammurabi", "Leyes de Solón", "Código Napoleónico", "Derecho Romano"],
+    "correcta": "Código de Hammurabi"
+  },
+  {
+    "id": 269,
+    "categoria": "Historia",
+    "pregunta": "¿Quién fue el líder del imperio macedonio que conquistó Persia?",
+    "opciones": ["Alejandro Magno", "Julio César", "Napoleón", "Jerjes"],
+    "correcta": "Alejandro Magno"
+  },
+  {
+    "id": 270,
+    "categoria": "Historia",
+    "pregunta": "¿Qué gran epidemia devastó a Europa durante el siglo XIV?",
+    "opciones": ["Peste Negra", "Gripe Española", "Viruela", "Cólera"],
+    "correcta": "Peste Negra"
+  },
+  {
+    "id": 271,
+    "categoria": "Historia",
+    "pregunta": "¿Qué ciudad-estado griega era famosa por su estricto entrenamiento militar?",
+    "opciones": ["Esparta", "Atenas", "Tebas", "Corinto"],
+    "correcta": "Esparta"
+  },
+  {
+    "id": 272,
+    "categoria": "Historia",
+    "pregunta": "¿Qué civilización precolombina habitaba en la ciudad de Machu Picchu?",
+    "opciones": ["Inca", "Azteca", "Maya", "Olmeca"],
+    "correcta": "Inca"
+  },
+  {
+    "id": 273,
+    "categoria": "Historia",
+    "pregunta": "¿Qué hito histórico marca el final de la Prehistoria?",
+    "opciones": ["Aparición de la escritura", "Descubrimiento del fuego", "Uso de los metales", "Invención de la rueda"],
+    "correcta": "Aparición de la escritura"
+  },
+  {
+    "id": 274,
+    "categoria": "Historia",
+    "pregunta": "¿Qué general cartaginés cruzó los Alpes con elefantes para atacar Roma?",
+    "opciones": ["Aníbal Barca", "Asdrúbal", "Amílcar", "Escipión"],
+    "correcta": "Aníbal Barca"
+  },
+  {
+    "id": 275,
+    "categoria": "Historia",
+    "pregunta": "¿Qué navegante portugués lideró la primera expedición en circunnavegar la Tierra?",
+    "opciones": ["Fernando de Magallanes", "Vasco da Gama", "Bartolomé Díaz", "Marco Polo"],
+    "correcta": "Fernando de Magallanes"
+  },
+  {
+    "id": 276,
+    "categoria": "Historia",
+    "pregunta": "¿En qué país asiático se construyó una muralla de miles de kilómetros?",
+    "opciones": ["China", "Japón", "India", "Mongolia"],
+    "correcta": "China"
+  },
+  {
+    "id": 277,
+    "categoria": "Historia",
+    "pregunta": "¿Quién fue la última reina del antiguo Egipto de la dinastía ptolemaica?",
+    "opciones": ["Cleopatra", "Nefertiti", "Hatshepsut", "Isis"],
+    "correcta": "Cleopatra"
+  },
+  {
+    "id": 278,
+    "categoria": "Historia",
+    "pregunta": "¿Qué movimiento cultural y artístico floreció en Europa entre los siglos XIV y XVI?",
+    "opciones": ["Renacimiento", "Barroco", "Ilustración", "Romanticismo"],
+    "correcta": "Renacimiento"
+  },
+  {
+    "id": 279,
+    "categoria": "Historia",
+    "pregunta": "¿Qué emperador francés conquistó gran parte de Europa a inicios del siglo XIX?",
+    "opciones": ["Napoleón Bonaparte", "Luis XIV", "Carlomagno", "Felipe II"],
+    "correcta": "Napoleón Bonaparte"
+  },
+  {
+    "id": 280,
+    "categoria": "Historia",
+    "pregunta": "¿Qué acontecimiento inició formalmente la Segunda Guerra Mundial en 1939?",
+    "opciones": ["Invasión de Polonia", "Ataque a Pearl Harbor", "Batalla de Stalingrado", "Tratado de Versalles"],
+    "correcta": "Invasión de Polonia"
+  },
+  {
+    "id": 281,
+    "categoria": "Historia",
+    "pregunta": "¿Qué filósofo griego fue el maestro de Alejandro Magno?",
+    "opciones": ["Aristóteles", "Platón", "Sócrates", "Pitágoras"],
+    "correcta": "Aristóteles"
+  },
+  {
+    "id": 282,
+    "categoria": "Historia",
+    "pregunta": "¿Qué país donó la Estatua de la Libertad a Estados Unidos en 1886?",
+    "opciones": ["Francia", "Reino Unido", "España", "Alemania"],
+    "correcta": "Francia"
+  },
+  {
+    "id": 283,
+    "categoria": "Historia",
+    "pregunta": "¿Qué monarcas españoles financiaron el primer viaje de Colón?",
+    "opciones": ["Reyes Católicos", "Felipe V y María Luisa", "Carlos I e Isabel", "Juana la Loca y Felipe"],
+    "correcta": "Reyes Católicos"
+  },
+  {
+    "id": 284,
+    "categoria": "Historia",
+    "pregunta": "¿Qué periodo de tensión política dividió al mundo entre el bloque capitalista y el comunista?",
+    "opciones": ["Guerra Fría", "Guerra de los Cien Años", "Paz de Westfalia", "Gran Depresión"],
+    "correcta": "Guerra Fría"
+  },
+  {
+    "id": 285,
+    "categoria": "Historia",
+    "pregunta": "¿Qué imperio dominaba Constantinopla cuando esta cayó en 1453?",
+    "opciones": ["Bizantino", "Romano de Occidente", "Persa", "Carolingio"],
+    "correcta": "Bizantino"
+  },
+  {
+    "id": 286,
+    "categoria": "Historia",
+    "pregunta": "¿Quién fue el principal líder militar del bando sublevado en la Guerra Civil Española?",
+    "opciones": ["Francisco Franco", "Manuel Azaña", "Primo de Rivera", "Emilio Mola"],
+    "correcta": "Francisco Franco"
+  },
+  {
+    "id": 287,
+    "categoria": "Historia",
+    "pregunta": "¿Qué civilización inventó la escritura cuneiforme en Mesopotamia?",
+    "opciones": ["Sumeria", "Asiria", "Babilonia", "Fenicia"],
+    "correcta": "Sumeria"
+  },
+  {
+    "id": 288,
+    "categoria": "Historia",
+    "pregunta": "¿Qué tratado puso fin a la Primera Guerra Mundial en 1919?",
+    "opciones": ["Tratado de Versalles", "Tratado de Utrecht", "Tratado de Tordesillas", "Pacto de Varsovia"],
+    "correcta": "Tratado de Versalles"
+  },
+  {
+    "id": 289,
+    "categoria": "Historia",
+    "pregunta": "¿Qué famosa orden de monjes guerreros fue fundada en las Cruzadas?",
+    "opciones": ["Templarios", "Hospitalarios", "Teutones", "Franciscanos"],
+    "correcta": "Templarios"
+  },
+  {
+    "id": 290,
+    "categoria": "Historia",
+    "pregunta": "¿Quién fue el presidente que abolió la esclavitud en Estados Unidos?",
+    "opciones": ["Abraham Lincoln", "George Washington", "Thomas Jefferson", "Andrew Jackson"],
+    "correcta": "Abraham Lincoln"
+  },
+  {
+    "id": 291,
+    "categoria": "Historia",
+    "pregunta": "¿Qué reina gobernó el Imperio Británico durante casi todo el siglo XIX?",
+    "opciones": ["Victoria", "Isabel I", "Ana", "Isabel II"],
+    "correcta": "Victoria"
+  },
+  {
+    "id": 292,
+    "categoria": "Historia",
+    "pregunta": "¿Qué zar de Rusia fue depuesto durante la Revolución de 1917?",
+    "opciones": ["Nicolás II", "Pedro el Grande", "Alejandro II", "Iván el Terrible"],
+    "correcta": "Nicolás II"
+  },
+  {
+    "id": 293,
+    "categoria": "Historia",
+    "pregunta": "¿Qué arqueólogo británico descubrió la tumba de Tutankamón en 1922?",
+    "opciones": ["Howard Carter", "Heinrich Schliemann", "Arthur Evans", "Hiram Bingham"],
+    "correcta": "Howard Carter"
+  },
+  {
+    "id": 294,
+    "categoria": "Historia",
+    "pregunta": "¿En qué península europea nació el concepto original de democracia?",
+    "opciones": ["Balcánica", "Ibérica", "Itálica", "Escandinava"],
+    "correcta": "Balcánica"
+  },
+  {
+    "id": 295,
+    "categoria": "Historia",
+    "pregunta": "¿Qué pueblo bárbaro saqueó Roma y aceleró el fin de su imperio de occidente?",
+    "opciones": ["Visigodo", "Persa", "Celta", "Íbero"],
+    "correcta": "Visigodo"
+  },
+  {
+    "id": 296,
+    "categoria": "Historia",
+    "pregunta": "¿Qué país asiático sufrió los ataques con bombas atómicas en 1945?",
+    "opciones": ["Japón", "China", "Corea", "Vietnam"],
+    "correcta": "Japón"
+  },
+  {
+    "id": 297,
+    "categoria": "Historia",
+    "pregunta": "¿Qué hito histórico marca el inicio tradicional de la Edad Media en el año 476?",
+    "opciones": ["Caída del Imperio Romano de Occidente", "Coronación de Carlomagno", "Hégira de Mahoma", "Llegada de los vikingos"],
+    "correcta": "Caída del Imperio Romano de Occidente"
+  },
+  {
+    "id": 298,
+    "categoria": "Historia",
+    "pregunta": "¿Qué civilización precolombina es famosa por su calendario y sus avanzados conocimientos astronómicos?",
+    "opciones": ["Maya", "Inca", "Azteca", "Tolteca"],
+    "correcta": "Maya"
+  },
+  {
+    "id": 299,
+    "categoria": "Historia",
+    "pregunta": "¿Qué líder sudafricano pasó 27 años en prisión y luego fue presidente de su país?",
+    "opciones": ["Nelson Mandela", "Desmond Tutu", "Thabo Mbeki", "Steve Biko"],
+    "correcta": "Nelson Mandela"
+  },
+  {
+    "id": 300,
+    "categoria": "Historia",
+    "pregunta": "¿Qué tratado dividió las nuevas tierras descubiertas entre España y Portugal en 1494?",
+    "opciones": ["Tratado de Tordesillas", "Tratado de Utrecht", "Tratado de Zaragoza", "Tratado de París"],
+    "correcta": "Tratado de Tordesillas"
+  },
+  {
+    "id": 301,
+    "categoria": "Cine",
+    "pregunta": "¿Qué director dirigió la película de ciencia ficción 'Interstellar'?",
+    "opciones": ["Christopher Nolan", "Steven Spielberg", "James Cameron", "Ridley Scott"],
+    "correcta": "Christopher Nolan"
+  },
+  {
+    "id": 302,
+    "categoria": "Cine",
+    "pregunta": "¿Qué actor da vida a Iron Man en el Universo Cinematográfico de Marvel?",
+    "opciones": ["Robert Downey Jr.", "Chris Evans", "Chris Hemsworth", "Mark Ruffalo"],
+    "correcta": "Robert Downey Jr."
+  },
+  {
+    "id": 303,
+    "categoria": "Cine",
+    "pregunta": "¿Cómo se llama el reino ficticio de donde es originario Black Panther?",
+    "opciones": ["Wakanda", "Asgard", "Atlantis", "Zamunda"],
+    "correcta": "Wakanda"
+  },
+  {
+    "id": 304,
+    "categoria": "Cine",
+    "pregunta": "¿Qué serie de televisión de fantasía presenta las tierras de Poniente (Westeros)?",
+    "opciones": ["Juego de Tronos", "The Witcher", "El Señor de los Anillos", "Vikings"],
+    "correcta": "Juego de Tronos"
+  },
+  {
+    "id": 305,
+    "categoria": "Cine",
+    "pregunta": "¿Cuál es la película con mayor recaudación en la historia del cine?",
+    "opciones": ["Avatar", "Avengers: Endgame", "Titanic", "Star Wars: Episodio VII"],
+    "correcta": "Avatar"
+  },
+  {
+    "id": 306,
+    "categoria": "Cine",
+    "pregunta": "¿Qué actor interpretó al Joker en la película 'El caballero oscuro' (2008)?",
+    "opciones": ["Heath Ledger", "Joaquin Phoenix", "Jared Leto", "Jack Nicholson"],
+    "correcta": "Heath Ledger"
+  },
+  {
+    "id": 307,
+    "categoria": "Cine",
+    "pregunta": "¿Qué serie de Netflix trata sobre un grupo de niños y una niña con poderes llamada Eleven?",
+    "opciones": ["Stranger Things", "Dark", "The Umbrella Academy", "Locke & Key"],
+    "correcta": "Stranger Things"
+  },
+  {
+    "id": 308,
+    "categoria": "Cine",
+    "pregunta": "¿Qué película animada de Disney tiene como protagonistas a las hermanas Elsa y Anna?",
+    "opciones": ["Frozen", "Enredados", "Moana", "Brave"],
+    "correcta": "Frozen"
+  },
+  {
+    "id": 309,
+    "categoria": "Cine",
+    "pregunta": "¿Quién dirigió la trilogía cinematográfica de 'El Señor de los Anillos'?",
+    "opciones": ["Peter Jackson", "George Lucas", "Guillermo del Toro", "Sam Raimi"],
+    "correcta": "Peter Jackson"
+  },
+  {
+    "id": 310,
+    "categoria": "Cine",
+    "pregunta": "¿Cómo se llama el carismático capitán pirata interpretado por Johnny Depp?",
+    "opciones": ["Jack Sparrow", "Barbossa", "Davy Jones", "Hook"],
+    "correcta": "Jack Sparrow"
+  },
+  {
+    "id": 311,
+    "categoria": "Cine",
+    "pregunta": "¿Qué serie sigue las vivencias de los empleados de la empresa papelera Dunder Mifflin?",
+    "opciones": ["The Office", "Parks and Recreation", "Brooklyn Nine-Nine", "Friends"],
+    "correcta": "The Office"
+  },
+  {
+    "id": 312,
+    "categoria": "Cine",
+    "pregunta": "¿Qué color de pastilla elige Neo en 'Matrix' para descubrir la verdad?",
+    "opciones": ["Roja", "Azul", "Verde", "Amarilla"],
+    "correcta": "Roja"
+  },
+  {
+    "id": 313,
+    "categoria": "Cine",
+    "pregunta": "¿Qué película de gángsters de 1972 está protagonizada por Marlon Brando como Vito Corleone?",
+    "opciones": ["El Padrino", "Uno de los nuestros", "Scarface", "Casino"],
+    "correcta": "El Padrino"
+  },
+  {
+    "id": 314,
+    "categoria": "Cine",
+    "pregunta": "¿Qué conocida serie española narra el atraco a la Fábrica Nacional de Moneda y Timbre?",
+    "opciones": ["La casa de papel", "Vis a vis", "Élite", "El ministerio del tiempo"],
+    "correcta": "La casa de papel"
+  },
+  {
+    "id": 315,
+    "categoria": "Cine",
+    "pregunta": "¿Qué actor protagoniza la saga de acción y espionaje 'Misión Imposible'?",
+    "opciones": ["Tom Cruise", "Brad Pitt", "Matt Damon", "Keanu Reeves"],
+    "correcta": "Tom Cruise"
+  },
+  {
+    "id": 316,
+    "categoria": "Cine",
+    "pregunta": "¿Cómo se llama el enorme gorila que trepa el Empire State en el cine clásico?",
+    "opciones": ["King Kong", "Godzilla", "Mighty Joe Young", "George"],
+    "correcta": "King Kong"
+  },
+  {
+    "id": 317,
+    "categoria": "Cine",
+    "pregunta": "¿Qué serie de animación para adultos está protagonizada por un científico loco y su nieto?",
+    "opciones": ["Rick y Morty", "Family Guy", "South Park", "Futurama"],
+    "correcta": "Rick y Morty"
+  },
+  {
+    "id": 318,
+    "categoria": "Cine",
+    "pregunta": "¿Qué criatura del folclore es el carismático personaje Shrek?",
+    "opciones": ["Ogro", "Trol", "Orco", "Gigante"],
+    "correcta": "Ogro"
+  },
+  {
+    "id": 319,
+    "categoria": "Cine",
+    "pregunta": "¿Cuál es el nombre del arqueólogo y aventurero interpretado por Harrison Ford?",
+    "opciones": ["Indiana Jones", "Lara Croft", "Nathan Drake", "Alan Grant"],
+    "correcta": "Indiana Jones"
+  },
+  {
+    "id": 320,
+    "categoria": "Cine",
+    "pregunta": "¿Qué actor protagoniza la serie dramática sobre narcotráfico 'Breaking Bad'?",
+    "opciones": ["Bryan Cranston", "Aaron Paul", "Bob Odenkirk", "Giancarlo Esposito"],
+    "correcta": "Bryan Cranston"
+  },
+  {
+    "id": 321,
+    "categoria": "Cine",
+    "pregunta": "¿Qué película de Pixar narra las aventuras de los juguetes vivientes de Andy?",
+    "opciones": ["Toy Story", "Monstruos S.A.", "Buscando a Nemo", "Cars"],
+    "correcta": "Toy Story"
+  },
+  {
+    "id": 322,
+    "categoria": "Cine",
+    "pregunta": "¿Qué famoso agente secreto de la literatura y el cine responde al código 007?",
+    "opciones": ["James Bond", "Jason Bourne", "Ethan Hunt", "Jack Ryan"],
+    "correcta": "James Bond"
+  },
+  {
+    "id": 323,
+    "categoria": "Cine",
+    "pregunta": "¿Qué director español ha ganado el Óscar por películas como 'Todo sobre mi madre'?",
+    "opciones": ["Pedro Almodóvar", "Alejandro Amenábar", "Álex de la Iglesia", "J.A. Bayona"],
+    "correcta": "Pedro Almodóvar"
+  },
+  {
+    "id": 324,
+    "categoria": "Cine",
+    "pregunta": "¿Qué criatura mágica es el tierno personaje Dobby en la saga de Harry Potter?",
+    "opciones": ["Elfo doméstico", "Duende", "Gnomo", "Centauro"],
+    "correcta": "Elfo doméstico"
+  },
+  {
+    "id": 325,
+    "categoria": "Cine",
+    "pregunta": "¿Qué serie de HBO se desarrolla en un parque temático del oeste poblado por androides?",
+    "opciones": ["Westworld", "Deadwood", "Altered Carbon", "Succession"],
+    "correcta": "Westworld"
+  },
+  {
+    "id": 326,
+    "categoria": "Cine",
+    "pregunta": "¿Qué película musical de 2016 está protagonizada por Emma Stone y Ryan Gosling?",
+    "opciones": ["La La Land", "Les Misérables", "Mamma Mia!", "The Greatest Showman"],
+    "correcta": "La La Land"
+  },
+  {
+    "id": 327,
+    "categoria": "Cine",
+    "pregunta": "¿Cómo se llama el pequeño maestro Jedi verde de la saga 'Star Wars'?",
+    "opciones": ["Yoda", "Grogu", "Obi-Wan", "Luke"],
+    "correcta": "Yoda"
+  },
+  {
+    "id": 328,
+    "categoria": "Cine",
+    "pregunta": "¿Qué cafetería es el punto de encuentro principal de los personajes de la serie 'Friends'?",
+    "opciones": ["Central Perk", "MacLaren's Pub", "Monk's Diner", "Luke's Diner"],
+    "correcta": "Central Perk"
+  },
+  {
+    "id": 329,
+    "categoria": "Cine",
+    "pregunta": "¿Qué clásico de terror de Stanley Kubrick transcurre en el aislado Hotel Overlook?",
+    "opciones": ["El resplandor", "Psicosis", "El exorcista", "Alien"],
+    "correcta": "El resplandor"
+  },
+  {
+    "id": 330,
+    "categoria": "Cine",
+    "pregunta": "¿Qué icónico superhéroe es custodiado por el mayordomo Alfred Pennyworth?",
+    "opciones": ["Batman", "Superman", "Spider-Man", "Iron Man"],
+    "correcta": "Batman"
+  },
+  {
+    "id": 331,
+    "categoria": "Cine",
+    "pregunta": "¿Qué actor da vida a John Wick en la famosa saga de acción?",
+    "opciones": ["Keanu Reeves", "Liam Neeson", "Bruce Willis", "Jason Statham"],
+    "correcta": "Keanu Reeves"
+  },
+  {
+    "id": 332,
+    "categoria": "Cine",
+    "pregunta": "¿Qué serie de televisión de drama médico está ambientada en el hospital Grey Sloan Memorial?",
+    "opciones": ["Anatomía de Grey", "House", "ER", "The Good Doctor"],
+    "correcta": "Anatomía de Grey"
+  },
+  {
+    "id": 333,
+    "categoria": "Cine",
+    "pregunta": "¿Qué película de gángsters dirigida por Quentin Tarantino incluye un maletín misterioso?",
+    "opciones": ["Pulp Fiction", "Reservoir Dogs", "Kill Bill", "Goodfellas"],
+    "correcta": "Pulp Fiction"
+  },
+  {
+    "id": 334,
+    "categoria": "Cine",
+    "pregunta": "¿Qué película de animación japonesa de Studio Ghibli ganó un premio Óscar en 2003?",
+    "opciones": ["El viaje de Chihiro", "Mi vecino Totoro", "La princesa Mononoke", "El castillo ambulante"],
+    "correcta": "El viaje de Chihiro"
+  },
+  {
+    "id": 335,
+    "categoria": "Cine",
+    "pregunta": "¿Qué prestigioso galardón cinematográfico entrega anualmente la Academia de Hollywood?",
+    "opciones": ["Óscar", "Goya", "Cannes", "Globo de Oro"],
+    "correcta": "Óscar"
+  },
+  {
+    "id": 336,
+    "categoria": "Cine",
+    "pregunta": "¿Qué conocida serie de misterio y drama adolescente transcurre en el pueblo de Riverdale?",
+    "opciones": ["Riverdale", "Pretty Little Liars", "Gossip Girl", "Elite"],
+    "correcta": "Riverdale"
+  },
+  {
+    "id": 337,
+    "categoria": "Cine",
+    "pregunta": "¿Qué dinosaurio es la principal amenaza en el clímax de la película 'Parque Jurásico' (1993)?",
+    "opciones": ["Tyrannosaurus Rex", "Velociraptor", "Triceratops", "Brachiosaurus"],
+    "correcta": "Tyrannosaurus Rex"
+  },
+  {
+    "id": 338,
+    "categoria": "Cine",
+    "pregunta": "¿Qué serie distópica británica explora el impacto oscuro de las tecnologías modernas en episodios independientes?",
+    "opciones": ["Black Mirror", "Westworld", "Utopia", "Years and Years"],
+    "correcta": "Black Mirror"
+  },
+  {
+    "id": 339,
+    "categoria": "Cine",
+    "pregunta": "¿Qué actor protagoniza la película biográfica 'Oppenheimer' (2023)?",
+    "opciones": ["Cillian Murphy", "Robert Downey Jr.", "Matt Damon", "Rami Malek"],
+    "correcta": "Cillian Murphy"
+  },
+  {
+    "id": 340,
+    "categoria": "Cine",
+    "pregunta": "¿Cuál es la ciudad natal de la familia amarilla de la serie animada 'Los Simpson'?",
+    "opciones": ["Springfield", "Shelbyville", "Quahog", "South Park"],
+    "correcta": "Springfield"
+  },
+  {
+    "id": 341,
+    "categoria": "Geografía",
+    "pregunta": "¿Cuál es el río más largo del mundo?",
+    "opciones": ["Amazonas", "Nilo", "Misisipi", "Yangtsé"],
+    "correcta": "Amazonas"
+  },
+  {
+    "id": 342,
+    "categoria": "Geografía",
+    "pregunta": "¿Qué océano es el más grande de la Tierra?",
+    "opciones": ["Océano Pacífico", "Océano Atlántico", "Océano Índico", "Océano Ártico"],
+    "correcta": "Océano Pacífico"
+  },
+  {
+    "id": 343,
+    "categoria": "Geografía",
+    "pregunta": "¿En qué continente se encuentra el desierto del Sahara?",
+    "opciones": ["África", "Asia", "Oceanía", "América"],
+    "correcta": "África"
+  },
+  {
+    "id": 344,
+    "categoria": "Geografía",
+    "pregunta": "¿Cuál es la capital de Australia?",
+    "opciones": ["Canberra", "Sídney", "Melbourne", "Brisbane"],
+    "correcta": "Canberra"
+  },
+  {
+    "id": 345,
+    "categoria": "Geografía",
+    "pregunta": "¿Qué cordillera alberga la cumbre del monte Everest?",
+    "opciones": ["Himalaya", "Andes", "Alpes", "Rocosas"],
+    "correcta": "Himalaya"
+  },
+  {
+    "id": 346,
+    "categoria": "Geografía",
+    "pregunta": "¿Qué país tiene la mayor cantidad de habitantes en el mundo?",
+    "opciones": ["India", "China", "Estados Unidos", "Indonesia"],
+    "correcta": "India"
+  },
+  {
+    "id": 347,
+    "categoria": "Geografía",
+    "pregunta": "¿Qué línea imaginaria divide a la Tierra en hemisferio norte y sur?",
+    "opciones": ["Ecuador", "Meridiano de Greenwich", "Trópico de Cáncer", "Círculo Polar"],
+    "correcta": "Ecuador"
+  },
+  {
+    "id": 348,
+    "categoria": "Geografía",
+    "pregunta": "¿Cuál es el país más extenso del planeta por superficie?",
+    "opciones": ["Rusia", "Canadá", "China", "Estados Unidos"],
+    "correcta": "Rusia"
+  },
+  {
+    "id": 349,
+    "categoria": "Geografía",
+    "pregunta": "¿Qué estrecho separa el continente europeo del africano?",
+    "opciones": ["Estrecho de Gibraltar", "Estrecho de Magallanes", "Estrecho de Bering", "Estrecho de Bósforo"],
+    "correcta": "Estrecho de Gibraltar"
+  },
+  {
+    "id": 350,
+    "categoria": "Geografía",
+    "pregunta": "¿Cuál es la capital oficial de Canadá?",
+    "opciones": ["Ottawa", "Toronto", "Vancouver", "Montreal"],
+    "correcta": "Ottawa"
+  },
+  {
+    "id": 351,
+    "categoria": "Geografía",
+    "pregunta": "¿Qué gran mar interior está rodeado por Europa, África y Asia?",
+    "opciones": ["Mar Mediterráneo", "Mar Negro", "Mar Caspio", "Mar Rojo"],
+    "correcta": "Mar Mediterráneo"
+  },
+  {
+    "id": 352,
+    "categoria": "Geografía",
+    "pregunta": "¿En qué país se encuentra el famoso monumento prehispánico de Chichén Itzá?",
+    "opciones": ["México", "Perú", "Guatemala", "Colombia"],
+    "correcta": "México"
+  },
+  {
+    "id": 353,
+    "categoria": "Geografía",
+    "pregunta": "¿Cuál es la isla más grande del mundo sin considerar los continentes?",
+    "opciones": ["Groenlandia", "Madagascar", "Nueva Guinea", "Borneo"],
+    "correcta": "Groenlandia"
+  },
+  {
+    "id": 354,
+    "categoria": "Geografía",
+    "pregunta": "¿Qué país europeo tiene forma geométrica similar a una bota?",
+    "opciones": ["Italia", "Grecia", "Portugal", "Francia"],
+    "correcta": "Italia"
+  },
+  {
+    "id": 355,
+    "categoria": "Geografía",
+    "pregunta": "¿Qué río atraviesa la ciudad de París?",
+    "opciones": ["Sena", "Támesis", "Danubio", "Rin"],
+    "correcta": "Sena"
+  },
+  {
+    "id": 356,
+    "categoria": "Geografía",
+    "pregunta": "¿Cuál es el punto más bajo y salado de la superficie terrestre continental?",
+    "opciones": ["Mar Muerto", "Mar Caspio", "Lago Baikal", "Valle de la Muerte"],
+    "correcta": "Mar Muerto"
+  },
+  {
+    "id": 357,
+    "categoria": "Geografía",
+    "pregunta": "¿Qué país sudamericano cuenta con la mayor superficie de selva amazónica?",
+    "opciones": ["Brasil", "Perú", "Colombia", "Venezuela"],
+    "correcta": "Brasil"
+  },
+  {
+    "id": 358,
+    "categoria": "Geografía",
+    "pregunta": "¿Cuál es la capital de Japón?",
+    "opciones": ["Tokio", "Kioto", "Osaka", "Hiroshima"],
+    "correcta": "Tokio"
+  },
+  {
+    "id": 359,
+    "categoria": "Geografía",
+    "pregunta": "¿Qué canal artificial une el océano Atlántico con el océano Pacífico?",
+    "opciones": ["Canal de Panamá", "Canal de Suez", "Canal de Corinto", "Canal de Kiel"],
+    "correcta": "Canal de Panamá"
+  },
+  {
+    "id": 360,
+    "categoria": "Geografía",
+    "pregunta": "¿Qué país europeo es famoso por sus lagos, fiordos y auroras boreales?",
+    "opciones": ["Noruega", "Suiza", "Austria", "Bélgica"],
+    "correcta": "Noruega"
+  },
+  {
+    "id": 361,
+    "categoria": "Geografía",
+    "pregunta": "¿Cuál es el lago más profundo de la Tierra?",
+    "opciones": ["Lago Baikal", "Lago Superior", "Lago Tanganica", "Lago Victoria"],
+    "correcta": "Lago Baikal"
+  },
+  {
+    "id": 362,
+    "categoria": "Geografía",
+    "pregunta": "¿Qué cordillera montañosa recorre todo el borde occidental de Sudamérica?",
+    "opciones": ["Andes", "Alpes", "Apalaches", "Cárpatos"],
+    "correcta": "Andes"
+  },
+  {
+    "id": 363,
+    "categoria": "Geografía",
+    "pregunta": "¿Cuál es la capital de la República de la India?",
+    "opciones": ["Nueva Delhi", "Bombay", "Calcuta", "Bangalore"],
+    "correcta": "Nueva Delhi"
+  },
+  {
+    "id": 364,
+    "categoria": "Geografía",
+    "pregunta": "¿Qué país insular se encuentra justo al este de África continental?",
+    "opciones": ["Madagascar", "Sri Lanka", "Maldivas", "Filipinas"],
+    "correcta": "Madagascar"
+  },
+  {
+    "id": 365,
+    "categoria": "Geografía",
+    "pregunta": "¿Qué país europeo está dividido administrativamente en 17 Comunidades Autónomas?",
+    "opciones": ["España", "Francia", "Alemania", "Italia"],
+    "correcta": "España"
+  },
+  {
+    "id": 366,
+    "categoria": "Geografía",
+    "pregunta": "¿Cuál es el desierto más seco del mundo entero?",
+    "opciones": ["Desierto de Atacama", "Desierto de Gobi", "Desierto del Sahara", "Desierto de Mojave"],
+    "correcta": "Desierto de Atacama"
+  },
+  {
+    "id": 367,
+    "categoria": "Geografía",
+    "pregunta": "¿Qué río de Estados Unidos esculpió el espectacular Gran Cañón?",
+    "opciones": ["Río Colorado", "Río Misisipi", "Río Grande", "Río Hudson"],
+    "correcta": "Río Colorado"
+  },
+  {
+    "id": 368,
+    "categoria": "Geografía",
+    "pregunta": "¿Cuál es la capital de Egipto?",
+    "opciones": ["El Cairo", "Alejandría", "Giza", "Luxor"],
+    "correcta": "El Cairo"
+  },
+  {
+    "id": 369,
+    "categoria": "Geografía",
+    "pregunta": "¿Qué país de Europa Central es reconocido por su neutralidad y sus cantones?",
+    "opciones": ["Suiza", "Austria", "Luxemburgo", "Bélgica"],
+    "correcta": "Suiza"
+  },
+  {
+    "id": 370,
+    "categoria": "Geografía",
+    "pregunta": "¿Qué archipiélago y estado asiático está compuesto por más de 7.000 islas?",
+    "opciones": ["Filipinas", "Japón", "Indonesia", "Maldivas"],
+    "correcta": "Filipinas"
+  },
+  {
+    "id": 371,
+    "categoria": "Geografía",
+    "pregunta": "¿Cuál es la cascada o salto de agua más alto del mundo?",
+    "opciones": ["Salto Ángel", "Cataratas del Niágara", "Cataratas Victoria", "Cataratas del Iguazú"],
+    "correcta": "Salto Ángel"
+  },
+  {
+    "id": 372,
+    "categoria": "Geografía",
+    "pregunta": "¿Qué dos países comparten la soberanía de la península ibérica?",
+    "opciones": ["España y Portugal", "España y Francia", "Francia e Italia", "Portugal y Marruecos"],
+    "correcta": "España y Portugal"
+  },
+  {
+    "id": 373,
+    "categoria": "Geografía",
+    "pregunta": "¿Cuál es la capital de Argentina?",
+    "opciones": ["Buenos Aires", "Córdoba", "Rosario", "Mendoza"],
+    "correcta": "Buenos Aires"
+  },
+  {
+    "id": 374,
+    "categoria": "Geografía",
+    "pregunta": "¿Qué mar separa la península de Arabia del continente africano?",
+    "opciones": ["Mar Rojo", "Mar Caspio", "Mar Negro", "Mar Muerto"],
+    "correcta": "Mar Rojo"
+  },
+  {
+    "id": 375,
+    "categoria": "Geografía",
+    "pregunta": "¿Qué pequeña urbe es el estado soberano más pequeño del mundo?",
+    "opciones": ["Ciudad del Vaticano", "Mónaco", "San Marino", "Liechtenstein"],
+    "correcta": "Ciudad del Vaticano"
+  },
+  {
+    "id": 376,
+    "categoria": "Geografía",
+    "pregunta": "¿Cuál es el río más largo que transcurre íntegramente por Europa?",
+    "opciones": ["Volga", "Danubio", "Rin", "Sena"],
+    "correcta": "Volga"
+  },
+  {
+    "id": 377,
+    "categoria": "Geografía",
+    "pregunta": "¿Qué país de Oceanía está formado por dos grandes islas principales (Norte y Sur)?",
+    "opciones": ["Nueva Zelanda", "Fiyi", "Samoa", "Papúa Nueva Guinea"],
+    "correcta": "Nueva Zelanda"
+  },
+  {
+    "id": 378,
+    "categoria": "Geografía",
+    "pregunta": "¿Cuál es la capital de Alemania?",
+    "opciones": ["Berlín", "Múnich", "Fráncfort", "Hamburgo"],
+    "correcta": "Berlín"
+  },
+  {
+    "id": 379,
+    "categoria": "Geografía",
+    "pregunta": "¿Qué cadena de montañas separa de forma natural a España de Francia?",
+    "opciones": ["Pirineos", "Alpes", "Sistemas Béticos", "Cordillera Cantábrica"],
+    "correcta": "Pirineos"
+  },
+  {
+    "id": 380,
+    "categoria": "Geografía",
+    "pregunta": "¿Qué país de América del Norte limita al sur con Guatemala y Belice?",
+    "opciones": ["México", "Estados Unidos", "Canadá", "Honduras"],
+    "correcta": "México"
   }
 ]
