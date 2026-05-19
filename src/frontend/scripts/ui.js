@@ -1,5 +1,7 @@
 // Mostrará la categoria principal, cogiendolo del JSON e incrutará 
 // el icono correspondiente a la categoria dada
+import arrayAleatorio from "./questions.js";
+
 export function insertarIcono(categoria) {
     const img = document.getElementById("icono-categoria");
     const texto = document.getElementById("texto-categoria");
@@ -40,11 +42,20 @@ export function renderizarPregunta(preguntaActual) {
 
     tituloPregunta.textContent = preguntaActual.pregunta;
 
+    // La respuesta correcta es siempre la primera del archivo JSON
+    const respuestaCorrecta = preguntaActual.opciones[0];
+
+    //Ahora el barajado de las respuestas para que sea aleatorio y mapeamos las respuestas
+    const indicesMeclados = arrayAleatorio(4);
+    const opcionesBarajadas = indicesMeclados.map(i => preguntaActual.opciones[i]);
+
     botonesRespuesta.forEach((boton, indice) => {
-        boton.textContent = preguntaActual.opciones[indice] || "";
+        boton.textContent = opcionesBarajadas[indice] || "";
         boton.disabled = false;
         boton.classList.remove("respuesta-correcta", "respuesta-incorrecta");
     });
+
+    return respuestaCorrecta;
 }
 
 export function mostrarResultadoRespuesta(botonesRespuesta, respuestaSeleccionada, respuestaCorrecta) {
