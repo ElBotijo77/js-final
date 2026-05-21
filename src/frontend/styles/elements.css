@@ -110,7 +110,7 @@ button:active {
     flex-shrink: 0;
 }
 
-.boton-play-now {
+.reset {
     width: 90%;
     margin-top: auto;
     min-height: 42px;
@@ -127,14 +127,14 @@ button:active {
     transition: transform 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-.boton-play-now:hover {
+.reset:hover {
     background: #4476bd;
     box-shadow: 0 4px 0 #2b5388;
     transform: translateY(-1px);
     letter-spacing: 1px;
 }
 
-.boton-play-now:active {
+.reset:active {
     transform: translateY(2px);
     box-shadow: 0 2px 0 #2b5388;
     letter-spacing: 1px;
