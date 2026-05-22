@@ -2,7 +2,7 @@
 
 * **¿Qué guarda?** Scripts de JavaScript para el frontend (Vanilla JS).
   
-* **Fase actual:** Fase final de integración y testeo.
+* **Fase actual:** integración básica de los componentes para lograr el MVP.
   
 * **Descripción de los módulos:**
   * `main.js`: Núcleo del juego y control del flujo principal (control de vidas).
