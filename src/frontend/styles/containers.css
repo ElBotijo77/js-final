@@ -146,6 +146,66 @@
     }
 }
 
+/*Contenedor para mostrar las vidas de forma gráfica*/
+.fila-5{
+    flex: 0 0 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-vidas {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    align-items: center;
+}
+
+.vida {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    transition: opacity 0.3s ease;
+}
+
+.vida.perdida {
+    opacity: 0.3;
+}
+
+.fila-2 h2 {
+    width: 100%;
+    margin: 18px 0 12px;
+    line-height: 1.25;
+    font-size: clamp(1rem, 2.2vw, 1.55rem);
+    word-wrap: break-word;
+}
+
+.fila-2 h2.game-over-message {
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
+    color: #c43131;
+    margin: 0 auto;
+    line-height: 1.1;
+}
+
+.fila-2.game-over-screen {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px;
+    min-height: 0;
+}
+
+.contenedor-trivial p {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #555747;
+}
+
 .fila-2 h2 {
     width: 100%;
     margin: 18px 0 12px;
