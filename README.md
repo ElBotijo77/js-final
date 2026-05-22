@@ -39,7 +39,7 @@ Este repositorio arranca como proyecto sencillo para estudiantes (paginas estati
 
 Para cubrir todos los perfiles de jugadores, hemos dividido el contenido en:
 
--- Ciencia, Tecnología y Astronomía.
--- Cine y Música.
--- Geografía e Historia.
--- Gastronomía, Motor y Meteorología.
+- Ciencia, Tecnología y Astronomía.
+- Cine y Música.
+- Geografía e Historia.
+- Gastronomía, Motor y Meteorología.
