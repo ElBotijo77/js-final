@@ -1,8 +1,8 @@
 ## 🌐 Deployment
 
-The application is deployed and hosted on **Cloudflare Workers**. You can access the production environment through the following link:
+La aplicación está desplegada y alojada en Cloudflare Workers. Puede acceder al entorno de producción a través del siguiente enlace:
 
-**Link:** [https://js-final.nikolaibellics.workers.dev/](https://js-final.nikolaibellics.workers.dev/)
+**Enlace:** [https://js-final.nikolaibellics.workers.dev/](https://js-final.nikolaibellics.workers.dev/)
 
 
 # Juego Trivial Web - Estructura Base Escalable
@@ -26,6 +26,20 @@ Este repositorio arranca como proyecto sencillo para estudiantes (paginas estati
 - `tests/`: pruebas unitarias, integracion y end-to-end.
 - `scripts/`: automatizaciones del proyecto.
 
-## Nota para el equipo
+## Explicación breve del juego
 
-La estructura es "futura", pero podeis avanzar desde hoy con conocimientos basicos de HTML/CSS/JS. Cada carpeta incluye un `README.md` corto indicando para que sirve y en que fase se utilizara.
+**Trivial Challenge** es un juego digital interactivo diseñado para poner a prueba los conocimientos de los jugadores a través de una experiencia dinámica y competitiva.
+
+`Mecánica del juego`
+
+- El sistema de vidas: El jugador comienza con 3 vidas. Cada respuesta incorrecta resta una vida; si el contador llega a cero, la partida termina (Game Over).
+- El banco de preguntas: El juego cuenta con un total de 380 preguntas distribuidas en 10 categorías: 9 de ellas tienen 40 preguntas y una categoría especial tiene 20 preguntas.
+
+`Categorías disponibles`
+
+Para cubrir todos los perfiles de jugadores, hemos dividido el contenido en:
+
+-- Ciencia, Tecnología y Astronomía.
+-- Cine y Música.
+-- Geografía e Historia.
+-- Gastronomía, Motor y Meteorología.
