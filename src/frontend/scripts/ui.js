@@ -40,7 +40,39 @@ export function renderizarPregunta(preguntaActual) {
 
     if (!tituloPregunta || botonesRespuesta.length === 0 || !preguntaActual) return;
 
+    // Mostrar nuevamente la categoría y respuestas (por si estaban ocultas)
+    const fila1 = document.querySelector(".fila-1");
+    if (fila1) {
+        fila1.style.display = "flex";
+    }
+    
+    const fila3 = document.querySelector(".fila-3");
+    if (fila3) {
+        fila3.style.display = "flex";
+    }
+    
+    const fila4 = document.querySelector(".fila-4");
+    if (fila4) {
+        fila4.style.display = "flex";
+    }
+    const fila5 = document.querySelector(".fila-5");
+    if (fila5) {
+        fila5.style.display = "flex";
+    }
+
+    // Resetear estilos del título
     tituloPregunta.textContent = preguntaActual.pregunta;
+    tituloPregunta.classList.remove("game-over-message");
+    tituloPregunta.style.color = "";
+    tituloPregunta.style.fontSize = "";
+    tituloPregunta.style.fontWeight = "";
+    tituloPregunta.style.textShadow = "";
+    tituloPregunta.style.letterSpacing = "";
+
+    const fila2 = document.querySelector(".fila-2");
+    if (fila2) {
+        fila2.classList.remove("game-over-screen");
+    }
 
     // La respuesta correcta es siempre la primera del archivo JSON
     const respuestaCorrecta = preguntaActual.opciones[0];
@@ -82,4 +114,17 @@ export function actualizarTiempoRestante(segundos) {
     if (!tiempo) return;
     tiempo.textContent = `Tiempo restante: ${segundos}s`;
     tiempo.classList.toggle("tiempo-alerta", segundos <= 5 && segundos > 0);
+}
+
+export function actualizarVidas(vidasRestantes) {
+    const vidas = document.querySelectorAll(".vida");
+    if (vidas.length === 0) return;
+    
+    vidas.forEach((vida, indice) => {
+        if (indice < vidasRestantes) {
+            vida.classList.remove("perdida");
+        } else {
+            vida.classList.add("perdida");
+        }
+    });
 }

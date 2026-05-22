@@ -4,7 +4,8 @@ import {
     renderizarPregunta,
     mostrarResultadoRespuesta,
     actualizarPuntuacion,
-    actualizarTiempoRestante
+    actualizarTiempoRestante,
+    actualizarVidas
 } from "./ui.js";
 
 import parsearPreguntasJSON from "./parseJSON.js";
@@ -21,6 +22,7 @@ let indicesArray = arrayAleatorio(NUMERO_PREGUNTAS);
 let preguntas = [];
 let indicePregunta = 0;
 let puntuacion = 0;
+let vidas = 3;
 let preguntaRespondida = false;
 let temporizadorId = null;
 let respuestaCorrectaActual = "";
@@ -50,8 +52,19 @@ function iniciarTemporizadorPregunta() {
         if (tiempoRestante <= 0) {
             detenerTemporizador();
             if (preguntaRespondida) return;
+
             preguntaRespondida = true;
-            avanzarPregunta();
+            vidas -= 1;
+            actualizarVidas(vidas);
+
+            if (vidas <= 0) {
+                mostrarGameOver();
+                return;
+            }
+
+            setTimeout(() => {
+                avanzarPregunta();
+            }, 900);
         }
     }, 1000);
 }
@@ -70,6 +83,31 @@ function pintarPreguntaActual() {
 
 function avanzarPregunta() {
     pintarPreguntaActual();
+}
+
+function mostrarGameOver() {
+    // Ocultar la categoría (fila-1)
+    const fila1 = document.querySelector(".fila-1");
+    if (fila1) {
+        fila1.style.display = "none";
+    }
+    
+    // Ocultar las respuestas (fila-3)
+    const fila3 = document.querySelector(".fila-3");
+    if (fila3) {
+        fila3.style.display = "none";
+    }
+
+    // Resaltar el mensaje de Game Over
+    const fila2 = document.querySelector(".fila-2");
+    const h2 = fila2?.querySelector("h2");
+    if (fila2) {
+        fila2.classList.add("game-over-screen");
+    }
+    if (h2) {
+        h2.textContent = "¡GAME OVER! 💀";
+        h2.classList.add("game-over-message");
+    }
 }
 
 // --- Añadimos todos los eventos en una misma funcion para su limpieza y mantenimiento, evitando mezclar la logica de negocio con la de eventos
@@ -91,6 +129,8 @@ function configurarEventos() {
                 actualizarPuntuacion(puntuacion);
                 audioManager.playEffect(audioManager.correct);
             } else {
+                vidas -= 1;
+                actualizarVidas(vidas);
                 audioManager.playEffect(audioManager.wrong);
             }
 
@@ -101,9 +141,16 @@ function configurarEventos() {
             );
             preguntaRespondida = true;
 
-            setTimeout(() => {
-                avanzarPregunta();
-            }, 900);
+            // Verificar si se acabaron las vidas DESPUÉS de mostrar el resultado
+            if (vidas <= 0) {
+                setTimeout(() => {
+                    mostrarGameOver();
+                }, 900);
+            } else {
+                setTimeout(() => {
+                    avanzarPregunta();
+                }, 900);
+            }
         });
     });
 
@@ -112,7 +159,9 @@ function configurarEventos() {
         if (event.target.matches(".reset")) {
             detenerTemporizador();
             puntuacion = 0;
+            vidas = 3;
             actualizarPuntuacion(puntuacion);
+            actualizarVidas(vidas);
             pintarPreguntaActual();
         }
     });
@@ -148,6 +197,7 @@ async function obtenerPreguntas() {
 
         configurarEventos();
         actualizarPuntuacion(puntuacion);
+        actualizarVidas(vidas);
         pintarPreguntaActual();
         
     } catch (error) {
@@ -166,8 +216,10 @@ obtenerPreguntas();
 const botonReiniciar = document.querySelector(".reset");
 if (botonReiniciar) {
     botonReiniciar.addEventListener("click", () => {
-        puntuacion = 0; 
+        puntuacion = 0;
+        vidas = 3;
         actualizarPuntuacion(puntuacion); 
+        actualizarVidas(vidas);
         pintarPreguntaActual() 
     });
 }
