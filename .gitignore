@@ -2,5 +2,13 @@
 .wrangler
 .dev.vars*
 .dev.vars.example
-.env*
-!.env.ejemplo
+
+# Entornos virtuales de Python
+.venv/
+env/
+venv/
+ENV/
+
+# Archivos de caché
+__pycache__/
+*.pyc
