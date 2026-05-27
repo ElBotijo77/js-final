@@ -30,6 +30,138 @@ let botonesRespuesta = [];
 
 
 // ----------------------------------------------------------------------
+// --- Modal de inicio de sesion
+// ------------------------------------------------------------------------------
+
+function configurarModalLogin() {
+    // Si la libreria esta cargada, dejamos preparado el modal para abrir/cerrar.
+    if (typeof window.MicroModal !== "undefined") {
+        window.MicroModal.init({
+            onShow: modal => console.log(`${modal.id} is shown`),
+            onClose: modal => console.log(`${modal.id} is hidden`),
+            disableScroll: true,
+            disableFocus: false,
+            awaitOpenAnimation: true,
+            awaitCloseAnimation: true
+        });
+    } else {
+        console.error("MicroModal no se ha cargado correctamente.");
+    }
+
+    const formulario = document.querySelector(".modal-formulario");
+
+    if (!formulario) return;
+
+    // Controlamos el envio para que no recargue la pagina.
+    formulario.addEventListener("submit", async (e) => {
+        e.preventDefault();
+
+        // Cogemos los datos que ha escrito el usuario en el modal.
+        const usuario = document.getElementById("usuario").value;
+        const condiciones = document.getElementById("condiciones").checked;
+
+        // Este es el JSON que se manda al backend.
+        const datos = {
+            usuario: usuario,
+            aceptaCondiciones: condiciones
+        };
+
+        try {
+            // Enviamos los datos al servidor Flask.
+            const respuesta = await fetch("http://localhost:5000/api/usuarios", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(datos)
+            });
+
+            if (respuesta.ok) {
+                alert("Datos guardados con exito!");
+                // Si todo va bien, cerramos el modal y limpiamos el formulario.
+                window.MicroModal.close("modal-1");
+                formulario.reset();
+            } else {
+                alert("Hubo un error en el servidor.");
+            }
+        } catch (error) {
+            console.error("Error de conexion:", error);
+            alert("No se pudo conectar con el servidor.");
+        }
+    });
+}
+
+
+// ----------------------------------------------------------------------
+// --- Ranking global
+// ------------------------------------------------------------------------------
+
+function configurarRankingGlobal() {
+    const botonRanking = document.querySelector(".ranking-menu");
+    const botonVolver = document.querySelector(".ranking-volver");
+    const panelRanking = document.querySelector(".ranking-panel");
+    const contenedorJuego = document.querySelector(".contenedor-trivial");
+    const listaRanking = document.querySelector(".ranking-lista");
+    const mensajeRanking = document.querySelector(".ranking-mensaje");
+
+    if (!botonRanking || !panelRanking || !contenedorJuego || !listaRanking || !mensajeRanking) return;
+
+    const mostrarJuego = () => {
+        panelRanking.hidden = true;
+        contenedorJuego.hidden = false;
+    };
+
+    const pintarRanking = (ranking) => {
+        listaRanking.innerHTML = "";
+
+        if (!ranking.length) {
+            mensajeRanking.textContent = "Todavia no hay puntuaciones guardadas.";
+            return;
+        }
+
+        mensajeRanking.textContent = "";
+
+        ranking.forEach((jugador, index) => {
+            const item = document.createElement("li");
+            item.className = "ranking-item";
+            item.innerHTML = `
+                <span class="ranking-posicion">#${index + 1}</span>
+                <span class="ranking-usuario">${jugador.username}</span>
+                <strong class="ranking-puntuacion">${jugador.puntuacion} pts</strong>
+            `;
+            listaRanking.appendChild(item);
+        });
+    };
+
+    botonRanking.addEventListener("click", async () => {
+        contenedorJuego.hidden = true;
+        panelRanking.hidden = false;
+        listaRanking.innerHTML = "";
+        mensajeRanking.textContent = "Cargando ranking...";
+
+        try {
+            const respuesta = await fetch("http://localhost:5000/api/ranking?limit=10");
+
+            if (!respuesta.ok) {
+                mensajeRanking.textContent = "No se pudo cargar el ranking.";
+                return;
+            }
+
+            const datos = await respuesta.json();
+            pintarRanking(datos.ranking || []);
+        } catch (error) {
+            console.error("Error cargando ranking:", error);
+            mensajeRanking.textContent = "No se pudo conectar con el servidor del ranking.";
+        }
+    });
+
+    if (botonVolver) {
+        botonVolver.addEventListener("click", mostrarJuego);
+    }
+}
+
+
+// ----------------------------------------------------------------------
 // --- Funciones de renderizado y lógica de negocio para el juego
 // ----------------------------------------------------------------------
 
@@ -206,6 +338,8 @@ async function obtenerPreguntas() {
 }
 
 // Inicializar el juego
+configurarModalLogin();
+configurarRankingGlobal();
 obtenerPreguntas();
 
 
