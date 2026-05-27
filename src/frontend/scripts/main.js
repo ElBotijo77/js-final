@@ -27,6 +27,8 @@ let preguntaRespondida = false;
 let temporizadorId = null;
 let respuestaCorrectaActual = "";
 let botonesRespuesta = [];
+let mostrarRankingEnCuadro = null;
+let partidaTerminada = false;
 
 
 // ----------------------------------------------------------------------
@@ -77,10 +79,31 @@ function configurarModalLogin() {
             });
 
             if (respuesta.ok) {
-                alert("Datos guardados con exito!");
+                if (partidaTerminada) {
+                    const respuestaRanking = await fetch("http://localhost:5000/api/ranking", {
+                        method: "POST",
+                        headers: {
+                            "Content-Type": "application/json"
+                        },
+                        body: JSON.stringify({
+                            username: usuario,
+                            puntuacion: puntuacion
+                        })
+                    });
+
+                    if (!respuestaRanking.ok) {
+                        alert("Usuario guardado, pero no se pudo guardar la puntuacion.");
+                    }
+                } else {
+                    alert("Datos guardados con exito!");
+                }
+
                 // Si todo va bien, cerramos el modal y limpiamos el formulario.
                 window.MicroModal.close("modal-1");
                 formulario.reset();
+                if (typeof mostrarRankingEnCuadro === "function") {
+                    await mostrarRankingEnCuadro();
+                }
             } else {
                 alert("Hubo un error en el servidor.");
             }
@@ -100,15 +123,15 @@ function configurarRankingGlobal() {
     const botonRanking = document.querySelector(".ranking-menu");
     const botonVolver = document.querySelector(".ranking-volver");
     const panelRanking = document.querySelector(".ranking-panel");
-    const contenedorJuego = document.querySelector(".contenedor-trivial");
+    const contenedorTrivial = document.querySelector(".contenedor-trivial");
     const listaRanking = document.querySelector(".ranking-lista");
     const mensajeRanking = document.querySelector(".ranking-mensaje");
 
-    if (!botonRanking || !panelRanking || !contenedorJuego || !listaRanking || !mensajeRanking) return;
+    if (!botonRanking || !botonVolver || !panelRanking || !contenedorTrivial || !listaRanking || !mensajeRanking) return;
 
     const mostrarJuego = () => {
         panelRanking.hidden = true;
-        contenedorJuego.hidden = false;
+        contenedorTrivial.classList.remove("modo-ranking");
     };
 
     const pintarRanking = (ranking) => {
@@ -133,8 +156,8 @@ function configurarRankingGlobal() {
         });
     };
 
-    botonRanking.addEventListener("click", async () => {
-        contenedorJuego.hidden = true;
+    const cargarYMostrarRanking = async () => {
+        contenedorTrivial.classList.add("modo-ranking");
         panelRanking.hidden = false;
         listaRanking.innerHTML = "";
         mensajeRanking.textContent = "Cargando ranking...";
@@ -153,11 +176,12 @@ function configurarRankingGlobal() {
             console.error("Error cargando ranking:", error);
             mensajeRanking.textContent = "No se pudo conectar con el servidor del ranking.";
         }
-    });
+    };
 
-    if (botonVolver) {
-        botonVolver.addEventListener("click", mostrarJuego);
-    }
+    botonRanking.addEventListener("click", cargarYMostrarRanking);
+
+    botonVolver.addEventListener("click", mostrarJuego);
+    mostrarRankingEnCuadro = cargarYMostrarRanking;
 }
 
 
@@ -203,6 +227,10 @@ function iniciarTemporizadorPregunta() {
 
 function pintarPreguntaActual() {
     if (indicesArray.length === 0) indicesArray = arrayAleatorio(NUMERO_PREGUNTAS); // Corregido typo (indecesArray)
+    const panelRanking = document.querySelector(".ranking-panel");
+    if (panelRanking) {
+        panelRanking.hidden = true;
+    }
 
     indicePregunta = indicesArray.pop();
     const preguntaActual = preguntas[indicePregunta];
@@ -218,6 +246,9 @@ function avanzarPregunta() {
 }
 
 function mostrarGameOver() {
+    if (partidaTerminada) return;
+    partidaTerminada = true;
+
     // Ocultar la categoría (fila-1)
     const fila1 = document.querySelector(".fila-1");
     if (fila1) {
@@ -239,6 +270,10 @@ function mostrarGameOver() {
     if (h2) {
         h2.textContent = "¡GAME OVER! 💀";
         h2.classList.add("game-over-message");
+    }
+
+    if (typeof window.MicroModal !== "undefined") {
+        window.MicroModal.show("modal-1");
     }
 }
 
@@ -290,6 +325,7 @@ function configurarEventos() {
     document.addEventListener("click", (event) => {
         if (event.target.matches(".reset")) {
             detenerTemporizador();
+            partidaTerminada = false;
             puntuacion = 0;
             vidas = 3;
             actualizarPuntuacion(puntuacion);
@@ -350,6 +386,7 @@ obtenerPreguntas();
 const botonReiniciar = document.querySelector(".reset");
 if (botonReiniciar) {
     botonReiniciar.addEventListener("click", () => {
+        partidaTerminada = false;
         puntuacion = 0;
         vidas = 3;
         actualizarPuntuacion(puntuacion); 

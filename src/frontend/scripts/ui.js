@@ -50,6 +50,11 @@ export function renderizarPregunta(preguntaActual) {
     if (fila3) {
         fila3.style.display = "flex";
     }
+
+    const fila2 = document.querySelector(".fila-2");
+    if (fila2) {
+        fila2.style.display = "flex";
+    }
     
     const fila4 = document.querySelector(".fila-4");
     if (fila4) {
@@ -69,7 +74,6 @@ export function renderizarPregunta(preguntaActual) {
     tituloPregunta.style.textShadow = "";
     tituloPregunta.style.letterSpacing = "";
 
-    const fila2 = document.querySelector(".fila-2");
     if (fila2) {
         fila2.classList.remove("game-over-screen");
     }
