@@ -208,19 +208,22 @@
 
 .ranking-panel {
     width: 100%;
-    max-width: 620px;
-    min-height: min(520px, 100%);
-    background: #ffffff;
-    border: 6px solid #0067ad;
-    border-radius: 2rem;
-    box-shadow: 15px 15px 0 rgba(0, 103, 173, 0.1);
-    padding: 28px;
+    height: 100%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
     box-sizing: border-box;
     color: #38392a;
 }
 
 .ranking-panel[hidden] {
     display: none;
+}
+
+.contenedor-trivial.modo-ranking .fila-trivial {
+    display: none !important;
 }
 
 .ranking-header {
