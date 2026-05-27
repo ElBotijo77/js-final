@@ -8,7 +8,7 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
     <link rel="stylesheet" href="src/frontend/styles/main.css">
     <link rel="icon" type="image/png" href="./assets/icons/favicom.png">
-    <title>Trivial Challenger</title>
+    <title>Trivial Challenge</title>
 </head>
 
 <body>
@@ -39,7 +39,8 @@
 
     <main class="main-content">
         <aside class="side-bar">
-            <button class="boton-titulo-menu boton-menu-activo">Menú</button>
+            <!-- Este boton abre el formulario de inicio de sesion con MicroModal -->
+            <button class="boton-titulo-menu boton-menu-activo" data-micromodal-trigger="modal-1">Iniciar Sesión</button>
             <button class="boton-menu">
                 <span class="material-symbols-outlined icono-menu">bolt</span>
                 <span>Reto diario</span>
@@ -94,6 +95,18 @@
                     </div>
                 </div>
             </div>
+
+            <section class="ranking-panel" aria-labelledby="ranking-title" hidden>
+                <div class="ranking-header">
+                    <div>
+                        <p class="ranking-label">Top jugadores</p>
+                        <h2 id="ranking-title">Ranking global</h2>
+                    </div>
+                    <button class="ranking-volver" type="button">Volver al juego</button>
+                </div>
+                <ol class="ranking-lista"></ol>
+                <p class="ranking-mensaje"></p>
+            </section>
         </article>
     </main>
 
@@ -108,32 +121,39 @@
         </div>
     </footer>
 
-    <div class="lumina-contenedor-principal">
-        <div class="tarjeta" id="loginCard">
-            <div class="encabezado-texto">
-                <h1 class="titulo">Bienvenido</h1>
-                <p class="subtitulo">Ingresa tu nombre de usuario</p>
-            </div>
-            <form class="formulario" onsubmit="return false;">
-                <div class="grupo-campo">
-                    <label class="etiqueta" for="usuario">Nombre de usuario</label>
-                    <input autocomplete="username" class="entrada" id="usuario" placeholder="Usuario" type="text" />
-                </div>
-                <div class="checkbox-contenedor">
-                    <input class="checkbox" id="condiciones" type="checkbox" required />
-                    <label class="etiqueta-checkbox" for="condiciones" required>Aceptar condiciones</label>
-                </div>
-                <button class="boton" type="submit">
-                    Guardar
+    <!-- Estructura que necesita MicroModal: modal, fondo oscuro y caja del formulario -->
+    <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
+        <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+            <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+                <button class="modal__close" type="button" aria-label="Cerrar modal" data-micromodal-close>
+                    <span class="material-symbols-outlined">close</span>
                 </button>
-            </form>
+                <div class="encabezado-texto">
+                    <h1 class="titulo" id="modal-1-title">Bienvenido</h1>
+                    <p class="subtitulo">Ingresa tu nombre de usuario</p>
+                </div>
+                <form class="modal-formulario formulario">
+                    <div class="grupo-campo">
+                        <label class="etiqueta" for="usuario">Nombre de usuario</label>
+                        <input autocomplete="username" class="entrada" id="usuario" placeholder="Usuario" type="text"
+                            required />
+                    </div>
+                    <div class="checkbox-contenedor">
+                        <input class="checkbox" id="condiciones" type="checkbox" required />
+                        <label class="etiqueta-checkbox" for="condiciones">Aceptar condiciones</label>
+                    </div>
+                    <button class="boton" type="submit">
+                        Iniciar sesión
+                    </button>
+                </form>
+            </div>
         </div>
     </div>
 
 
-    <!--Importamos tipo modulo, si no no funciona-->
-    <script type="module" src="src/frontend/scripts/main.js"></script>
+    <!-- Primero cargamos MicroModal y luego nuestro JS principal -->
     <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
+    <script type="module" src="src/frontend/scripts/main.js"></script>
 
 </body>
 
