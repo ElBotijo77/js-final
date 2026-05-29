@@ -10,7 +10,7 @@ uri = os.getenv("MONGO_URI", "mongodb://localhost:27017/")
 database_name = os.getenv("MONGO_DB", "trivial_challenge")
 
 client = MongoClient(uri, server_api=ServerApi('1'))
-db = client[database_name]
+db = client.get_database['TrivialChallenge']
 
 
 def comprobar_conexion():
@@ -22,3 +22,6 @@ def comprobar_conexion():
     except Exception as e:
         print(e)
         return False
+
+if __name__ == "__main__":
+    comprobar_conexion()
