@@ -130,7 +130,7 @@ function configurarRankingGlobal() {
             item.className = "ranking-item";
             item.innerHTML = `
                 <span class="ranking-posicion">#${index + 1}</span>
-                <span class="ranking-usuario">${jugador.username}</span>
+                <span class="ranking-usuario">${jugador.nombre}</span>
                 <strong class="ranking-puntuacion">${jugador.puntuacion} pts</strong>
             `;
             listaRanking.appendChild(item);
@@ -144,7 +144,7 @@ function configurarRankingGlobal() {
         mensajeRanking.textContent = "Cargando ranking...";
 
         try {
-            const respuesta = await fetch("http://localhost:5000/api/ranking?limit=10");
+            const respuesta = await fetch("http://localhost:5000/api/ranking?limit=5");
 
             if (!respuesta.ok) {
                 mensajeRanking.textContent = "No se pudo cargar el ranking.";
@@ -152,7 +152,7 @@ function configurarRankingGlobal() {
             }
 
             const datos = await respuesta.json();
-            pintarRanking(datos.ranking || []);
+            pintarRanking(datos || []);
         } catch (error) {
             console.error("Error cargando ranking:", error);
             mensajeRanking.textContent = "No se pudo conectar con el servidor del ranking.";
