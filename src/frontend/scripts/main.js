@@ -65,7 +65,7 @@ function configurarModalLogin() {
         // Este es el JSON que se manda al backend.
         const datos = {
             usuario: usuario,
-            aceptaCondiciones: condiciones
+            puntuacion: puntuacion,
         };
 
         try {
@@ -79,25 +79,6 @@ function configurarModalLogin() {
             });
 
             if (respuesta.ok) {
-                if (partidaTerminada) {
-                    const respuestaRanking = await fetch("http://localhost:5000/api/ranking", {
-                        method: "POST",
-                        headers: {
-                            "Content-Type": "application/json"
-                        },
-                        body: JSON.stringify({
-                            username: usuario,
-                            puntuacion: puntuacion
-                        })
-                    });
-
-                    if (!respuestaRanking.ok) {
-                        alert("Usuario guardado, pero no se pudo guardar la puntuacion.");
-                    }
-                } else {
-                    alert("Datos guardados con exito!");
-                }
-
                 // Si todo va bien, cerramos el modal y limpiamos el formulario.
                 window.MicroModal.close("modal-1");
                 formulario.reset();

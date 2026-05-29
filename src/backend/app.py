@@ -3,6 +3,8 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from dotenv import load_dotenv
 from pymongo import MongoClient
+from datetime import datetime
+
 
 # Cargar variables de entorno y configurar Flask
 load_dotenv()
@@ -14,6 +16,28 @@ client = MongoClient(os.getenv("MONGO_URI"))
 db = client.get_database("TrivialChallenge") # Usa la base de datos definida en la URI
 coleccion_usuarios = db["usuarios"]
 
+
+# Conexión automática usando la cadena de tu archivo .env
+client = MongoClient(os.getenv("MONGO_URI"))
+db = client.get_database() 
+coleccion = db["usuarios"]
+
+@app.route('/api/usuarios', methods=['POST'])
+def guardar_usuario():
+    datos = request.get_json()
+    nombre = datos.get("usuario")
+    puntuacion = datos.get("puntuacion") # Recibe la puntuación del JS
+    
+    if nombre:
+        coleccion.insert_one({
+            "nombre": nombre,
+            "puntuacion": puntuacion,
+            "fecha": datetime.now() # Registra la fecha y hora actual
+        })
+        return jsonify({"mensaje": "Datos guardados con éxito"}), 201
+    return jsonify({"error": "Nombre vacío"}), 400
+
+
 # GET: Obtener el Top 5
 @app.route('/api/ranking', methods=['GET'])
 def get_top_5():
@@ -23,6 +47,7 @@ def get_top_5():
         return jsonify(top_usuarios), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
 
 # POST: Guardar usuario nuevo
 @app.route('/api/usuarios', methods=['POST'])
