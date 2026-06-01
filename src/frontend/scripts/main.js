@@ -76,6 +76,45 @@ function configurarModalLogin() {
 
     if (!formulario) return;
 
+    // Con esto podremos trabajar a la vez en localhost y funcionar en Cloudflare
+    const API_URL = (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1")
+    ? "http://localhost:5000"
+    : "https://js-final.onrender.com"; // <- pon la URL pública de Render
+
+    formulario.addEventListener("submit", async (e) => {
+        e.preventDefault();
+
+        const usuario = document.getElementById("usuario").value;
+        const puntuacion = puntuacion; 
+
+        // Este es el JSON que se manda al backend.
+        const datos = { usuario: usuario, puntuacion: puntuacion };
+
+        try {
+            const respuesta = await fetch(`${API_URL}/api/usuarios`, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(datos)
+            });
+
+            if (respuesta.ok) {
+                window.MicroModal.close("modal-1");
+                formulario.reset();
+                if (typeof mostrarRankingEnCuadro === "function") {
+                    await mostrarRankingEnCuadro();
+                }
+            } else {
+                const text = await respuesta.text();
+                alert("Hubo un error en el servidor: " + text);
+            }
+        } catch (error) {
+            console.error("Error de conexion:", error);
+            alert("No se pudo conectar con el servidor. Revisa la URL del API y CORS.");
+        }
+    });
+
     // Controlamos el envio para que no recargue la pagina.
     formulario.addEventListener("submit", async (e) => {
         e.preventDefault();
@@ -84,7 +123,7 @@ function configurarModalLogin() {
         const usuario = document.getElementById("usuario").value;
         const condiciones = document.getElementById("condiciones").checked;
 
-        // Este es el JSON que se manda al backend.
+        
         const datos = {
             usuario: usuario,
             puntuacion: puntuacion,
