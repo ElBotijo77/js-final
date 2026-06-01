@@ -22,6 +22,11 @@ client = MongoClient(os.getenv("MONGO_URI"))
 db = client.get_database() 
 coleccion = db["usuarios"]
 
+# Devuelve un mensaje de buena salud al requerir la peticion el servidor de Render
+@app.route('/')
+def home():
+    return {"status": "healthy"}, 200
+
 @app.route('/api/usuarios', methods=['POST'])
 def guardar_usuario():
     datos = request.get_json()
