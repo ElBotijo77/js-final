@@ -53,23 +53,5 @@ def get_top_5():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-
-# POST: Guardar usuario nuevo
-@app.route('/api/usuarios', methods=['POST'])
-def crear_usuario():
-    datos = request.get_json()
-    nombre = datos.get("nombre")
-    puntuacion = datos.get("puntuacion", 0) # Puntuación inicial si no se envía
-
-    if not nombre:
-        return jsonify({"error": "El nombre es obligatorio"}), 400
-
-    try:
-        nuevo_usuario = {"nombre": nombre, "puntuacion": puntuacion}
-        coleccion_usuarios.insert_one(nuevo_usuario)
-        return jsonify({"mensaje": "Usuario guardado con éxito"}), 201
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
-
 if __name__ == '__main__':
     app.run(debug=True, port=5000)

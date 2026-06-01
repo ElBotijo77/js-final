@@ -31,6 +31,28 @@ let mostrarRankingEnCuadro = null;
 let partidaTerminada = false;
 
 
+// Definimos las rutas de las APIS para que se carguen correctamente en Cloudflare
+const API_URL = "https://js-final.onrender.com";
+
+// 1. Ruta para obtener y mostrar el Top 5
+function obtenerRanking() {
+    fetch(`${API_URL}/api/ranking`)
+        .then(res => res.json())
+        .then(data => console.log("Ranking:", data)); 
+}
+
+// 2. Ruta para guardar la puntuación de un jugador
+function enviarPuntuacion(nombre, puntos) {
+    fetch(`${API_URL}/api/usuarios`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ usuario: nombre, puntuacion: puntos })
+    })
+    .then(res => res.json())
+    .then(data => console.log(data.mensaje));
+}
+
+
 // ----------------------------------------------------------------------
 // --- Modal de inicio de sesion
 // ------------------------------------------------------------------------------
