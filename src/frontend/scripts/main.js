@@ -18,6 +18,7 @@ import AudioManager from "./AudioManager.js";
 // ------------------------------------------------------------------------------
 
 const NUMERO_PREGUNTAS = 380; 
+const botonReiniciar = document.querySelector(".reset");
 let indicesArray = arrayAleatorio(NUMERO_PREGUNTAS);
 let preguntas = [];
 let indicePregunta = 0;
@@ -29,6 +30,7 @@ let respuestaCorrectaActual = "";
 let botonesRespuesta = [];
 let mostrarRankingEnCuadro = null;
 let partidaTerminada = false;
+let viendoRanking = false;
 
 
 // Definimos las rutas de las APIS para que se carguen correctamente en Cloudflare
@@ -138,8 +140,13 @@ function configurarRankingGlobal() {
     if (!botonRanking || !botonVolver || !panelRanking || !contenedorTrivial || !listaRanking || !mensajeRanking) return;
 
     const mostrarJuego = () => {
+        // Cambiamos el estado de la variable e iniciamos el temporizados nuevamente
+        viendoRanking = false;
+
         panelRanking.hidden = true;
         contenedorTrivial.classList.remove("modo-ranking");
+
+        iniciarTemporizadorPregunta();
     };
 
     const pintarRanking = (ranking) => {
@@ -165,6 +172,10 @@ function configurarRankingGlobal() {
     };
 
     const cargarYMostrarRanking = async () => {
+        // Si estamos viendo el ranking, el temporizador se detiene 
+        detenerTemporizador();
+        viendoRanking = true;
+
         contenedorTrivial.classList.add("modo-ranking");
         panelRanking.hidden = false;
         listaRanking.innerHTML = "";
@@ -190,6 +201,16 @@ function configurarRankingGlobal() {
             mensajeRanking.textContent = "No se pudo conectar con el servidor del ranking.";
         }
     };
+
+    // Logica de negocio para reiniciar partida dentro de la pestaña Ranking
+    if (botonReiniciar) {
+    botonReiniciar.addEventListener("click", () => {
+        reiniciarPartida();
+
+        panelRanking.hidden = true;
+        contenedorTrivial.classList.remove("modo-ranking");
+    });
+}
 
     botonRanking.addEventListener("click", cargarYMostrarRanking);
 
@@ -396,16 +417,19 @@ obtenerPreguntas();
 // --- Boton reinicio de partida
 // ----------------------------------------------------------------------
 
-const botonReiniciar = document.querySelector(".reset");
+
+function reiniciarPartida() {
+    partidaTerminada = false;
+    puntuacion = 0;
+    vidas = 3;
+
+    actualizarPuntuacion(puntuacion);
+    actualizarVidas(vidas);
+    pintarPreguntaActual();
+}
+
 if (botonReiniciar) {
-    botonReiniciar.addEventListener("click", () => {
-        partidaTerminada = false;
-        puntuacion = 0;
-        vidas = 3;
-        actualizarPuntuacion(puntuacion); 
-        actualizarVidas(vidas);
-        pintarPreguntaActual() 
-    });
+    botonReiniciar.addEventListener("click", reiniciarPartida);
 }
 
 
