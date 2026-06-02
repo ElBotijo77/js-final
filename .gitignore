@@ -8,6 +8,7 @@
 .env
 venv/
 ENV/
+env/
 
 # Archivos de caché
 __pycache__/
