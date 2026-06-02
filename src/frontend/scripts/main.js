@@ -83,16 +83,21 @@ function configurarModalLogin() {
         // Cogemos los datos que ha escrito el usuario en el modal.
         const usuario = document.getElementById("usuario").value;
         const condiciones = document.getElementById("condiciones").checked;
+        
+        // Con esto podemos trabajar tanto en local como en la nube haciendo que el servidor funcione
+        const API_URL = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1"
+        ? "http://localhost:5000"
+        : "https://js-final.onrender.com";
 
         // Este es el JSON que se manda al backend.
         const datos = {
             usuario: usuario,
-            puntuacion: puntuacion,
+            puntuacion: typeof puntuacion !== "undefined" ? puntuacion : 0,
         };
 
         try {
             // Enviamos los datos al servidor Flask.
-            const respuesta = await fetch("http://localhost:5000/api/usuarios", {
+            const respuesta = await fetch(`${API_URL}/api/usuarios`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
@@ -165,8 +170,13 @@ function configurarRankingGlobal() {
         listaRanking.innerHTML = "";
         mensajeRanking.textContent = "Cargando ranking...";
 
+        // URL dinamica para trabajar en local mientras en la nube sigue funcionando
+        const API_URL = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1"
+        ? "http://localhost:5000"
+        : "https://js-final.onrender.com";
+
         try {
-            const respuesta = await fetch("http://localhost:5000/api/ranking?limit=5");
+            const respuesta = await fetch(`${API_URL}/api/ranking?limit=5`);
 
             if (!respuesta.ok) {
                 mensajeRanking.textContent = "No se pudo cargar el ranking.";

@@ -17,11 +17,6 @@ db = client.get_database("TrivialChallenge") # Usa la base de datos definida en 
 coleccion_usuarios = db["usuarios"]
 
 
-# Conexión automática usando la cadena de tu archivo .env
-client = MongoClient(os.getenv("MONGO_URI"))
-db = client.get_database() 
-coleccion = db["usuarios"]
-
 # Devuelve un mensaje de buena salud al requerir la peticion el servidor de Render
 @app.route('/')
 def home():
@@ -34,7 +29,7 @@ def guardar_usuario():
     puntuacion = datos.get("puntuacion") # Recibe la puntuación del JS
     
     if nombre:
-        coleccion.insert_one({
+        coleccion_usuarios.insert_one({
             "nombre": nombre,
             "puntuacion": puntuacion,
             "fecha": datetime.now() # Registra la fecha y hora actual
@@ -54,4 +49,5 @@ def get_top_5():
         return jsonify({"error": str(e)}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
