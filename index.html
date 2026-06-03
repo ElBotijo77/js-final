@@ -39,8 +39,8 @@
 
     <main class="main-content">
         <aside class="side-bar">
-            <!-- Este boton abre el formulario de inicio de sesion con MicroModal -->
-            <button class="boton-titulo-menu boton-menu-activo" data-micromodal-trigger="modal-1">Iniciar Sesión</button>
+            <!-- COnfiguramos el boton pausar para que salga un MicroModal -->
+            <button class="boton-titulo-menu boton-menu-activo" id="btn-pausa">Pausa</button>
             <button class="boton-menu">
                 <span class="material-symbols-outlined icono-menu">bolt</span>
                 <span>Reto diario</span>
@@ -120,15 +120,15 @@
         </div>
     </footer>
 
-    <!-- Estructura que necesita MicroModal: modal, fondo oscuro y caja del formulario -->
-    <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
+    <!-- Estructura que necesita MicroModal para el login-->
+    <div class="modal micromodal-slide" id="modal-login" aria-hidden="true">
         <div class="modal__overlay" tabindex="-1">
-            <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+            <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-login-title">
                 <button class="modal__close" type="button" aria-label="Cerrar modal" data-micromodal-close>
                     <span class="material-symbols-outlined">close</span>
                 </button>
                 <div class="encabezado-texto">
-                    <h1 class="titulo" id="modal-1-title">Bienvenido</h1>
+                    <h1 class="titulo" id="modal-login-title">Bienvenido</h1>
                     <p class="subtitulo">Ingresa tu nombre de usuario</p>
                 </div>
                 <form class="modal-formulario formulario">
@@ -145,6 +145,29 @@
                         Iniciar sesión
                     </button>
                 </form>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal para Pausar partida-->
+    <div class="modal micromodal-slide" id="modal-pause" aria-hidden="true">
+        <div class="modal__overlay" tabindex="-1">
+            <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-pause-title">
+
+                <div class="encabezado-texto">
+                    <h1 class="titulo" id="modal-pause-title">Quieres continuar?</h1>
+                </div>
+
+                <div class="modal-acciones">
+                    <button class="boton modal-acciones" type="button" data-pause-restart>
+                        Reiniciar partida
+                    </button>
+
+                    <button class="boton modal-acciones continuar" type="button" data-pause-continuar>
+                        Continuar
+                    </button>
+                </div>
+
             </div>
         </div>
     </div>
