@@ -26,11 +26,13 @@ let puntuacion = 0;
 let vidas = 3;
 let preguntaRespondida = false;
 let temporizadorId = null;
+let tiempoRestante = 30;
 let respuestaCorrectaActual = "";
 let botonesRespuesta = [];
 let mostrarRankingEnCuadro = null;
 let partidaTerminada = false;
 let viendoRanking = false;
+let enPausa = false;
 
 
 // Definimos las rutas de las APIS para que se carguen correctamente en Cloudflare
@@ -56,7 +58,7 @@ function enviarPuntuacion(nombre, puntos) {
 
 
 // ----------------------------------------------------------------------
-// --- Modal de inicio de sesion
+// --- Configuracion de los 2 tipos de Modales: Login y Pausa
 // ------------------------------------------------------------------------------
 
 function configurarModalLogin() {
@@ -109,7 +111,7 @@ function configurarModalLogin() {
 
             if (respuesta.ok) {
                 // Si todo va bien, cerramos el modal y limpiamos el formulario.
-                window.MicroModal.close("modal-1");
+                window.MicroModal.close("modal-login");
                 formulario.reset();
                 if (typeof mostrarRankingEnCuadro === "function") {
                     await mostrarRankingEnCuadro();
@@ -122,6 +124,61 @@ function configurarModalLogin() {
             alert("No se pudo conectar con el servidor.");
         }
     });
+}
+
+// Logica necesaria para pausar la partida, mostrando un modal con opciones para reiniciar o continuar
+// Se asegura de que no se puedan pausar partidas ya terminadas o mientras se está viendo el ranking. 
+
+function pausarPartida() {
+    if (partidaTerminada || viendoRanking || enPausa) return;
+
+    detenerTemporizador();
+    enPausa = true;
+
+    if (typeof window.MicroModal !== "undefined") {
+        window.MicroModal.show("modal-pause");
+    }
+}
+
+function cerrarModalPausa() {
+    if (typeof window.MicroModal !== "undefined") {
+        window.MicroModal.close("modal-pause");
+    }
+}
+
+function reanudarPartida() {
+    if (!enPausa) return;
+
+    enPausa = false;
+    cerrarModalPausa();
+    iniciarTemporizadorPregunta();
+}
+
+function configurarModalPausa() {
+    const botonPausa = document.getElementById("btn-pausa");
+    const botonPausaReiniciar = document.querySelector("[data-pause-restart], .pause-reiniciar");
+    const botonPausaContinuar = document.querySelector("[data-pause-continuar], .pause-continuar");
+
+    if (botonPausa) {
+        botonPausa.addEventListener("click", (event) => {
+            event.preventDefault();
+            pausarPartida();
+        });
+    }
+
+    if (botonPausaReiniciar) {
+        botonPausaReiniciar.addEventListener("click", () => {
+            reiniciarPartida();
+            enPausa = false;
+            cerrarModalPausa();
+        });
+    }
+
+    if (botonPausaContinuar) {
+        botonPausaContinuar.addEventListener("click", () => {
+            reanudarPartida();
+        });
+    }
 }
 
 
@@ -231,7 +288,10 @@ function detenerTemporizador() {
 }
 
 function iniciarTemporizadorPregunta() {
-    let tiempoRestante = 30;
+    if (typeof tiempoRestante !== "number" || tiempoRestante <= 0) {
+        tiempoRestante = 30;
+    }
+
     actualizarTiempoRestante(tiempoRestante);
     detenerTemporizador();
 
@@ -272,6 +332,7 @@ function pintarPreguntaActual() {
     insertarIcono(preguntaActual.categoria);
     respuestaCorrectaActual = renderizarPregunta(preguntaActual);
     preguntaRespondida = false;
+    tiempoRestante = 30;
     iniciarTemporizadorPregunta();
 }
 
@@ -307,7 +368,7 @@ function mostrarGameOver() {
     }
 
     if (typeof window.MicroModal !== "undefined") {
-        window.MicroModal.show("modal-1");
+        window.MicroModal.show("modal-login");
     }
 }
 
@@ -398,6 +459,7 @@ async function obtenerPreguntas() {
         if (!Array.isArray(preguntas) || preguntas.length === 0) return;
 
         configurarEventos();
+        configurarModalPausa();
         actualizarPuntuacion(puntuacion);
         actualizarVidas(vidas);
         pintarPreguntaActual();
@@ -422,6 +484,8 @@ function reiniciarPartida() {
     partidaTerminada = false;
     puntuacion = 0;
     vidas = 3;
+    tiempoRestante = 30;
+    enPausa = false;
 
     actualizarPuntuacion(puntuacion);
     actualizarVidas(vidas);
